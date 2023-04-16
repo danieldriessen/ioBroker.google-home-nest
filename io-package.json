@@ -33,7 +33,7 @@
 		},
 		"desc": {
 			"en": "Integrate your Google Home (Nest) devices like Thermostats, Cameras, Doorbells, etc.",
-			"de": "Integrieren Sie Ihre Google Home (Nest)-Geräte wie Thermostate, Kameras, Türklingeln usw.",
+			"de": "Integrieren Sie Ihre Google Home (Nest) Geräte wie Thermostate, Kameras, Türklingeln usw.",
 			"ru": "Интегрируйте свои устройства Google Home (Nest), такие как термостаты, камеры, дверные звонки и т. д.",
 			"pt": "Integre seus dispositivos Google Home (Nest), como termostatos, câmeras, campainhas, etc.",
 			"nl": "Integreer uw Google Home (Nest) apparaten zoals thermostaten, camera's, deurbellen, etc.",
@@ -84,7 +84,19 @@
 			"_id": "info",
 			"type": "channel",
 			"common": {
-				"name": "Information"
+				"name": {
+					"en": "Information",
+					"de": "Informationen",
+					"ru": "Информация",
+					"pt": "Informação",
+					"nl": "Informatie",
+					"fr": "Information",
+					"it": "Informazioni",
+					"es": "Información",
+					"pl": "Informacja",
+					"uk": "Інформація",
+					"zh-cn": "信息"
+				}
 			},
 			"native": {}
 		},
@@ -92,12 +104,56 @@
 			"_id": "info.connection",
 			"type": "state",
 			"common": {
-				"role": "indicator.connected",
-				"name": "Device or service connected",
+				"name": "Service connected",
 				"type": "boolean",
+				"role": "indicator.connected",
 				"read": true,
 				"write": false,
 				"def": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.service-connection",
+			"type": "channel",
+			"common": {
+				"name": "Service-Connection"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.service-connection.clientID",
+			"type": "state",
+			"common": {
+				"name": "Client-ID",
+				"type": "string",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.service-connection.projectID",
+			"type": "state",
+			"common": {
+				"name": "Project-ID",
+				"type": "string",
+				"role": "text",
+				"read": true,
+				"write": false
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.service-connection.clientSecret",
+			"type": "state",
+			"common": {
+				"name": "Client-Secret",
+				"type": "string",
+				"role": "text",
+				"read": true,
+				"write": false
 			},
 			"native": {}
 		}
