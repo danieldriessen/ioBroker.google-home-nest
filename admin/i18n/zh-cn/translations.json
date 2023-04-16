@@ -1,5 +1,7 @@
 {
-	"google-home-nest adapter settings": "google-home-nest的适配器设置",
-	"option1": "选项1",
-	"option2": "选项2"
+    "google-home-nest adapter settings": "google-home-nest的适配器设置",
+    "Client-ID": "Client-ID",
+    "Client-ID from the 'Google Nest - Device Access Console'": "来自“Google Nest - 设备访问控制台”的客户端 ID",
+    "Project-ID from the 'Google Nest - Device Access Console'": "来自“Google Nest - 设备访问控制台”的项目 ID",
+    "Client-Secret from the 'Google Nest - Device Access Console'": "来自“Google Nest - 设备访问控制台”的客户机密"
 }

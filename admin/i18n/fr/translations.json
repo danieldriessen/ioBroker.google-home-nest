@@ -1,5 +1,7 @@
 {
 	"google-home-nest adapter settings": "Paramètres d'adaptateur pour google-home-nest",
-	"option1": "Option 1",
-	"option2": "Option 2"
+	"Client-ID": "Client-ID",
+	"Client-ID from the 'Google Nest - Device Access Console'": "Client-ID de 'Google Nest - Device Access Console'",
+	"Project-ID from the 'Google Nest - Device Access Console'": "Project-ID de 'Google Nest - Device Access Console'",
+	"Client-Secret from the 'Google Nest - Device Access Console'": "Client-Secret de 'Google Nest - Device Access Console'"
 }

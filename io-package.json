@@ -74,8 +74,9 @@
 		]
 	},
 	"native": {
-		"option1": true,
-		"option2": "42"
+		"clientID": "",
+		"projectID": "",
+		"clientSecret": ""
 	},
 	"objects": [],
 	"instanceObjects": [
