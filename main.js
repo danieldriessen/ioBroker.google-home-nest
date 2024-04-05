@@ -21,6 +21,10 @@ class GoogleHomeNest extends utils.Adapter {
 			...options,
 			name: "google-home-nest",
 		});
+
+		// Register Google API-Client
+		this.googleApiClient = null;
+
 		this.on("ready", this.onReady.bind(this));
 		this.on("stateChange", this.onStateChange.bind(this));
 		// this.on("objectChange", this.onObjectChange.bind(this));
@@ -33,9 +37,195 @@ class GoogleHomeNest extends utils.Adapter {
 	 */
 	async onReady() {
 		// Initialize the adapter here
-
-		// Reset the connection indicator during startup
+		// Reset the connection indicator during startup (to 'false')
 		this.setState("info.connection", false, true);
+
+		// Create objects to store "Connection Authentication" values
+		await this.setObjectNotExistsAsync("info.connection-authentication.clientID", {
+			type: "state",
+			common: {
+				name: "Client-ID",
+				type: "string",
+				role: "indicator",
+				write: false,
+				read: true,
+			},
+			native: {},
+		});
+		await this.setObjectNotExistsAsync("info.connection-authentication.projectID", {
+			type: "state",
+			common: {
+				name: "Project-ID",
+				type: "string",
+				role: "indicator",
+				write: false,
+				read: true,
+			},
+			native: {},
+		});
+		await this.setObjectNotExistsAsync("info.connection-authentication.clientSecret", {
+			type: "state",
+			common: {
+				name: "Client Secret",
+				type: "string",
+				role: "indicator",
+				write: false,
+				read: true,
+			},
+			native: {},
+		});
+		await this.setObjectNotExistsAsync("info.connection-authentication.authorizationCode", {
+			type: "state",
+			common: {
+				name: "Authorization Code",
+				type: "string",
+				role: "indicator",
+				write: false,
+				read: true,
+			},
+			native: {},
+		});
+
+		await this.setObjectNotExistsAsync("info.connection-authentication.accessToken", {
+			type: "state",
+			common: {
+				name: "Access-Token",
+				type: "string",
+				role: "indicator",
+				write: false,
+				read: true,
+			},
+			native: {},
+		});
+
+		await this.setObjectNotExistsAsync("info.connection-authentication.refreshToken", {
+			type: "state",
+			common: {
+				name: "Refresh-Token",
+				type: "string",
+				role: "indicator",
+				write: false,
+				read: true,
+			},
+			native: {},
+		});
+
+		// Set "Connection Authentication" values to the objects
+		await this.setStateAsync("info.connection-authentication.clientID", {
+			val: this.config.clientID,
+			ack: true,
+		});
+
+		await this.setStateAsync("info.connection-authentication.projectID", {
+			val: this.config.projectID,
+			ack: true,
+		});
+
+		await this.setStateAsync("info.connection-authentication.clientSecret", {
+			val: this.config.clientSecret,
+			ack: true,
+		});
+
+		await this.setStateAsync("info.connection-authentication.authorizationCode", {
+			val: this.config.authorizationCode,
+			ack: true,
+		});
+
+		// SAMPLE CODE - For setting states with 'expire', 'comment' and 'quality'
+		/*
+		this.setState("info.connection-authentication.clientID", {
+			val: this.config.clientID,
+			ack: true,
+			expire: 20,
+			c: "Test comment",
+			q: 1,
+		});
+		*/
+
+		// Get states into variables
+		const clientID = await this.getStateAsync("info.connection-authentication.clientID");
+		const projectID = await this.getStateAsync("info.connection-authentication.projectID");
+		const clientSecret = await this.getStateAsync("info.connection-authentication.clientSecret");
+		const authorizationCode = await this.getStateAsync("info.connection-authentication.authorizationCode");
+
+		// Log
+		if (
+			clientID?.val != null &&
+			clientID?.val != "" &&
+			projectID?.val != null &&
+			projectID?.val != "" &&
+			clientSecret?.val != null &&
+			clientSecret?.val != ""
+		) {
+			this.log.debug(`Connection Authentication: Client-ID: ${clientID?.val}`);
+			this.log.debug(`Connection Authentication: Project-ID: ${projectID?.val}`);
+			this.log.debug(`Connection Authentication: Client Secret: ${clientSecret?.val}`);
+			if (authorizationCode?.val != null && authorizationCode?.val != "") {
+				this.log.debug(`Connection Authentication: Authorization Code: ${authorizationCode?.val}`);
+			} else {
+				this.log.error(
+					`Connection Authentication: Authorization Code: NOT YET SET! Please link account first (using 'Client-ID', 'Project-ID' & 'Client Secret') in order to acquire an 'Authorization Code' and paste the code into the designated textfield. Restart the adapter afterwards.`,
+				);
+			}
+		} else {
+			this.log.error(
+				`Connection Authentication: NOT ALL REQUIRED VALUES SET! Please enter 'Client-ID', 'Project-ID' & 'Client Secret' and link account in order to acquire an 'Authorization Code'. Paste the code into the designated textfield afterwards and restart the adapter.`,
+			);
+		}
+
+		// If we have an 'Authorization Code' --> Try to acquire an 'Access Token'
+		if (authorizationCode?.val != null && authorizationCode?.val != "") {
+			// Log
+			this.log.info(`Trying to acquire 'Access Token'...`);
+			// Try to acquire 'Access Token'
+			let acquireAccessTokenResponse = null;
+
+			try {
+				const acquireAccessTokenURL = `https://www.googleapis.com/oauth2/v4/token?client_id=${clientID?.val}&client_secret=${clientSecret?.val}&code=${authorizationCode?.val}&grant_type=authorization_code&redirect_uri=http://localhost:8083/google-home-nest/get_authorization_code.html`;
+				this.log.silly(`Accuire 'Access Token' URL: ${acquireAccessTokenURL}`);
+				acquireAccessTokenResponse = await axios.post(acquireAccessTokenURL);
+
+				this.log.silly(
+					`Google API - Acquire 'Access Token' response: ${
+						acquireAccessTokenResponse.status
+					}: ${JSON.stringify(acquireAccessTokenResponse.data)}`,
+				);
+			} catch (err) {
+				// Log
+				this.log.error(`ERROR while acquiring 'Access Token': ${err.code}`);
+
+				// Set connection status (to 'false')
+				this.setState("info.connection", false, true);
+			}
+
+			if (acquireAccessTokenResponse.data != null && acquireAccessTokenResponse.data != ``) {
+				let accessToken = null;
+				let accessToken_expiresIn = null;
+				let refreshToken = null;
+
+				const jsonObject = JSON.parse(JSON.stringify(acquireAccessTokenResponse.data));
+
+				accessToken = jsonObject.access_token;
+				accessToken_expiresIn = jsonObject.expires_in - 10;
+				refreshToken = jsonObject.refresh_token;
+
+				this.log.debug(`Connection Authentication: Access-Token: ${accessToken}`);
+				this.log.debug(`Connection Authentication: Access-Token - Expires in: ${accessToken_expiresIn}`);
+				this.log.debug(`Connection Authentication: Refresh-Token: ${refreshToken}`);
+
+				await this.setStateAsync("info.connection-authentication.accessToken", {
+					val: accessToken,
+					ack: true,
+					expire: accessToken_expiresIn,
+				});
+
+				await this.setStateAsync("info.connection-authentication.refreshToken", {
+					val: accessToken,
+					ack: true,
+					expire: accessToken_expiresIn,
+				});
+			}
+		}
 	}
 
 	/**
