@@ -2,6 +2,11 @@
 	"i18n": true,
 	"type": "panel",
 	"items": {
+		"_linkAccountHeader": {
+			"type": "header",
+			"text": "Account-Linking",
+			"size": 1
+		},
 		"clientID": {
 			"type": "text",
 			"sm": 12,
@@ -11,7 +16,7 @@
 			"help": "Client-ID from the 'Google Nest - Device Access Console'",
 			"newLine": true
 		},
-		"ProjectID": {
+		"projectID": {
 			"type": "text",
 			"sm": 12,
 			"md": 6,
@@ -20,13 +25,74 @@
 			"help": "Project-ID from the 'Google Nest - Device Access Console'",
 			"newLine": true
 		},
-		"ClientSecret": {
+		"clientSecret": {
 			"type": "text",
 			"sm": 12,
 			"md": 6,
 			"lg": 4,
 			"label": "Client-Secret",
 			"help": "Client-Secret from the 'Google Nest - Device Access Console'",
+			"newLine": true
+		},
+		"_section_linkAccount_verticalSpace_01": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_linkAccount_verticalSpace_02": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_linkAccountURL": {
+			"type": "staticLink",
+			"text": "Link Account",
+			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:8083/google-home-nest/get_authorization_code.html&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service",
+			"sm": 1,
+			"md": 1,
+			"lg": 1,
+			"button": true,
+			"disabled": "data.clientID === \"\" || data.projectID === \"\" || data.clientSecret === \"\"",
+			"style": { "fontSize": 20 },
+			"newLine": true
+		},
+		"_section_linkAccount_verticalSpace_03": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_linkAccount_verticalSpace_04": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_linkAccount_verticalSpace_05": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_accuireAccessToken": {
+			"type": "header",
+			"text": "Acquire Access-Token",
+			"size": 1,
+			"disabled": "data.clientID === \"\" || data.projectID === \"\" || data.clientSecret === \"\""
+		},
+		"authorizationCode": {
+			"type": "text",
+			"sm": 12,
+			"md": 6,
+			"lg": 4,
+			"label": "Authorization-Code",
+			"help": "Authorization-Code from URL",
+			"onChange": {
+				"alsoDependsOn": ["clientID", "projectID", "clientSecret"],
+				"calculateFunc": " ",
+				"ignoreOwnChanges": true
+			},
+			"disabled": "data.clientID === \"\" || data.projectID === \"\" || data.clientSecret === \"\"",
+			"newLine": true
+		},
+		"_section_accuireAccessToken_verticalSpace_01": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_accuireAccessToken_verticalSpace_02": {
+			"type": "custom",
 			"newLine": true
 		}
 	}

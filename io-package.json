@@ -69,14 +69,16 @@
 		],
 		"globalDependencies": [
 			{
-				"admin": ">=5.1.13"
+				"admin": ">=5.1.13",
+				"web": ">=5.5.3"
 			}
 		]
 	},
 	"native": {
 		"clientID": "",
 		"projectID": "",
-		"clientSecret": ""
+		"clientSecret": "",
+		"authorizationCode": ""
 	},
 	"objects": [],
 	"instanceObjects": [
@@ -110,50 +112,6 @@
 				"read": true,
 				"write": false,
 				"def": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection",
-			"type": "channel",
-			"common": {
-				"name": "Service-Connection"
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection.clientID",
-			"type": "state",
-			"common": {
-				"name": "Client-ID",
-				"type": "string",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection.projectID",
-			"type": "state",
-			"common": {
-				"name": "Project-ID",
-				"type": "string",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection.clientSecret",
-			"type": "state",
-			"common": {
-				"name": "Client-Secret",
-				"type": "string",
-				"role": "text",
-				"read": true,
-				"write": false
 			},
 			"native": {}
 		}
