@@ -52,7 +52,7 @@ However, the feasibility of each of these goals is subject to change.
 | Device name / description | general implementation | retrieve capabilities | retrieve status | receive events |
 | ------------------------- | ---------------------- | --------------------- | --------------- | -------------- |
 
-### DISCLAIMER
+## DISCLAIMER
 
 The developers of this module are in no way endorsed by or affiliated with Google LLC, or any associated subsidiaries, logos, or trademarks.
 The Google logo used in this adapter is for illustrative purposes only and is the property of Google LLC.
@@ -82,7 +82,8 @@ By using this adapter, you agree to the following terms:
 
 ### **WORK IN PROGRESS**
 
--   (Daniel Drießen) initial release
+### 0.1.0 (2024-04-28)
+-   (danieldriessen) Initial beta version release
 
 ## License
 
