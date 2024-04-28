@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/danieldriessen/ioBroker.google-home-nest.git"
+    "url": "git@github.com/danieldriessen/ioBroker.google-home-nest.git"
   },
   "engines": {
     "node": ">= 16"
