@@ -17,7 +17,6 @@
 				"zh-cn": "首次出版"
 			}
 		},
-		"title": "Google Home (Nest)",
 		"titleLang": {
 			"en": "Google Home (Nest)",
 			"de": "Google Home (Nest)",
@@ -45,8 +44,9 @@
 			"zh-cn": "集成您的 Google Home (Nest) 设备，例如恒温器、相机、门铃等。"
 		},
 		"authors": ["Daniel Drießen <daniel.driessen@ddproductions.de>"],
-		"keywords": ["google", "home", "nest", "thermostat", "camera", "doorbell", "iot", "smarthome", "google-home", "iobroker", "iobroker-adapter"],
-		"license": "MIT",
+		"keywords": ["google", "home", "nest", "thermostat", "camera", "doorbell", "iot", "google-home"],
+		"tier": 2,
+		"licenseInformation": "MIT",
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
 		"icon": "google-home-nest.png",
