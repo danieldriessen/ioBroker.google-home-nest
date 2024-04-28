@@ -52,14 +52,14 @@ Coming very soon!
 ### Camera devices
 | Device name / description                  | general implementation | retrieve capabilities |  retrieve status | receive events | send commands |
 | ------------------------------------------ | ---------------------- | --------------------- | ---------------- | -------------- | ------------- |
-| Google Nest Cam Indoor (legacy device)     | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
+| Google Nest Cam Indoor (legacy device)     | ✅ 	              | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
 | Google Nest Cam Outdoor (legacy device)    | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
 | Google Nest Cam IQ Indoor (legacy device)  | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
 | Google Nest Cam IQ Outdoor (legacy device) | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
 | Google Nest Cam Indoor (battery device)    | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
 | Google Nest Cam Outdoor (battery device)   | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
 | Google Nest Cam Indoor (wired device)      | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌            |
-| Google Nest Cam with floodlight            | ✅                     | ✅                   | NONE AVAILABLE   | ✅             |
+| Google Nest Cam with floodlight            | ✅                     | ✅                   | NONE AVAILABLE   | ✅             | ❌
 
 ### Doorbell devices
 | Device name / description                  | general implementation | retrieve capabilities |  retrieve status | receive events | send commands |
