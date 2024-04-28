@@ -46,7 +46,10 @@
 		"authors": ["Daniel Drießen <daniel.driessen@ddproductions.de>"],
 		"keywords": ["google", "home", "nest", "thermostat", "camera", "doorbell", "iot", "google-home"],
 		"tier": 2,
-		"licenseInformation": "MIT",
+		"licenseInformation": {
+			"license": "MIT",
+			"type": "free"
+		}
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
 		"icon": "google-home-nest.png",
