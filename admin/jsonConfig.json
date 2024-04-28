@@ -2,15 +2,96 @@
 	"i18n": true,
 	"type": "panel",
 	"items": {
-		"_linkAccountHeader": {
+		"_section_DDProductions_horizontalSpace_01": {
+			"type": "custom",
+			"sm": 6,
+			"md": 8,
+			"lg": 10
+		},
+		"_ddproductionsLogo": {
+			"type": "staticImage",
+			"sm": 6,
+			"md": 4,
+			"lg": 1.5,
+			"href": "https://ddproductions.de",
+			"src": "ddproductions_logo_black_font.png"
+		},
+		"_donate_text": {
+			"type": "staticText",
+			"sm": 12,
+			"md": 12,
+			"lg": 12,
+			"label": "If you find this adapter helpful and would like to contribute,<br>you can support me via PayPal or sponsor me on GitHub.<br>Your generosity is greatly appreciated!",
+			"style": { "fontSize": 16, "fontWeight": "bold" },
+			"newLine": true
+		},
+		"_donate_PayPal": {
+			"type": "staticImage",
+			"sm": 6,
+			"md": 3,
+			"lg": 0.8,
+			"href": "https://www.paypal.com/donate/?hosted_button_id=487CQ7WFSAGKQ",
+			"src": "donate_paypal.png",
+			"newLine": true
+		},
+		"_sponsor_GitHub": {
+			"type": "staticImage",
+			"sm": 6,
+			"md": 3,
+			"lg": 0.8,
+			"href": "https://github.com/sponsors/danieldriessen",
+			"src": "sponsor_github.png"
+		},
+		"_section_donate_verticalSpace_01": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_donate_verticalSpace_02": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_donate_verticalSpace_03": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_httpServerHeader": {
 			"type": "header",
-			"text": "Account-Linking",
+			"text": "HTTP-Server",
+			"size": 1
+		},
+		"_httpServerInfoText": {
+			"type": "staticText",
+			"sm": 12,
+			"md": 10,
+			"lg": 3.6,
+			"label": "A HTTP-Server is used to receive the authorization code from Google.<br>In order for this procedure to work, you will need to select a port that is not used by any other application or process,<br>and make sure the port is also not blocked by a firewall.",
+			"style": { "fontSize": 16 },
+			"newLine": true
+		},
+		"httpServerPort": {
+			"type": "number",
+			"min": 0,
+			"max": 65535,
+			"label": "Port",
+			"default": 8881
+		},
+		"_section_httpServer_verticalSpace_01": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_httpServer_verticalSpace_02": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_authenticationHeader": {
+			"type": "header",
+			"text": "Authentication",
 			"size": 1
 		},
 		"clientID": {
 			"type": "text",
 			"sm": 12,
-			"md": 6,
+			"md": 12,
 			"lg": 4,
 			"label": "Client-ID",
 			"help": "Client-ID from the 'Google Nest - Device Access Console'",
@@ -19,7 +100,7 @@
 		"projectID": {
 			"type": "text",
 			"sm": 12,
-			"md": 6,
+			"md": 12,
 			"lg": 4,
 			"label": "Project-ID",
 			"help": "Project-ID from the 'Google Nest - Device Access Console'",
@@ -28,70 +109,111 @@
 		"clientSecret": {
 			"type": "text",
 			"sm": 12,
-			"md": 6,
+			"md": 12,
 			"lg": 4,
 			"label": "Client-Secret",
 			"help": "Client-Secret from the 'Google Nest - Device Access Console'",
 			"newLine": true
 		},
-		"_section_linkAccount_verticalSpace_01": {
+		"_section_authentication_verticalSpace_01": {
 			"type": "custom",
 			"newLine": true
 		},
-		"_section_linkAccount_verticalSpace_02": {
+		"_section_authentication_verticalSpace_02": {
 			"type": "custom",
 			"newLine": true
 		},
-		"_linkAccountURL": {
+		"_authenticationURL": {
 			"type": "staticLink",
-			"text": "Link Account",
-			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:8083/google-home-nest/get_authorization_code.html&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service",
-			"sm": 1,
-			"md": 1,
-			"lg": 1,
+			"text": "Authenticate",
+			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
+			"sm": 12,
+			"md": 6,
+			"lg": 2,
 			"button": true,
-			"disabled": "data.clientID === \"\" || data.projectID === \"\" || data.clientSecret === \"\"",
+			"disabled": "!data.clientID || !data.projectID || !data.clientSecret",
 			"style": { "fontSize": 20 },
 			"newLine": true
 		},
-		"_section_linkAccount_verticalSpace_03": {
+		"_section_authentication_verticalSpace_03": {
 			"type": "custom",
 			"newLine": true
 		},
-		"_section_linkAccount_verticalSpace_04": {
+		"_section_authentication_verticalSpace_04": {
 			"type": "custom",
 			"newLine": true
 		},
-		"_section_linkAccount_verticalSpace_05": {
+		"_section_authentication_verticalSpace_05": {
 			"type": "custom",
 			"newLine": true
 		},
-		"_accuireAccessToken": {
+		"_eventsHeader": {
 			"type": "header",
-			"text": "Acquire Access-Token",
-			"size": 1,
-			"disabled": "data.clientID === \"\" || data.projectID === \"\" || data.clientSecret === \"\""
+			"text": "Events",
+			"size": 1
 		},
-		"authorizationCode": {
+		"googleCloudProjectID": {
 			"type": "text",
 			"sm": 12,
-			"md": 6,
+			"md": 12,
 			"lg": 4,
-			"label": "Authorization-Code",
-			"help": "Authorization-Code from URL",
-			"onChange": {
-				"alsoDependsOn": ["clientID", "projectID", "clientSecret"],
-				"calculateFunc": " ",
-				"ignoreOwnChanges": true
-			},
-			"disabled": "data.clientID === \"\" || data.projectID === \"\" || data.clientSecret === \"\"",
+			"label": "Google Cloud - Project-ID",
+			"help": "Google Cloud Project-ID from the 'Google Nest - Cloud Console'",
 			"newLine": true
 		},
-		"_section_accuireAccessToken_verticalSpace_01": {
+		"eventsEnabled": {
+			"type": "checkbox",
+			"sm": 12,
+			"md": 12,
+			"lg": 4,
+			"label": "Enable Events",
+			"help": "Enable events ro receive notifications from Google. In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google Nest - Device Access Console'!",
+			"newLine": true,
+			"disabled": "!data.googleCloudProjectID"
+		},
+		"_section_events_verticalSpace_01": {
 			"type": "custom",
 			"newLine": true
 		},
-		"_section_accuireAccessToken_verticalSpace_02": {
+		"eventsAcquisitionMethod": {
+			"type": "select",
+			"label": "Events acquisition method",
+			"help": "If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>Currently only the 'PULL' method is available!",
+			"options": [
+				{ "label": { "en": "PULL" }, "value": "PULL" },
+				{ "label": { "en": "PUSH" }, "value": "PUSH" }
+			],
+			"default": "PULL",
+			"sm": 12,
+			"md": 12,
+			"lg": 4,
+			"newLine": true,
+			"disabled": "!data.googleCloudProjectID || !data.eventsEnabled"
+		},
+		"_section_events_verticalSpace_02": {
+			"type": "custom",
+			"newLine": true
+		},
+		"eventsPullTimeout": {
+			"type": "number",
+			"label": "Events Pull timeout (in seconds)",
+			"help": "The timeout (in seconds) after which the next PULL request is send to Google's 'Pub/Sub System' in order to fetch new event messages.",
+			"sm": 12,
+			"md": 12,
+			"lg": 4,
+			"min": 1,
+			"max": 300,
+			"step": 1,
+			"default": 1,
+			"newLine": true,
+			"disabled": "!data.googleCloudProjectID || !data.eventsEnabled || data.eventsAcquisitionMethod != \"PULL\"",
+			"hidden": "data.eventsAcquisitionMethod != \"PULL\""
+		},
+		"_section_events_verticalSpace_03": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_events_verticalSpace_04": {
 			"type": "custom",
 			"newLine": true
 		}

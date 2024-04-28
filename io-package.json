@@ -45,7 +45,7 @@
 			"zh-cn": "集成您的 Google Home (Nest) 设备，例如恒温器、相机、门铃等。"
 		},
 		"authors": ["Daniel Drießen <daniel.driessen@ddproductions.de>"],
-		"keywords": ["google", "home", "nest", "thermostat", "camera", "doorbell"],
+		"keywords": ["google", "home", "nest", "thermostat", "camera", "doorbell", "iot", "smarthome", "google-home", "iobroker", "iobroker-adapter"],
 		"license": "MIT",
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
@@ -69,16 +69,19 @@
 		],
 		"globalDependencies": [
 			{
-				"admin": ">=5.1.13",
-				"web": ">=5.5.3"
+				"admin": ">=5.1.13"
 			}
 		]
 	},
 	"native": {
+		"httpServerPort": 8881,
 		"clientID": "",
 		"projectID": "",
 		"clientSecret": "",
-		"authorizationCode": ""
+		"googleCloudProjectID": "",
+		"eventsEnabled": false,
+		"eventsAcquisitionMethod": "PULL",
+		"eventsPullTimeout": 1
 	},
 	"objects": [],
 	"instanceObjects": [

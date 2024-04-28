@@ -1,4 +1,5 @@
 ![Logo](admin/google-home-nest.png)
+
 # ioBroker.google-home-nest
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.google-home-nest.svg)](https://www.npmjs.com/package/iobroker.google-home-nest)
@@ -10,99 +11,84 @@
 
 **Tests:** ![Test and Release](https://github.com/danieldriessen/ioBroker.google-home-nest/workflows/Test%20and%20Release/badge.svg)
 
-## google-home-nest adapter for ioBroker
+## Versions
 
-Integrate your Google Home (Nest) devices like Thermostats, Cameras, Doorbells, etc.
+<!-- ![Beta](https://img.shields.io/npm/v/iobroker.google-home-nest.svg?color=red&label=beta) -->
+<!-- ![Stable](http://iobroker.live/badges/google-home-nest-stable.svg) -->
+<!-- ![Installed](http://iobroker.live/badges/google-home-nest-installed.svg) -->
 
-## Developer manual
-This section is intended for the developer. It can be deleted later.
+## Description
+
+Integrates your Google Home (Nest) devices like Cameras, Doorbells, Displays, Thermostats etc., into the ioBroker system.
+Please be aware that this adapter is currently in development and in beta status. See section "Current development status, limitations & future goals" for more information.
+
+## Current development status, limitations & future goals
+
+### In its current state of development the adapter (after beeing correctly set up) should be able to...
+
+-   acquire a list of your Google Home (Nest) devices and create an ioBroker device object for each device.
+-   retrieve the capabilities of each device, and store them into ioBroker states.
+-   acquire events such as 'motion detected', 'doorbell press detected', etc., by regularly pulling data from the Google 'Pub/Sub system'.
+    (see section 'Supported devices' for more details about the events implementation status).
+
+### In its current state of development the adapter is NOT capable of...
+
+-   acquiring camera images, preview clips, or live streams.
+-   retrieving status updates like 'current ambient temperature', 'current ambient humidity', etc., for devices.
+-   sending commands like 'set heat', 'set cool', 'set timer', etc. to the devices.
+
+### Future Goals:
+
+It is intended to implement all of the above-mentioned missing capabilities.
+In addition to that, it is also intended to add the possibility to acquire events with a 'PUSH' system.
+However, the feasibility of each of these goals is subject to change.
+
+## Documentation
+
+## Supported devices
+
+### Camera Devices
+
+| Device name / description | general implementation | retrieve capabilities | retrieve status | receive events |
+| ------------------------- | ---------------------- | --------------------- | --------------- | -------------- |
 
 ### DISCLAIMER
 
-Please make sure that you consider copyrights and trademarks when you use names or logos of a company and add a disclaimer to your README.
-You can check other adapters for examples or ask in the developer community. Using a name or logo of a company without permission may cause legal problems for you.
+The developers of this module are in no way endorsed by or affiliated with Google LLC, or any associated subsidiaries, logos, or trademarks.
+The Google logo used in this adapter is for illustrative purposes only and is the property of Google LLC.
+If there are any concerns regarding the use of copyrighted materials in this adapter, please feel free to contact the developers, and they will promptly address them.
 
-### Getting started
+## LIMITATION OF LIABILITY
 
-You are almost done, only a few steps left:
-1. Create a new repository on GitHub with the name `ioBroker.google-home-nest`
+The developers of this adapter shall not be liable for any damages or issues that arise from the use of the adapter.
+By using this adapter, you agree that the developers are not responsible for any loss of data, malfunction, or any other damages or issues resulting from its use.
 
-1. Push all files to the GitHub repo. The creator has already set up the local repository for you:  
-	```bash
-	git push origin main
-	```
-1. Add a new secret under https://github.com/danieldriessen/ioBroker.google-home-nest/settings/secrets. It must be named `AUTO_MERGE_TOKEN` and contain a personal access token with push access to the repository, e.g. yours. You can create a new token under https://github.com/settings/tokens.
+## USAGE AGREEMENT
 
-1. Head over to [main.js](main.js) and start programming!
+By using this adapter, you agree to the following terms:
 
-### Best Practices
-We've collected some [best practices](https://github.com/ioBroker/ioBroker.repositories#development-and-coding-best-practices) regarding ioBroker development and coding in general. If you're new to ioBroker or Node.js, you should
-check them out. If you're already experienced, you should also take a look at them - you might learn something new :)
-
-### Scripts in `package.json`
-Several npm scripts are predefined for your convenience. You can run them using `npm run <scriptname>`
-| Script name | Description |
-|-------------|-------------|
-| `test:js` | Executes the tests you defined in `*.test.js` files. |
-| `test:package` | Ensures your `package.json` and `io-package.json` are valid. |
-| `test:integration` | Tests the adapter startup with an actual instance of ioBroker. |
-| `test` | Performs a minimal test run on package files and your tests. |
-| `check` | Performs a type-check on your code (without compiling anything). |
-| `lint` | Runs `ESLint` to check your code for formatting errors and potential bugs. |
-| `translate` | Translates texts in your adapter to all required languages, see [`@iobroker/adapter-dev`](https://github.com/ioBroker/adapter-dev#manage-translations) for more details. |
-| `release` | Creates a new release, see [`@alcalzone/release-script`](https://github.com/AlCalzone/release-script#usage) for more details. |
-
-### Writing tests
-When done right, testing code is invaluable, because it gives you the 
-confidence to change your code while knowing exactly if and when 
-something breaks. A good read on the topic of test-driven development 
-is https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92. 
-Although writing tests before the code might seem strange at first, but it has very 
-clear upsides.
-
-The template provides you with basic tests for the adapter startup and package files.
-It is recommended that you add your own tests into the mix.
-
-### Publishing the adapter
-Using GitHub Actions, you can enable automatic releases on npm whenever you push a new git tag that matches the form 
-`v<major>.<minor>.<patch>`. We **strongly recommend** that you do. The necessary steps are described in `.github/workflows/test-and-release.yml`.
-
-Since you installed the release script, you can create a new
-release simply by calling:
-```bash
-npm run release
-```
-Additional command line options for the release script are explained in the
-[release-script documentation](https://github.com/AlCalzone/release-script#command-line).
-
-To get your adapter released in ioBroker, please refer to the documentation 
-of [ioBroker.repositories](https://github.com/ioBroker/ioBroker.repositories#requirements-for-adapter-to-get-added-to-the-latest-repository).
-
-### Test the adapter manually with dev-server
-Since you set up `dev-server`, you can use it to run, test and debug your adapter.
-
-You may start `dev-server` by calling from your dev directory:
-```bash
-dev-server watch
-```
-
-The ioBroker.admin interface will then be available at http://localhost:8081/
-
-Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev-server#command-line) for more details.
+-   You may use this adapter for personal or commercial purposes.
+-   You may modify the adapter for your own use, but you may not redistribute it without permission from the developers.
+-   The adapter is provided "as is" without any warranty, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+-   The developers of this adapter reserve the right to update, modify, or discontinue the adapter at any time without prior notice.
+-   Any feedback or contributions provided by users are greatly appreciated but are not mandatory.
 
 ## Changelog
+
 <!--
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
 
 ### **WORK IN PROGRESS**
-* (Daniel Drießen) initial release
+
+-   (Daniel Drießen) initial release
 
 ## License
+
 MIT License
 
-Copyright (c) 2023 Daniel Drießen <daniel.driessen@ddproductions.de>
+Copyright (c) 2023-2024 Daniel Drießen <daniel.driessen@ddproductions.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
