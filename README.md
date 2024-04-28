@@ -22,6 +22,8 @@
 Integrates your Google Home (Nest) devices like Cameras, Doorbells, Displays, Thermostats etc., into the ioBroker system.
 Please be aware that this adapter is currently in development and in beta status. See section "Current development status, limitations & future goals" for more information.
 
+
+
 ## Current development status, limitations & future goals
 
 ### In its current state of development the adapter (after beeing correctly set up) should be able to...
@@ -43,9 +45,13 @@ It is intended to implement all of the above-mentioned missing capabilities.
 In addition to that, it is also intended to add the possibility to acquire events with a 'PUSH' system.
 However, the feasibility of each of these goals is subject to change.
 
+
+
 ## Documentation
 
 Coming very soon!
+
+
 
 ## Supported devices
 
@@ -78,6 +84,8 @@ Coming very soon!
 | ------------------------------------------ | ---------------------- | --------------------- | ---------------- | -------------- | ------------- |
 | Google Nest Thermostat devices             | ✅                     | ❌                   | ❌               | NONE AVAILABLE | ❌            |
 
+
+
 ## DISCLAIMER
 
 The developers of this module are in no way endorsed by or affiliated with Google LLC, or any associated subsidiaries, logos, or trademarks.
@@ -99,6 +107,8 @@ By using this adapter, you agree to the following terms:
 -   The developers of this adapter reserve the right to update, modify, or discontinue the adapter at any time without prior notice.
 -   Any feedback or contributions provided by users are greatly appreciated but are not mandatory.
 
+
+
 ## Changelog
 
 <!--
@@ -110,6 +120,8 @@ By using this adapter, you agree to the following terms:
 
 ### 0.1.0 (2024-04-28)
 -   (danieldriessen) Initial beta version release
+
+
 
 ## License
 
