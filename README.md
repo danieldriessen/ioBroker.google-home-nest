@@ -115,7 +115,7 @@ By using this adapter, you agree to the following terms:
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.1.0-beta.0 (2024-04-28)
 -   (danieldriessen) Initial beta version release
 
 ### 0.0.1 (2023-16-23)
