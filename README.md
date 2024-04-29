@@ -4,8 +4,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.google-home-nest?style=flat-square)](https://www.npmjs.com/package/iobroker.google-home-nest)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.google-home-nest?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/iobroker.google-home-nest)
-![Number of Installations](https://iobroker.live/badges/google-home-nest-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/google-home-nest-stable.svg)
+![node-lts](https://img.shields.io/node/v-lts/iobroker.google-home-nest?style=flat-square)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/iobroker.google-home-nest?label=npm%20dependencies&style=flat-square)
 
 ![GitHub](https://img.shields.io/github/license/danieldriessen/iobroker.google-home-nest?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/danieldriessen/iobroker.google-home-nest?logo=github&style=flat-square)
@@ -20,9 +20,9 @@
 
 ## Versions
 
-<!-- ![Beta](https://img.shields.io/npm/v/iobroker.google-home-nest.svg?color=red&label=beta) -->
-<!-- ![Stable](http://iobroker.live/badges/google-home-nest-stable.svg) -->
-<!-- ![Installed](http://iobroker.live/badges/google-home-nest-installed.svg) -->
+![Beta](https://img.shields.io/npm/v/iobroker.google-home-nest.svg?color=red&label=beta)
+![Stable](https://iobroker.live/badges/google-home-nest-stable.svg)
+![Installed](https://iobroker.live/badges/google-home-nest-installed.svg)
 
 ## Description
 
