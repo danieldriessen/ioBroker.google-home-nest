@@ -16,7 +16,7 @@
 
 [![NPM](https://nodei.co/npm/iobroker.google-home-nest.png?downloads=true)](https://nodei.co/npm/iobroker.google-home-nest/)
 
-**Tests:** ![Test and Release](https://github.com/danieldriessen/ioBroker.google-home-nest/workflows/Test%20and%20Release/badge.svg)
+<!-- **Tests:** ![Test and Release](https://github.com/danieldriessen/ioBroker.google-home-nest/workflows/Test%20and%20Release/badge.svg) -->
 
 ## Versions
 
@@ -122,6 +122,10 @@ By using this adapter, you agree to the following terms:
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+-   (Daniel Drießen) Modified Readme file
+
 ### 0.1.1-beta.0 (2024-04-29)
 -   (Daniel Drießen) Corrected dependencies.
 
