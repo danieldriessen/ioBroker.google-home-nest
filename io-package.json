@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "google-home-nest",
-    "version": "0.1.0-beta.0",
+    "version": "0.1.1-beta.0",
     "news": {
+      "0.1.1-beta.0": {
+        "en": "(Daniel Drießen) Corrected dependencies.",
+        "de": "(Daniel Drießen) Korrigierte Abhängigkeiten.",
+        "ru": "(Daniel Drießen) Исправленные зависимости.",
+        "pt": "(Daniel Drießen) Dependências corrigidas.",
+        "nl": "(Daniel Drießen) Gecorrigeerde afhankelijkheden.",
+        "fr": "(Daniel Drießen) Des dépendances corrigées.",
+        "it": "(Daniel Drießen) Dipendenze corrette.",
+        "es": "(Daniel Drießen) Dependencias corregidas.",
+        "pl": "(Daniel Drießen) Skorygowane zależności.",
+        "uk": "(Daniel Drießen) Виправлені залежності.",
+        "zh-cn": "(丹尼尔·德利根) 纠正依赖关系."
+      },
       "0.1.0-beta.0": {
         "en": "Initial beta version release",
         "de": "Erste Beta Version Release",
