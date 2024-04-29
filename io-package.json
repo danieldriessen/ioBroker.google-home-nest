@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "google-home-nest",
-    "version": "0.1.1-beta.0",
+    "version": "0.1.2-beta.0",
     "news": {
+      "0.1.2-beta.0": {
+        "en": "(Daniel Drießen) Modified Readme file",
+        "de": "(Daniel Drießen) Geänderte Readme-Datei",
+        "ru": "(Daniel Drießen)",
+        "pt": "(Daniel Drießen) Modified Readme file",
+        "nl": "(Daniel Drießen) Gewijzigd Readme-bestand",
+        "fr": "(Daniel Drießen) Fichier de lecture modifié",
+        "it": "(Daniel Drießen) Modificato file Readme",
+        "es": "(Daniel Drießen)",
+        "pl": "(Daniel Drießen) Zmodyfikowany plik Readme",
+        "uk": "(Daniel Drießen) Модифікований файл",
+        "zh-cn": "(Daniel Drießen) 修改后的Readme文件"
+      },
       "0.1.1-beta.0": {
         "en": "(Daniel Drießen) Corrected dependencies.",
         "de": "(Daniel Drießen) Korrigierte Abhängigkeiten.",
