@@ -23,10 +23,10 @@
     "url": "git@github.com:danieldriessen/ioBroker.google-home-nest.git"
   },
   "engines": {
-    "node": ">= 16"
+    "node": ">= 18"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.6.8",
+    "@iobroker/adapter-core": "^3.1.4",
     "axios": "^1.6.8"
   },
   "devDependencies": {
