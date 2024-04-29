@@ -28,10 +28,11 @@ jobs:
         steps:
             - uses: ioBroker/testing-action-check@v1
               with:
-                  node-version: "20.x"
+                  node-version: "18.x"
                   # Uncomment the following line if your adapter cannot be installed using 'npm ci'
-                  # install-command: 'npm install'
+                  install-command: 'npm install'
                   lint: true
+                  lint-command: 'npm run lint .'
 
     # Runs adapter tests on all supported node versions and OSes
     adapter-tests:
@@ -49,7 +50,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
                   os: ${{ matrix.os }}
                   # Uncomment the following line if your adapter cannot be installed using 'npm ci'
-                  # install-command: 'npm install'
+                  install-command: 'npm install'
 
     # Deploys the final package to NPM
     deploy:
