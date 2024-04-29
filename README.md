@@ -2,10 +2,17 @@
 
 # ioBroker.google-home-nest
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.google-home-nest.svg)](https://www.npmjs.com/package/iobroker.google-home-nest)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.google-home-nest.svg)](https://www.npmjs.com/package/iobroker.google-home-nest)
+[![NPM version](https://img.shields.io/npm/v/iobroker.google-home-nest?style=flat-square)](https://www.npmjs.com/package/iobroker.google-home-nest)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.google-home-nest?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/iobroker.google-home-nest)
 ![Number of Installations](https://iobroker.live/badges/google-home-nest-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/google-home-nest-stable.svg)
+
+![GitHub](https://img.shields.io/github/license/danieldriessen/iobroker.google-home-nest?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/danieldriessen/iobroker.google-home-nest?logo=github&style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/danieldriessen/iobroker.google-home-nest?logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/danieldriessen/iobroker.google-home-nest?logo=github&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/danieldriessen/iobroker.google-home-nest?logo=github&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/danieldriessen/iobroker.google-home-nest/test-and-release.yml?branch=master&logo=github&style=flat-square)
 
 [![NPM](https://nodei.co/npm/iobroker.google-home-nest.png?downloads=true)](https://nodei.co/npm/iobroker.google-home-nest/)
 
