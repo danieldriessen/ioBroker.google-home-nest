@@ -135,8 +135,8 @@ class GoogleHomeNest extends utils.Adapter {
 		try {
 			await this.createInitialObjectsIfNecessary();
 		} catch (error) {
-			this.log.warn(`WARNING: Adapter stopped due to error!`);
-			this.terminate(`WARNING: Adapter stopped due to error!`);
+			//this.log.warn(`WARNING: Adapter stopped due to error!`);
+			//this.terminate(`WARNING: Adapter stopped due to error!`);
 			return;
 		}
 
@@ -144,8 +144,8 @@ class GoogleHomeNest extends utils.Adapter {
 		try {
 			await this.setInitialObjectStates();
 		} catch (error) {
-			this.log.warn(`WARNING: Adapter stopped due to error!`);
-			this.terminate(`WARNING: Adapter stopped due to error!`);
+			//this.log.warn(`WARNING: Adapter stopped due to error!`);
+			//this.terminate(`WARNING: Adapter stopped due to error!`);
 			return;
 		}
 
@@ -156,8 +156,8 @@ class GoogleHomeNest extends utils.Adapter {
 		try {
 			await this.createHTTPserver();
 		} catch (error) {
-			this.log.warn(`WARNING: Adapter stopped due to error!`);
-			this.terminate(`WARNING: Adapter stopped due to error!`);
+			//this.log.warn(`WARNING: Adapter stopped due to error!`);
+			//this.terminate(`WARNING: Adapter stopped due to error!`);
 			return;
 		}
 
@@ -165,8 +165,8 @@ class GoogleHomeNest extends utils.Adapter {
 		try {
 			await this.checkForMissingValuesRequiredForAuthentication();
 		} catch (error) {
-			this.log.warn(`WARNING: Adapter stopped due to error!`);
-			this.terminate(`WARNING: Adapter stopped due to error!`);
+			//this.log.warn(`WARNING: Adapter stopped due to error!`);
+			//this.terminate(`WARNING: Adapter stopped due to error!`);
 			return;
 		}
 
@@ -197,8 +197,8 @@ class GoogleHomeNest extends utils.Adapter {
 				// Set the connection indicator to 'true'
 				await this.setStateAsync("info.connection", true, true);
 			} catch (error) {
-				this.log.warn(`WARNING: Adapter stopped due to error!`);
-				this.terminate(`WARNING: Adapter stopped due to error!`);
+				//this.log.warn(`WARNING: Adapter stopped due to error!`);
+				//this.terminate(`WARNING: Adapter stopped due to error!`);
 				return;
 			}
 
@@ -211,8 +211,8 @@ class GoogleHomeNest extends utils.Adapter {
 				try {
 					deviceListJSONstring = await this.acquireDeviceListAsJSONstring();
 				} catch (error) {
-					this.log.warn(`WARNING: Adapter stopped due to error!`);
-					this.terminate(`WARNING: Adapter stopped due to error!`);
+					//this.log.warn(`WARNING: Adapter stopped due to error!`);
+					//this.terminate(`WARNING: Adapter stopped due to error!`);
 					return;
 				}
 
@@ -220,8 +220,8 @@ class GoogleHomeNest extends utils.Adapter {
 				try {
 					await this.deleteAllStoredDevices();
 				} catch (error) {
-					this.log.warn(`WARNING: Adapter stopped due to error!`);
-					this.terminate(`WARNING: Adapter stopped due to error!`);
+					//this.log.warn(`WARNING: Adapter stopped due to error!`);
+					//this.terminate(`WARNING: Adapter stopped due to error!`);
 					return;
 				}
 
@@ -229,8 +229,8 @@ class GoogleHomeNest extends utils.Adapter {
 				try {
 					await this.createDeviceObjectsAndStatesFromJSONDeviceListString(deviceListJSONstring);
 				} catch {
-					this.log.warn(`WARNING: Adapter stopped due to error!`);
-					this.terminate(`WARNING: Adapter stopped due to error!`);
+					//this.log.warn(`WARNING: Adapter stopped due to error!`);
+					//this.terminate(`WARNING: Adapter stopped due to error!`);
 					return;
 				}
 
@@ -289,8 +289,8 @@ class GoogleHomeNest extends utils.Adapter {
 								await this.startPullingGooglePubSubMessages();
 							} catch (error) {
 								this.log.error(error.message);
-								this.log.warn(`WARNING: Adapter stopped due to error!`);
-								this.terminate(`WARNING: Adapter stopped due to error!`);
+								//this.log.warn(`WARNING: Adapter stopped due to error!`);
+								//this.terminate(`WARNING: Adapter stopped due to error!`);
 								return;
 							}
 						}
