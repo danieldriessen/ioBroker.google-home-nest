@@ -30,7 +30,7 @@ jobs:
               with:
                   node-version: "18.x"
                   # Uncomment the following line if your adapter cannot be installed using 'npm ci'
-                  install-command: 'npm install'
+                  # install-command: 'npm install'
                   lint: true
                   lint-command: 'npm run lint .'
 
@@ -50,7 +50,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
                   os: ${{ matrix.os }}
                   # Uncomment the following line if your adapter cannot be installed using 'npm ci'
-                  install-command: 'npm install'
+                  # install-command: 'npm install'
 
     # Deploys the final package to NPM
     deploy:
