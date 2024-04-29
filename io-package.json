@@ -1,161 +1,149 @@
 {
-	"common": {
-		"name": "google-home-nest",
-		"version": "0.0.1",
-		"news": {
-			"0.0.1": {
-				"en": "initial release",
-				"de": "Erstveröffentlichung",
-				"ru": "Начальная версия",
-				"pt": "lançamento inicial",
-				"nl": "Eerste uitgave",
-				"fr": "Première version",
-				"it": "Versione iniziale",
-				"es": "Versión inicial",
-				"pl": "Pierwsze wydanie",
-				"uk": "Початкова версія",
-				"zh-cn": "首次出版"
-			}
-		},
-		"title": "Google Home (Nest)",
-		"titleLang": {
-			"en": "Google Home (Nest)",
-			"de": "Google Home (Nest)",
-			"ru": "Главная страница Google (гнездо)",
-			"pt": "Página inicial do Google (Ninho)",
-			"nl": "Google Home (Nest)",
-			"fr": "Accueil Google (Nid)",
-			"it": "Google Home (Nido)",
-			"es": "Página principal de Google (Nido)",
-			"pl": "Strona główna Google (gniazdo)",
-			"uk": "Google Home (Nest)",
-			"zh-cn": "谷歌主页（鸟巢）"
-		},
-		"desc": {
-			"en": "Integrate your Google Home (Nest) devices like Thermostats, Cameras, Doorbells, etc.",
-			"de": "Integrieren Sie Ihre Google Home (Nest) Geräte wie Thermostate, Kameras, Türklingeln usw.",
-			"ru": "Интегрируйте свои устройства Google Home (Nest), такие как термостаты, камеры, дверные звонки и т. д.",
-			"pt": "Integre seus dispositivos Google Home (Nest), como termostatos, câmeras, campainhas, etc.",
-			"nl": "Integreer uw Google Home (Nest) apparaten zoals thermostaten, camera's, deurbellen, etc.",
-			"fr": "Intégrez vos appareils Google Home (Nest) comme les thermostats, les caméras, les sonnettes, etc.",
-			"it": "Integra i tuoi dispositivi Google Home (Nest) come termostati, videocamere, campanelli, ecc.",
-			"es": "Integre sus dispositivos Google Home (Nest) como termostatos, cámaras, timbres, etc.",
-			"pl": "Zintegruj swoje urządzenia Google Home (Nest), takie jak termostaty, kamery, dzwonki do drzwi itp.",
-			"uk": "Інтегруйте пристрої Google Home (Nest), як-от термостати, камери, дверні дзвінки тощо.",
-			"zh-cn": "集成您的 Google Home (Nest) 设备，例如恒温器、相机、门铃等。"
-		},
-		"authors": ["Daniel Drießen <daniel.driessen@ddproductions.de>"],
-		"keywords": ["google", "home", "nest", "thermostat", "camera", "doorbell"],
-		"license": "MIT",
-		"platform": "Javascript/Node.js",
-		"main": "main.js",
-		"icon": "google-home-nest.png",
-		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/danieldriessen/ioBroker.google-home-nest/main/admin/google-home-nest.png",
-		"readme": "https://github.com/danieldriessen/ioBroker.google-home-nest/blob/main/README.md",
-		"loglevel": "info",
-		"mode": "daemon",
-		"type": "iot-systems",
-		"compact": true,
-		"connectionType": "cloud",
-		"dataSource": "push",
-		"adminUI": {
-			"config": "json"
-		},
-		"dependencies": [
-			{
-				"js-controller": ">=3.3.22"
-			}
-		],
-		"globalDependencies": [
-			{
-				"admin": ">=5.1.13"
-			}
-		]
-	},
-	"native": {
-		"clientID": "",
-		"projectID": "",
-		"clientSecret": ""
-	},
-	"objects": [],
-	"instanceObjects": [
-		{
-			"_id": "info",
-			"type": "channel",
-			"common": {
-				"name": {
-					"en": "Information",
-					"de": "Informationen",
-					"ru": "Информация",
-					"pt": "Informação",
-					"nl": "Informatie",
-					"fr": "Information",
-					"it": "Informazioni",
-					"es": "Información",
-					"pl": "Informacja",
-					"uk": "Інформація",
-					"zh-cn": "信息"
-				}
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.connection",
-			"type": "state",
-			"common": {
-				"name": "Service connected",
-				"type": "boolean",
-				"role": "indicator.connected",
-				"read": true,
-				"write": false,
-				"def": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection",
-			"type": "channel",
-			"common": {
-				"name": "Service-Connection"
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection.clientID",
-			"type": "state",
-			"common": {
-				"name": "Client-ID",
-				"type": "string",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection.projectID",
-			"type": "state",
-			"common": {
-				"name": "Project-ID",
-				"type": "string",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.service-connection.clientSecret",
-			"type": "state",
-			"common": {
-				"name": "Client-Secret",
-				"type": "string",
-				"role": "text",
-				"read": true,
-				"write": false
-			},
-			"native": {}
-		}
-	]
+  "common": {
+    "name": "google-home-nest",
+    "version": "0.1.0-beta.0",
+    "news": {
+      "0.1.0-beta.0": {
+        "en": "Initial beta version release",
+        "de": "Erste Beta Version Release",
+        "ru": "Начальная версия бета-версии",
+        "pt": "Versão inicial beta",
+        "nl": "Eerste versie van beta",
+        "fr": "Version bêta initiale",
+        "it": "Versione beta iniziale",
+        "es": "Primera versión beta",
+        "pl": "Początkowe wydanie wersji beta",
+        "uk": "Ім'я користувача",
+        "zh-cn": "初始β版本发布"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "uk": "Початкова версія",
+        "zh-cn": "首次出版"
+      }
+    },
+    "titleLang": {
+      "en": "Google Home (Nest)",
+      "de": "Google Home (Nest)",
+      "ru": "Главная страница Google (гнездо)",
+      "pt": "Página inicial do Google (Ninho)",
+      "nl": "Google Home (Nest)",
+      "fr": "Accueil Google (Nid)",
+      "it": "Google Home (Nido)",
+      "es": "Página principal de Google (Nido)",
+      "pl": "Strona główna Google (gniazdo)",
+      "uk": "Google Home (Nest)",
+      "zh-cn": "谷歌主页（鸟巢）"
+    },
+    "desc": {
+      "en": "Integrate your Google Home (Nest) devices like Thermostats, Cameras, Doorbells, etc.",
+      "de": "Integrieren Sie Ihre Google Home (Nest) Geräte wie Thermostate, Kameras, Türklingeln usw.",
+      "ru": "Интегрируйте свои устройства Google Home (Nest), такие как термостаты, камеры, дверные звонки и т. д.",
+      "pt": "Integre seus dispositivos Google Home (Nest), como termostatos, câmeras, campainhas, etc.",
+      "nl": "Integreer uw Google Home (Nest) apparaten zoals thermostaten, camera's, deurbellen, etc.",
+      "fr": "Intégrez vos appareils Google Home (Nest) comme les thermostats, les caméras, les sonnettes, etc.",
+      "it": "Integra i tuoi dispositivi Google Home (Nest) come termostati, videocamere, campanelli, ecc.",
+      "es": "Integre sus dispositivos Google Home (Nest) como termostatos, cámaras, timbres, etc.",
+      "pl": "Zintegruj swoje urządzenia Google Home (Nest), takie jak termostaty, kamery, dzwonki do drzwi itp.",
+      "uk": "Інтегруйте пристрої Google Home (Nest), як-от термостати, камери, дверні дзвінки тощо.",
+      "zh-cn": "集成您的 Google Home (Nest) 设备，例如恒温器、相机、门铃等。"
+    },
+    "authors": [
+      "Daniel Drießen <daniel.driessen@ddproductions.de>"
+    ],
+    "keywords": [
+      "google",
+      "home",
+      "nest",
+      "thermostat",
+      "camera",
+      "doorbell",
+      "iot",
+      "google-home"
+    ],
+    "tier": 2,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "google-home-nest.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/danieldriessen/ioBroker.google-home-nest/main/admin/google-home-nest.png",
+    "readme": "https://github.com/danieldriessen/ioBroker.google-home-nest/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "iot-systems",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "push",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=3.3.22"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=5.1.13"
+      }
+    ]
+  },
+  "native": {
+    "httpServerPort": 8881,
+    "clientID": "",
+    "projectID": "",
+    "clientSecret": "",
+    "googleCloudProjectID": "",
+    "eventsEnabled": false,
+    "eventsAcquisitionMethod": "PULL",
+    "eventsPullTimeout": 1
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": {
+          "en": "Information",
+          "de": "Informationen",
+          "ru": "Информация",
+          "pt": "Informação",
+          "nl": "Informatie",
+          "fr": "Information",
+          "it": "Informazioni",
+          "es": "Información",
+          "pl": "Informacja",
+          "uk": "Інформація",
+          "zh-cn": "信息"
+        }
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": "Service connected",
+        "type": "boolean",
+        "role": "indicator.connected",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
