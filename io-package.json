@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "google-home-nest",
-    "version": "0.1.2-beta.0",
+    "version": "0.1.2",
     "news": {
+      "0.1.2": {
+        "en": "(Daniel Drießen) Modified admin page\n(Daniel Drießen) Changed 'redirectURI' back to 'localhost'",
+        "de": "(Daniel Drießen) Modified admin page\n(Daniel Drießen) 'redirectURI' zurück zu 'localhost '",
+        "ru": "(Daniel Drießen)\n(Daniel Drießen) Перенаправлено с «localhost» \"",
+        "pt": "(Daniel Drießen) Página de administração modificada\n(Daniel Drießen) Alterado 'redirectURI' de volta para 'localhost '",
+        "nl": "(Daniel Drießen) Gewijzigde admin pagina\n(Daniel Drießen) Veranderde 'redirectURI' terug naar 'localhost '",
+        "fr": "(Daniel Drießen) Page d'administration modifiée\n(Daniel Drießen) Changement de «redirecturi» à «localhost» '",
+        "it": "(Daniel Drießen) Modificata pagina di amministrazione\n(Daniel Drießen) Cambiato 'redirectURI' di nuovo a 'localhost '",
+        "es": "(Daniel Drießen)\n(Daniel Drießen) cambió 'redirectURI' de nuevo a 'localhost '",
+        "pl": "(Daniel Drießen) Zmodyfikowana strona administratora\n(Daniel Drießen) Changed 'redirectURI' back to 'localhost'",
+        "uk": "(Daniel Drießen) Змінено сторінку адміністратора\n(Daniel Drießen) Змінено 'redirectURI' назад до 'localhost Р",
+        "zh-cn": "(Daniel Drießen) 修改后的管理员页面\n(Daniel Drießen) 将“ 直接URI” 改为“ 本地主机 ”  '"
+      },
       "0.1.2-beta.0": {
         "en": "(Daniel Drießen) Modified Readme file",
         "de": "(Daniel Drießen) Geänderte Readme-Datei",
