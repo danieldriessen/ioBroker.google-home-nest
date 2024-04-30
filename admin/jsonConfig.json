@@ -126,7 +126,7 @@
 		"_authenticationURL": {
 			"type": "staticLink",
 			"text": "Authenticate",
-			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://127.0.0.1:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
+			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
 			"sm": 12,
 			"md": 6,
 			"lg": 2,
