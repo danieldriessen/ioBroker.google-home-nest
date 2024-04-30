@@ -94,7 +94,7 @@
 			"md": 12,
 			"lg": 4,
 			"label": "Client-ID",
-			"help": "Client-ID from the 'Google Nest - Device Access Console'",
+			"help": "Client-ID from the 'Google - Device Access Console'",
 			"newLine": true
 		},
 		"projectID": {
@@ -103,7 +103,7 @@
 			"md": 12,
 			"lg": 4,
 			"label": "Project-ID",
-			"help": "Project-ID from the 'Google Nest - Device Access Console'",
+			"help": "Project-ID from the 'Google - Device Access Console'",
 			"newLine": true
 		},
 		"clientSecret": {
@@ -112,7 +112,7 @@
 			"md": 12,
 			"lg": 4,
 			"label": "Client-Secret",
-			"help": "Client-Secret from the 'Google Nest - Device Access Console'",
+			"help": "Client-Secret from the 'Google Cloud Console'",
 			"newLine": true
 		},
 		"_section_authentication_verticalSpace_01": {
@@ -126,7 +126,7 @@
 		"_authenticationURL": {
 			"type": "staticLink",
 			"text": "Authenticate",
-			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
+			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://127.0.0.1:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
 			"sm": 12,
 			"md": 6,
 			"lg": 2,
@@ -158,7 +158,7 @@
 			"md": 12,
 			"lg": 4,
 			"label": "Google Cloud - Project-ID",
-			"help": "Google Cloud Project-ID from the 'Google Nest - Cloud Console'",
+			"help": "Google Cloud Project-ID from the 'Google - Cloud Console'",
 			"newLine": true
 		},
 		"eventsEnabled": {
@@ -167,7 +167,7 @@
 			"md": 12,
 			"lg": 4,
 			"label": "Enable Events",
-			"help": "Enable events ro receive notifications from Google. In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google Nest - Device Access Console'!",
+			"help": "Enable events ro receive notifications from Google. In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'",
 			"newLine": true,
 			"disabled": "!data.googleCloudProjectID"
 		},
