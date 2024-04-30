@@ -563,7 +563,7 @@ class GoogleHomeNest extends utils.Adapter {
 		// Set the initial object states for the state objects 'clientID', 'projectID', 'clientSecret' & 'googleCloud-projectID' to the values declared by the user in the admin panel.
 		this.log.debug(`Setting object state '${this.ioBrokerObjectID_state_clientID}' to value '${this.config.clientID}'...`);
 		await this.setStateAsync(this.ioBrokerObjectID_state_clientID, {
-			val: this.config.clientID,
+			val: this.config.clientID.trim(),
 			ack: true,
 		})
 			.then(() => {
@@ -577,7 +577,7 @@ class GoogleHomeNest extends utils.Adapter {
 
 		this.log.debug(`Setting object state '${this.ioBrokerObjectID_state_projectID}' to value '${this.config.projectID}'...`);
 		await this.setStateAsync(this.ioBrokerObjectID_state_projectID, {
-			val: this.config.projectID,
+			val: this.config.projectID.trim(),
 			ack: true,
 		})
 			.then(() => {
@@ -591,7 +591,7 @@ class GoogleHomeNest extends utils.Adapter {
 
 		this.log.debug(`Setting object state '${this.ioBrokerObjectID_state_clientSecret}' to value '${this.config.clientSecret}'...`);
 		await this.setStateAsync(this.ioBrokerObjectID_state_clientSecret, {
-			val: this.config.clientSecret,
+			val: this.config.clientSecret.trim(),
 			ack: true,
 		})
 			.then(() => {
@@ -605,7 +605,7 @@ class GoogleHomeNest extends utils.Adapter {
 
 		this.log.debug(`Setting object state '${this.ioBrokerObjectID_state_googleCloudProjectID}' to value '${this.config.googleCloudProjectID}'...`);
 		await this.setStateAsync(this.ioBrokerObjectID_state_googleCloudProjectID, {
-			val: this.config.googleCloudProjectID,
+			val: this.config.googleCloudProjectID.trim(),
 			ack: true,
 		})
 			.then(() => {

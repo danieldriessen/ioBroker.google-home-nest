@@ -122,6 +122,10 @@ By using this adapter, you agree to the following terms:
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+-   (Daniel Drießen) Improved admin panel.
+
 ### 0.1.2 (2024-04-30)
 -   (Daniel Drießen) Modified admin page
 -   (Daniel Drießen) Changed 'redirectURI' back to 'localhost'
