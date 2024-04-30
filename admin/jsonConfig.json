@@ -2,19 +2,13 @@
 	"i18n": true,
 	"type": "panel",
 	"items": {
-		"_section_DDProductions_horizontalSpace_01": {
+		"_section_donate_verticalSpace_01": {
 			"type": "custom",
-			"sm": 6,
-			"md": 8,
-			"lg": 10
+			"newLine": true
 		},
-		"_ddproductionsLogo": {
-			"type": "staticImage",
-			"sm": 6,
-			"md": 4,
-			"lg": 1.5,
-			"href": "https://ddproductions.de",
-			"src": "ddproductions_logo_black_font.png"
+		"_section_donate_verticalSpace_02": {
+			"type": "custom",
+			"newLine": true
 		},
 		"_donate_text": {
 			"type": "staticText",
@@ -42,15 +36,15 @@
 			"href": "https://github.com/sponsors/danieldriessen",
 			"src": "sponsor_github.png"
 		},
-		"_section_donate_verticalSpace_01": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_donate_verticalSpace_02": {
-			"type": "custom",
-			"newLine": true
-		},
 		"_section_donate_verticalSpace_03": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_donate_verticalSpace_04": {
+			"type": "custom",
+			"newLine": true
+		},
+		"_section_donate_verticalSpace_05": {
 			"type": "custom",
 			"newLine": true
 		},
@@ -93,9 +87,19 @@
 			"sm": 12,
 			"md": 12,
 			"lg": 4,
-			"label": "Client-ID",
-			"help": "Client-ID from the 'Google - Device Access Console'",
+			"label": "OAuth-Client-ID",
+			"help": "OAuth-Client-ID from the 'Google - Device Access Console'",
 			"newLine": true
+		},
+		"_clientID_googleDeviceAccessConsoleLink": {
+			"type": "staticLink",
+			"text": "Device Access Console",
+			"href": "https://console.nest.google.com/device-access/project-list",
+			"button": true,
+			"icon": "google_icon.png",
+			"sm": 1.5,
+			"md": 1.5,
+			"lg": 1.5
 		},
 		"projectID": {
 			"type": "text",
@@ -106,6 +110,16 @@
 			"help": "Project-ID from the 'Google - Device Access Console'",
 			"newLine": true
 		},
+		"_projectID_googleDeviceAccessConsoleLink": {
+			"type": "staticLink",
+			"text": "Device Access Console",
+			"href": "https://console.nest.google.com/device-access/project-list",
+			"button": true,
+			"icon": "google_icon.png",
+			"sm": 1.5,
+			"md": 1.5,
+			"lg": 1.5
+		},
 		"clientSecret": {
 			"type": "text",
 			"sm": 12,
@@ -114,6 +128,16 @@
 			"label": "Client-Secret",
 			"help": "Client-Secret from the 'Google Cloud Console'",
 			"newLine": true
+		},
+		"_clientSecret_googleDeviceAccessConsoleLink": {
+			"type": "staticLink",
+			"text": "Cloud Console",
+			"href": "https://console.cloud.google.com/",
+			"button": true,
+			"icon": "google_icon.png",
+			"sm": 1.5,
+			"md": 1.5,
+			"lg": 1.5
 		},
 		"_section_authentication_verticalSpace_01": {
 			"type": "custom",
@@ -160,6 +184,16 @@
 			"label": "Google Cloud - Project-ID",
 			"help": "Google Cloud Project-ID from the 'Google - Cloud Console'",
 			"newLine": true
+		},
+		"_googleCloudProjectID_googleDeviceAccessConsoleLink": {
+			"type": "staticLink",
+			"text": "Cloud Console",
+			"href": "https://console.cloud.google.com/",
+			"button": true,
+			"icon": "google_icon.png",
+			"sm": 1.5,
+			"md": 1.5,
+			"lg": 1.5
 		},
 		"eventsEnabled": {
 			"type": "checkbox",
