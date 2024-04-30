@@ -125,6 +125,7 @@ By using this adapter, you agree to the following terms:
 
 ### **WORK IN PROGRESS**
 -   (Daniel Drießen) Modified admin page
+-   (Daniel Drießen) Changed 'redirectURI' back to 'localhost'
 
 ### 0.1.2-beta.0 (2024-04-29)
 -   (Daniel Drießen) Modified Readme file
