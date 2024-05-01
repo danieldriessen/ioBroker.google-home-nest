@@ -1,7 +1,7 @@
 {
 	"google-home-nest adapter settings": "Impostazioni dell'adattatore per google-home-nest",
-	"Client-ID": "Client-ID",
-	"Client-ID from the 'Google Nest - Device Access Console'": "Client-ID da 'Google Nest - Device Access Console'",
-	"Project-ID from the 'Google Nest - Device Access Console'": "Project-ID da 'Google Nest - Device Access Console'",
-	"Client-Secret from the 'Google Nest - Device Access Console'": "Client-Secret da 'Google Nest - Device Access Console'"
+	"HTTP-Server": "Server HTTP",
+	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' dalla 'Google - Console Accesso ai dispositivi'",
+	"Authentication": "Autenticazione",
+	"Events": "Eventi"
 }

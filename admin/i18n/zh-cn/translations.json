@@ -1,7 +1,7 @@
 {
-    "google-home-nest adapter settings": "google-home-nest的适配器设置",
-    "Client-ID": "Client-ID",
-    "Client-ID from the 'Google Nest - Device Access Console'": "来自“Google Nest - 设备访问控制台”的客户端 ID",
-    "Project-ID from the 'Google Nest - Device Access Console'": "来自“Google Nest - 设备访问控制台”的项目 ID",
-    "Client-Secret from the 'Google Nest - Device Access Console'": "来自“Google Nest - 设备访问控制台”的客户机密"
+	"google-home-nest adapter settings": "google-home-nest的适配器设置",
+	"HTTP-Server": "HTTP服务器",
+	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "来自 'Google - 设备访问控制台' 的 'OAuth-客户端-ID",
+	"Authentication": "认证",
+	"Events": "事件"
 }

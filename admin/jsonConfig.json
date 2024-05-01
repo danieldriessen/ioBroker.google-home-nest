@@ -15,7 +15,19 @@
 			"sm": 12,
 			"md": 12,
 			"lg": 12,
-			"label": "If you find this adapter helpful and would like to contribute,<br>you can support me via PayPal or sponsor me on GitHub.<br>Your generosity is greatly appreciated!",
+			"label": {
+				"de": "Wenn dir dieser Adapter hilfreich erscheint und du zur Entwicklung dieses und anderer Adapter beitragen möchtest,<br>kannst du mich über PayPal unterstützen oder auf GitHub sponsern.<br>Deine Großzügigkeit wird sehr geschätzt!",
+				"en": "If you find this adapter helpful and would like to contribute to the development of this and other adapters,<br>you can back me via PayPal or sponsor me on GitHub.<br>Your generosity is greatly appreciated!",
+				"es": "Si encuentras útil este adaptador y te gustaría contribuir al desarrollo de este y otros adaptadores,<br>puedes respaldarme a través de PayPal o patrocinarme en GitHub.<br>¡Tu generosidad es muy apreciada!",
+				"fr": "Si vous trouvez cet adaptateur utile et souhaitez contribuer au développement de celui-ci et d'autres adaptateurs,<br>vous pouvez me soutenir via PayPal ou me sponsoriser sur GitHub.<br>Votre générosité est grandement appréciée !",
+				"it": "Se trovi questo adattatore utile e vuoi contribuire allo sviluppo di questo e di altri adattatori,<br>puoi supportarmi tramite PayPal o sponsorizzarmi su GitHub.<br>La tua generosità è molto apprezzata!",
+				"nl": "Als je deze adapter nuttig vindt en wilt bijdragen aan de ontwikkeling van deze en andere adapters,<br>kun je me steunen via PayPal of me sponsoren op GitHub.<br>Je vrijgevigheid wordt zeer op prijs gesteld!",
+				"pl": "Jeśli uważasz ten adapter za pomocny i chcesz przyczynić się do rozwoju tego oraz innych adapterów,<br>możesz wesprzeć mnie za pośrednictwem PayPal lub sponsorować mnie na GitHubie.<br>Twoja hojność jest bardzo doceniana!",
+				"pt": "Se achares este adaptador útil e quiseres contribuir para o desenvolvimento deste e de outros adaptadores,<br>podes apoiar-me através do PayPal ou patrocinar-me no GitHub.<br>A tua generosidade é muito apreciada!",
+				"ru": "Если вы считаете этот адаптер полезным и хотите внести свой вклад в развитие этого и других адаптеров,<br>вы можете поддержать меня через PayPal или спонсировать меня на GitHub.<br>Ваша щедрость очень ценится!",
+				"uk": "Якщо ви вважаєте цей адаптер корисним і хочете сприяти розвитку цього та інших адаптерів,<br>ви можете підтримати мене через PayPal або спонсорувати мене на GitHub.<br>Ваша щедрість високо цінується!",
+				"zh-cn": "如果您觉得这个适配器有用，并且想要为这个和其他适配器的开发做出贡献，<br>您可以通过PayPal支持我，或者在GitHub上赞助我。<br>非常感谢您的慷慨支持！"
+			},
 			"style": { "fontSize": 16, "fontWeight": "bold" },
 			"newLine": true
 		},
@@ -58,7 +70,19 @@
 			"sm": 12,
 			"md": 10,
 			"lg": 3.6,
-			"label": "A HTTP-Server is used to receive the authorization code from Google.<br>In order for this procedure to work, you will need to select a port that is not used by any other application or process,<br>and make sure the port is also not blocked by a firewall.",
+			"label": {
+				"de": "Dieser Adapter erstellt einen HTTP-Server, der verwendet wird, um den Autorisierungscode von Google zu empfangen.<br>Um dieses Verfahren zu ermöglichen, musst du den Port angeben, den der HTTP-Server verwenden wird.<br>(Bitte stelle sicher, dass der ausgewählte Port nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.)",
+				"en": "An HTTP-Server will be created by this adapter and will be used to receive the authorization code from Google.<br>In order for this procedure to work, you will need to specify the port that the HTTP-Server is going to use.<br>(Please make sure that the selected port is not already in use by any other application or process, and also not blocked by a firewall.)",
+				"es": "Este adaptador crea un servidor HTTP que se utiliza para recibir el código de autorización de Google.<br>Para que este procedimiento funcione, deberás especificar el puerto que utilizará el servidor HTTP.<br>(Asegúrate de que el puerto seleccionado no esté siendo utilizado por ninguna otra aplicación o proceso, y tampoco esté bloqueado por un firewall.)",
+				"fr": "Cet adaptateur crée un serveur HTTP qui sera utilisé pour recevoir le code d'autorisation de Google.<br>Pour que cette procédure fonctionne, vous devrez spécifier le port que le serveur HTTP va utiliser.<br>(Assurez-vous que le port sélectionné n'est pas déjà utilisé par une autre application ou processus, et n'est pas bloqué par un pare-feu.)",
+				"it": "Questo adattatore crea un server HTTP che verrà utilizzato per ricevere il codice di autorizzazione da Google.<br>Perché questa procedura funzioni, dovrai specificare la porta che il server HTTP utilizzerà.<br>(Assicurati che la porta selezionata non sia già in uso da parte di un'altra applicazione o processo, e che non sia bloccata da un firewall.)",
+				"nl": "Deze adapter maakt een HTTP-server die wordt gebruikt om de autorisatiecode van Google te ontvangen.<br>Om dit proces te laten werken, moet je de poort specificeren die de HTTP-server gaat gebruiken.<br>(Zorg ervoor dat de geselecteerde poort niet al in gebruik is door een andere toepassing of proces, en ook niet geblokkeerd wordt door een firewall.)",
+				"pl": "Ten adapter tworzy serwer HTTP, który będzie używany do odbierania kodu autoryzacji od Google.<br>Aby ten proces działał, musisz określić port, który będzie używany przez serwer HTTP.<br>(Upewnij się, że wybrany port nie jest już używany przez inną aplikację ani proces, i nie jest zablokowany przez zaporę ogniową.)",
+				"pt": "Este adaptador cria um servidor HTTP que será usado para receber o código de autorização do Google.<br>Para que este procedimento funcione, você precisará especificar a porta que o servidor HTTP usará.<br>(Certifique-se de que a porta selecionada não esteja sendo usada por nenhum outro aplicativo ou processo, e também não esteja bloqueada por um firewall.)",
+				"ru": "Этот адаптер создает HTTP-сервер, который будет использоваться для получения кода авторизации от Google.<br>Чтобы этот процесс работал, вам нужно указать порт, который будет использоваться сервером HTTP.<br>(Убедитесь, что выбранный порт не используется другим приложением или процессом и не блокируется брандмауэром.)",
+				"uk": "Цей адаптер створює HTTP-сервер, який буде використовуватися для отримання коду авторизації від Google.<br>Для того, щоб ця процедура працювала, вам потрібно вказати порт, який HTTP-сервер буде використовувати.<br>(Переконайтеся, що вибраний порт не використовується іншим додатком або процесом, і також не блокується брандмауером.)",
+				"zh-cn": "此适配器创建了一个 HTTP 服务器，用于接收来自 Google 的授权代码。<br>为使此过程正常运行，您需要指定 HTTP 服务器将使用的端口。<br>(请确保所选端口未被任何其他应用程序或进程使用，并且也未被防火墙阻止。)"
+			},
 			"style": { "fontSize": 16 },
 			"newLine": true
 		},
@@ -66,7 +90,19 @@
 			"type": "number",
 			"min": 0,
 			"max": 65535,
-			"label": "Port",
+			"label": {
+				"de": "Port",
+				"en": "Port",
+				"es": "Puerto",
+				"fr": "Port",
+				"it": "Porta",
+				"nl": "Poort",
+				"pl": "Port",
+				"pt": "Porta",
+				"ru": "Порт",
+				"uk": "Порт",
+				"zh-cn": "端口"
+			},
 			"default": 8881
 		},
 		"_section_httpServer_verticalSpace_01": {
@@ -88,12 +124,24 @@
 			"md": 12,
 			"lg": 4,
 			"label": "OAuth-Client-ID",
-			"help": "OAuth-Client-ID from the 'Google - Device Access Console'",
+			"help": "'OAuth-Client-ID' from the 'Google - Device Access Console'",
 			"newLine": true
 		},
 		"_clientID_googleDeviceAccessConsoleLink": {
 			"type": "staticLink",
-			"text": "Device Access Console",
+			"label": {
+				"de": "Gerätezugriffskonsole",
+				"en": "Device Access Console",
+				"es": "Consola de Acceso a dispositivos",
+				"fr": "Console Device Access",
+				"it": "Console Accesso ai dispositivi",
+				"nl": "Apparaattoegangsconsole",
+				"pl": "Konsola dostępu do urządzenia",
+				"pt": "Console do Acesso a Dispositivos",
+				"ru": "Консоль доступа к устройствам",
+				"uk": "Консоль доступу до пристроїв",
+				"zh-cn": "设备访问控制台"
+			},
 			"href": "https://console.nest.google.com/device-access/project-list",
 			"button": true,
 			"icon": "google_icon.png",
@@ -112,7 +160,19 @@
 		},
 		"_projectID_googleDeviceAccessConsoleLink": {
 			"type": "staticLink",
-			"text": "Device Access Console",
+			"label": {
+				"de": "Gerätezugriffskonsole",
+				"en": "Device Access Console",
+				"es": "Consola de Acceso a dispositivos",
+				"fr": "Console Device Access",
+				"it": "Console Accesso ai dispositivi",
+				"nl": "Apparaattoegangsconsole",
+				"pl": "Konsola dostępu do urządzenia",
+				"pt": "Console do Acesso a Dispositivos",
+				"ru": "Консоль доступа к устройствам",
+				"uk": "Консоль доступу до пристроїв",
+				"zh-cn": "设备访问控制台"
+			},
 			"href": "https://console.nest.google.com/device-access/project-list",
 			"button": true,
 			"icon": "google_icon.png",
@@ -131,7 +191,19 @@
 		},
 		"_clientSecret_googleDeviceAccessConsoleLink": {
 			"type": "staticLink",
-			"text": "Cloud Console",
+			"label": {
+				"de": "Gerätezugriffskonsole",
+				"en": "Device Access Console",
+				"es": "Consola de Acceso a dispositivos",
+				"fr": "Console Device Access",
+				"it": "Console Accesso ai dispositivi",
+				"nl": "Apparaattoegangsconsole",
+				"pl": "Konsola dostępu do urządzenia",
+				"pt": "Console do Acesso a Dispositivos",
+				"ru": "Консоль доступа к устройствам",
+				"uk": "Консоль доступу до пристроїв",
+				"zh-cn": "设备访问控制台"
+			},
 			"href": "https://console.cloud.google.com/",
 			"button": true,
 			"icon": "google_icon.png",
@@ -149,7 +221,19 @@
 		},
 		"_authenticationURL": {
 			"type": "staticLink",
-			"text": "Authenticate",
+			"label": {
+				"de": "Authentifizieren",
+				"en": "Authenticate",
+				"es": "Autenticar",
+				"fr": "Authentifier",
+				"it": "Autentica",
+				"nl": "Authenticeren",
+				"pl": "Uwierzytelnij",
+				"pt": "Autenticar",
+				"ru": "Аутентификация",
+				"uk": "Аутентифікація",
+				"zh-cn": "认证"
+			},
 			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
 			"sm": 12,
 			"md": 6,
