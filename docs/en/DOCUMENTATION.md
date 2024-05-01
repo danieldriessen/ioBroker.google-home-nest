@@ -4,7 +4,7 @@
 
 > [!NOTE]
 > This is the documentation in English.<br>
-> You can find the german version here: [🇩🇪 German documentation](../de/README.md)
+> You can find the German version here: [🇩🇪 German documentation](../de/DOCUMENTATION.md)
 
 ## Table of Contents
 - [Supported devices](supported_devices.md)
