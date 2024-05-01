@@ -6,7 +6,7 @@
 > This is the documentation in German.<br>
 > You can find the English version here: [🇬🇧 English documentation](../en/DOCUMENTATION.md)
 
-## Table of Contents
+## Inhaltsverzeichnis
 - [Unterstützte Geräte](supported_devices.md)
 - [Adaptereinrichtung](adapter_setup.md)
 - [Problembehandlung](troubleshooting.md)
