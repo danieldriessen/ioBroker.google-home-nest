@@ -124,10 +124,11 @@ By using this adapter, you agree to the following terms:
 -->
 
 ### **WORK IN PROGRESS**
--   (Daniel Drießen) Improved admin panel.
+-   (Daniel Drießen) Improved admin panel and corrected some text.
+-	(Daniel Drießen) Added missing translations on the admin panel.
 
 ### 0.1.2 (2024-04-30)
--   (Daniel Drießen) Modified admin page
+-   (Daniel Drießen) Modified admin panel
 -   (Daniel Drießen) Changed 'redirectURI' back to 'localhost'
 
 ### 0.1.2-beta.0 (2024-04-29)
