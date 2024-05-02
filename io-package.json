@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "google-home-nest",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "news": {
+      "0.2.0": {
+        "en": "(Daniel Drießen) Improved admin panel and corrected some text.\n(Daniel Drießen) Added missing translations on the admin panel.",
+        "de": "(Daniel Drießen) Verbesserte Admin-Panel und korrigierte einen Text.\n(Daniel Drießen) Hinzugefügt fehlende Übersetzungen auf dem Admin-Panel.",
+        "ru": "(Daniel Drießen) Улучшена панель администратора и исправлена часть текста.\n(Daniel Drießen) Добавлены недостающие переводы на панели администратора.",
+        "pt": "(Daniel Drießen) Painel de administração melhorado e corrigiu algum texto.\n(Daniel Drießen) Adicionadas traduções em falta no painel de administração.",
+        "nl": "(Daniel Drießen) Verbeterde admin paneel en gecorrigeerd sommige tekst.\n(Daniel Drießen) Toegevoegd ontbrekende vertalingen op het beheerpaneel.",
+        "fr": "(Daniel Drießen) Amélioration du panneau d'administration et correction du texte.\n(Daniel Drießen) Ajout de traductions manquantes sur le panneau d'administration.",
+        "it": "(Daniel Drießen) Pannello di amministrazione migliorato e corretto alcuni testo.\n(Daniel Drießen) Aggiunte le traduzioni mancanti sul pannello di amministrazione.",
+        "es": "(Daniel Drießen) Panel de administración mejorado y corrigió algún texto.\n(Daniel Drießen) Añadido traducciones perdidas en el panel de administración.",
+        "pl": "(Daniel Drießen) Ulepszony panel administracyjny i poprawiony tekst.\n(Daniel Drießen) Dodano brakujące tłumaczenia na panelu administracyjnym.",
+        "uk": "(Daniel Drießen) Удосконалено панель адміністратора та виправлено текст.\n(Daniel Drießen) Додано відсутні переклади на адмін панелі.",
+        "zh-cn": "(丹尼尔·德利根) 改进了管理面板并更正了一些案文.\n(丹尼尔·德利根) 在管理面板上添加缺失的翻译 ."
+      },
       "0.1.2": {
         "en": "(Daniel Drießen) Modified admin page\n(Daniel Drießen) Changed 'redirectURI' back to 'localhost'",
         "de": "(Daniel Drießen) Modified admin page\n(Daniel Drießen) 'redirectURI' zurück zu 'localhost '",

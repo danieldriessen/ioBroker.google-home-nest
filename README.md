@@ -122,8 +122,7 @@ By using this adapter, you agree to the following terms:
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.2.0 (2024-05-02)
 -   (Daniel Drießen) Improved admin panel and corrected some text.
 -	(Daniel Drießen) Added missing translations on the admin panel.
 
