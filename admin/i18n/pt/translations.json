@@ -1,7 +1,7 @@
 {
 	"google-home-nest adapter settings": "Configurações do adaptador para google-home-nest",
 	"HTTP-Server": "Servidor HTTP",
-	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' do 'Google - Console do Acesso a Dispositivos'",
 	"Authentication": "Autenticação",
+	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' do 'Google - Console do Acesso a Dispositivos'",
 	"Evetns": "Eventos"
 }

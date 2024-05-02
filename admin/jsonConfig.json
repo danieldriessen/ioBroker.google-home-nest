@@ -155,7 +155,7 @@
 			"md": 12,
 			"lg": 4,
 			"label": "Project-ID",
-			"help": "Project-ID from the 'Google - Device Access Console'",
+			"help": "'Project-ID' from the 'Google - Device Access Console'",
 			"newLine": true
 		},
 		"_projectID_googleDeviceAccessConsoleLink": {
@@ -185,8 +185,20 @@
 			"sm": 12,
 			"md": 12,
 			"lg": 4,
-			"label": "Client-Secret",
-			"help": "Client-Secret from the 'Google Cloud Console'",
+			"label": {
+				"de": "Clientschlüssel",
+				"en": "Client secret",
+				"es": "Secreto del cliente",
+				"fr": "Code secret du client",
+				"it": "Client secret",
+				"nl": "Geheim van de klant",
+				"pl": "Tajny klucz klienta",
+				"pt": "Chave secreta do cliente",
+				"ru": "Секрет клиента",
+				"uk": "Секрет клієнта",
+				"zh-cn": "客户端密钥"
+			},
+			"help": "'Client secret' from the 'Google Cloud Console'",
 			"newLine": true
 		},
 		"_clientSecret_googleDeviceAccessConsoleLink": {
