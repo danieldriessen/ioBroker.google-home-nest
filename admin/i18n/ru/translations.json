@@ -3,5 +3,11 @@
 	"HTTP-Server": "HTTP-сервер",
 	"Authentication": "Аутентификация",
 	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' из 'Google - Консоль доступа к устройствам'",
-	"Events": "События"
+	"'Project-ID' from the 'Google - Device Access Console'": "'Идентификатор проекта' с 'Google - Консоль доступа к устройствам'",
+	"'Client secret' from the 'Google Cloud Console'": "'Секрет клиента' из 'Консоли Google Cloud'",
+	"'Google Cloud - Project-ID' from the 'Google Cloud Console'": "'Google Cloud - Идентификатор проекта' из 'Консоли Google Cloud'",
+	"Events": "События",
+	"Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)": "Включить события для получения уведомлений о событиях для устройств от Google.<br>(Для работы этой функции необходимо включить 'Тему Pub/Sub' в 'Google - Консоли доступа к устройствам'.)",
+	"If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)": "Если выбрано «PULL», сообщения о событиях будут непрерывно получаться адаптером с пользовательским таймаутом.<br>Если выбрано «PUSH», сообщения о событиях будут доставляться в систему автоматически, как только появится новое сообщение.<br>(В настоящее время доступен только метод «PULL»!)",
+	"The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.": "Время ожидания (в секундах), после которого следующий запрос 'PULL' отправляется в 'Pub/Sub-систему' Google для получения новых сообщений о событиях."
 }

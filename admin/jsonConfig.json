@@ -154,7 +154,19 @@
 			"sm": 12,
 			"md": 12,
 			"lg": 4,
-			"label": "Project-ID",
+			"label": {
+				"de": "Projekt-ID",
+				"en": "Project-ID",
+				"es": "ID del proyecto",
+				"fr": "ID de projet",
+				"it": "ID progetto",
+				"nl": "Project-ID",
+				"pl": "ID projektu",
+				"pt": "ID do projeto",
+				"ru": "Идентификатор проекта",
+				"uk": "Ідентифікатор проекту",
+				"zh-cn": "项目ID"
+			},
 			"help": "'Project-ID' from the 'Google - Device Access Console'",
 			"newLine": true
 		},
@@ -201,20 +213,20 @@
 			"help": "'Client secret' from the 'Google Cloud Console'",
 			"newLine": true
 		},
-		"_clientSecret_googleDeviceAccessConsoleLink": {
+		"_clientSecret_googleCloudConsoleLink": {
 			"type": "staticLink",
 			"label": {
-				"de": "Gerätezugriffskonsole",
-				"en": "Device Access Console",
-				"es": "Consola de Acceso a dispositivos",
-				"fr": "Console Device Access",
-				"it": "Console Accesso ai dispositivi",
-				"nl": "Apparaattoegangsconsole",
-				"pl": "Konsola dostępu do urządzenia",
-				"pt": "Console do Acesso a Dispositivos",
-				"ru": "Консоль доступа к устройствам",
-				"uk": "Консоль доступу до пристроїв",
-				"zh-cn": "设备访问控制台"
+				"de": "Cloud Console",
+				"en": "Cloud Console",
+				"es": "Consola de Cloud",
+				"fr": "Console Cloud",
+				"it": "Console Cloud",
+				"nl": "Cloud Console",
+				"pl": "Konsola Cloud",
+				"pt": "Console do Cloud",
+				"ru": "Консоль Cloud",
+				"uk": "Консоль Cloud",
+				"zh-cn": "Cloud 控制台"
 			},
 			"href": "https://console.cloud.google.com/",
 			"button": true,
@@ -277,13 +289,37 @@
 			"sm": 12,
 			"md": 12,
 			"lg": 4,
-			"label": "Google Cloud - Project-ID",
-			"help": "Google Cloud Project-ID from the 'Google - Cloud Console'",
+			"label": {
+				"de": "Google Cloud - Projekt-ID",
+				"en": "Google Cloud - Project-ID",
+				"es": "Google Cloud - ID del proyecto",
+				"fr": "Google Cloud - ID de projet",
+				"it": "Google Cloud - ID progetto",
+				"nl": "Google Cloud - Project-ID",
+				"pl": "Google Cloud - ID projektu",
+				"pt": "Google Cloud - ID do projeto",
+				"ru": "Google Cloud - Идентификатор проекта",
+				"uk": "Google Cloud - Ідентифікатор проекту",
+				"zh-cn": "Google Cloud - 项目ID"
+			},
+			"help": "'Google Cloud - Project-ID' from the 'Google Cloud Console'",
 			"newLine": true
 		},
-		"_googleCloudProjectID_googleDeviceAccessConsoleLink": {
+		"_googleCloudProjectID_googleCloudConsoleLink": {
 			"type": "staticLink",
-			"text": "Cloud Console",
+			"label": {
+				"de": "Cloud Console",
+				"en": "Cloud Console",
+				"es": "Consola de Cloud",
+				"fr": "Console Cloud",
+				"it": "Console Cloud",
+				"nl": "Cloud Console",
+				"pl": "Konsola Cloud",
+				"pt": "Console do Cloud",
+				"ru": "Консоль Cloud",
+				"uk": "Консоль Cloud",
+				"zh-cn": "Cloud 控制台"
+			},
 			"href": "https://console.cloud.google.com/",
 			"button": true,
 			"icon": "google_icon.png",
@@ -296,8 +332,20 @@
 			"sm": 12,
 			"md": 12,
 			"lg": 4,
-			"label": "Enable Events",
-			"help": "Enable events ro receive notifications from Google. In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'",
+			"label": {
+				"de": "Ereignisse aktivieren",
+				"en": "Enable Events",
+				"es": "Activar eventos",
+				"fr": "Activer les événements",
+				"it": "Abilita eventi",
+				"nl": "Gebeurtenissen inschakelen",
+				"pl": "Włącz zdarzenia",
+				"pt": "Ativar eventos",
+				"ru": "Включить события",
+				"uk": "Увімкнути події",
+				"zh-cn": "启用事件"
+			},
+			"help": "Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)",
 			"newLine": true,
 			"disabled": "!data.googleCloudProjectID"
 		},
@@ -307,8 +355,20 @@
 		},
 		"eventsAcquisitionMethod": {
 			"type": "select",
-			"label": "Events acquisition method",
-			"help": "If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>Currently only the 'PULL' method is available!",
+			"label": {
+				"de": "Ereigniserfassungsmethode",
+				"en": "Events acquisition method",
+				"es": "Método de adquisición de eventos",
+				"fr": "Méthode d'acquisition d'événements",
+				"it": "Metodo di acquisizione eventi",
+				"nl": "Methode voor het verkrijgen van gebeurtenissen",
+				"pl": "Metoda pozyskiwania zdarzeń",
+				"pt": "Método de aquisição de eventos",
+				"ru": "Метод получения событий",
+				"uk": "Метод отримання подій",
+				"zh-cn": "事件获取方法"
+			},
+			"help": "If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)",
 			"options": [
 				{ "label": { "en": "PULL" }, "value": "PULL" },
 				{ "label": { "en": "PUSH" }, "value": "PUSH" }
@@ -326,8 +386,20 @@
 		},
 		"eventsPullTimeout": {
 			"type": "number",
-			"label": "Events Pull timeout (in seconds)",
-			"help": "The timeout (in seconds) after which the next PULL request is send to Google's 'Pub/Sub System' in order to fetch new event messages.",
+			"label": {
+				"de": "Ereignis-Pull-Timeout (in Sekunden)",
+				"en": "Events Pull timeout (in seconds)",
+				"es": "Tiempo de espera de eventos (en segundos)",
+				"fr": "Délai d'attente des événements (en secondes)",
+				"it": "Timeout Pull eventi (in secondi)",
+				"nl": "Time-out voor gebeurtenissen ophalen (in seconden)",
+				"pl": "Limit czasu wyciągania zdarzeń (w sekundach)",
+				"pt": "Tempo limite de extração de eventos (em segundos)",
+				"ru": "Время ожидания событий (в секундах)",
+				"uk": "Таймаут витягування подій (в секундах)",
+				"zh-cn": "事件拉取超时（秒）"
+			},
+			"help": "The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.",
 			"sm": 12,
 			"md": 12,
 			"lg": 4,

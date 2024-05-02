@@ -2,6 +2,12 @@
 	"google-home-nest adapter settings": "Adaptereinstellungen für google-home-nest",
 	"HTTP-Server": "HTTP-Server",
 	"Authentication": "Authentifizierung",
-	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' aus der 'Google - Gerätezugriffskonsole'",
-	"Events": "Ereignisse"
+	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' von der 'Google - Gerätezugriffskonsole'",
+	"'Project-ID' from the 'Google - Device Access Console'": "'Projekt-ID' von der 'Google - Gerätezugriffskonsole'",
+	"'Client secret' from the 'Google Cloud Console'": "'Clientschlüssel' von der 'Google Cloud Console'",
+	"'Google Cloud - Project-ID' from the 'Google Cloud Console'": "'Google Cloud - Projekt-ID' von der 'Google Cloud Console'",
+	"Events": "Ereignisse",
+	"Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)": "Aktiviere Ereignisse, um Ereignisbenachrichtigungen für die Geräte von Google zu erhalten.<br>(Damit dies funktioniert, muss das 'Pub/Sub-Topic' in der 'Google - Gerätezugriffskonsole' aktiviert sein.)",
+	"If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)": "Wenn 'PULL' ausgewählt ist, werden Ereignisnachrichten kontinuierlich vom Adapter abgerufen, mit einem benutzerdefinierten Timeout.<br>Wenn 'PUSH' ausgewählt ist, werden Ereignisnachrichten automatisch an das System übermittelt, sobald eine neue Nachricht verfügbar ist.<br>(Aktuell ist nur die Methode 'PULL' verfügbar!)",
+	"The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.": "Die Wartezeit (in Sekunden), nach der die nächste 'PULL'-Anfrage an das 'Pub/Sub-System' von Google gesendet wird, um neue Ereignisnachrichten abzurufen."
 }

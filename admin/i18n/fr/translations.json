@@ -3,5 +3,11 @@
 	"HTTP-Server": "Serveur HTTP",
 	"Authentication": "Authentification",
 	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' depuis la 'Google - Console Device Access'",
-	"Events": "Événements"
+	"'Project-ID' from the 'Google - Device Access Console'": "'ID de projet' depuis la 'Google - Console Device Access'",
+	"'Client secret' from the 'Google Cloud Console'": "'Code secret du client' depuis la 'Console Google Cloud'",
+	"'Google Cloud - Project-ID' from the 'Google Cloud Console'": "'Google Cloud - ID de projet' depuis la 'Console Google Cloud'",
+	"Events": "Événements",
+	"Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)": "Activer les événements pour recevoir des notifications d'événements pour les appareils de Google.<br>(Pour que cela fonctionne, le 'Sujet Pub/Sub' doit être activé dans la 'Google - Console Device Access'.)",
+	"If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)": "Si 'PULL' est sélectionné, les messages d'événements seront récupérés en continu par l'adaptateur avec un délai d'attente défini par l'utilisateur.<br>Si 'PUSH' est sélectionné, les messages d'événements seront livrés au système automatiquement dès qu'un nouveau message est disponible.<br>(Actuellement, seule la méthode 'PULL' est disponible !)",
+	"The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.": "Le délai d'attente (en secondes) après lequel la prochaine demande 'PULL' est envoyée au système 'Pub/Sub' de Google afin de récupérer de nouveaux messages d'événements."
 }

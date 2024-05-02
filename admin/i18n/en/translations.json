@@ -3,5 +3,11 @@
 	"HTTP-Server": "HTTP-Server",
 	"Authentication": "Authentication",
 	"'OAuth-Client-ID' from the 'Google - Device Access Console'": "'OAuth-Client-ID' from the 'Google - Device Access Console'",
-	"Events": "Events"
+	"'Project-ID' from the 'Google - Device Access Console'": "'Project-ID' from the 'Google - Device Access Console'",
+	"'Client secret' from the 'Google Cloud Console'": "'Client secret' from the 'Google Cloud Console'",
+	"'Google Cloud - Project-ID' from the 'Google Cloud Console'": "'Google Cloud - Project-ID' from the 'Google Cloud Console'",
+	"Events": "Events",
+	"Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)": "Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)",
+	"If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)": "If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)",
+	"The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.": "The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages."
 }
