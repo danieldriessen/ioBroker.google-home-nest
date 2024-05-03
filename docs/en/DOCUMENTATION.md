@@ -7,6 +7,8 @@
 > You can find the German version here: [🇩🇪 German documentation](../de/DOCUMENTATION.md)
 
 ## Table of Contents
+- [Adapter capabilities](adapter_capabilities.md)
+- [Requirements](requirements.md)
 - [Supported devices](supported_devices.md)
 - [Adapter setup](adapter_setup.md)
 - [Troubleshooting](troubleshooting.md)
