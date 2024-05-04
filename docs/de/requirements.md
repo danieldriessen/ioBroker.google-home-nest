@@ -9,13 +9,13 @@
 ## Basis Anforderungen
 Um die Basisfunktionalität dieses Adapters nutzen zu können, müssen folgende Bedingungen erfüllt sein...
 
-### 1. Deine Google (Nest) Geräte müssen mit einem Google Benutzerkonto verknüpft sein.<br>
+### 1. Deine Google (Nest) Geräte müssen mit einem Google Benutzerkonto verknüpft sein.
   Dies ist für gewöhnlich der Fall, wenn Du deine Google (Nest) Geräte in der Google Home App auf deinem Smartphone hinzugefügt hast und in der App mit einem Benutzerkonto angemeldet bist.
   > [!IMPORTANT]
   > Alte Nest Konten werden nicht unterstützt und müssen vor der Verwendung zu einem Google Konto migriert werden.
 
 ### 2. Du musst für Google **'Device Access'** registriert sein.
-  Wie das funktioniert erfährst Du im Abschnitt 'Adaptereinrichtung' ([hier](adapter_setup.md)).<br>
+  Wie das funktioniert erfährst Du im Abschnitt 'Adaptereinrichtung' ([hier](adapter_setup.md)).
   > [!NOTE]
   > Die Registrierung setzt die Annahme der Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' sowie eine einmalige Gebühr von (Stand: Mai 2024) $5 (US Dollar) vorraus.
 
@@ -24,4 +24,4 @@ Um die Basisfunktionalität dieses Adapters nutzen zu können, müssen folgende 
   > Alte Nest Konten werden nicht unterstützt und müssen vor der Verwendung zu einem Google Konto migriert werden.
 
 ### 3. Nach der erfolgreich abgeschlossenen Registrierung für Google 'Device Access' muss ein Projekt in der Google **'Device Access Console'** erstellt werden.
-  Wie das funktioniert erfährst Du im Abschnitt 'Adaptereinrichtung' ([hier](adapter_setup.md)).<br>
+  Wie das funktioniert erfährst Du im Abschnitt 'Adaptereinrichtung' ([hier](adapter_setup.md)).
