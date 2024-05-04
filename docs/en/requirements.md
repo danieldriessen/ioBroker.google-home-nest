@@ -17,23 +17,23 @@ To be able to use the basic functionality of this adapter, the following conditi
 ### 2. You must be registered for Google **'Device Access'**.
   You can learn how this works in the 'Adapter setup' section ([here](adapter_setup.md)).
   > [!NOTE]
-  > Registration requires acceptance of the terms of use for the 'Google API' and the 'Device Access Sandbox', as well as a one-time fee of $5 (US dollars) (as of May 2024).
+  > Registration requires acceptance of the terms of use for the 'Google API' and the 'Device Access Sandbox', as well as a **one-time fee** of **$5 (US dollars)** (as of May 2024).
 
   > [!IMPORTANT]
-  > Make sure that the registration for Google 'Device Access' is done using the same Google account that your Google (Nest) devices are linked to.<br>
+  > Make sure that the registration for Google **'Device Access'** is done using the same Google account that your Google (Nest) devices are linked to.<br>
   > Old Nest accounts are not supported and must be migrated to a Google account before use.
 
-### 3. A project must be created in the Google 'Device Access Console'.
-  The project can be created in the Google 'Device Access Console' after successful registration for Google 'Device Access'.<br>
+### 3. A project must be created in the Google **'Device Access Console'**.
+  The project can be created in the Google **'Device Access Console'** after successful registration for Google **'Device Access'**.<br>
   You can learn how this works in the 'Adapter setup' section ([here](adapter_setup.md)).
 
   > [!IMPORTANT]
-  > Make sure that the project creation in the Google 'Device Access Console' is done using the same Google account that your Google (Nest) devices are linked to.<br>
+  > Make sure that the project creation in the Google **'Device Access Console'** is done using the same Google account that your Google (Nest) devices are linked to.<br>
   > Old Nest accounts are not supported and must be migrated to a Google account before use.
 
 ### 4. A project must be created in the **'Google Cloud Console'**.
   You can learn how this works in the 'Adapter setup' section ([here](adapter_setup.md)).
 
   > [!IMPORTANT]
-  > Make sure that the creation of the project in the 'Google Cloud Console' is done using the same Google account that your Google (Nest) devices are linked to.<br>
+  > Make sure that the creation of the project in the **'Google Cloud Console'** is done using the same Google account that your Google (Nest) devices are linked to.<br>
   > Old Nest accounts are not supported and must be migrated to a Google account before use.
