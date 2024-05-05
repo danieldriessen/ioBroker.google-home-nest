@@ -85,6 +85,8 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 
 Nachdem Du die für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'** um das Projekt anzulegen.
 
+6. Wähle nun im Dropdown-Menü dein neu angelegtes Projekt aus und gehe dann zum 'Dashboard' des Projekts.
+
 ## **'Projekt-ID'** erwerben
 
 Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
