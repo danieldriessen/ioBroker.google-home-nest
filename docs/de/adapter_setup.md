@@ -104,7 +104,21 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
 
 8. Nachdem Du nun erfolgreich das Projekt in der **'Google Cloud Console'** angelegt hast, muss als nächstes die **'Smart Device Management API'** aktiviert werden.<br>
 
-   
+   Stelle hierfür sicher das im Dropdown-Menü dein neu angelegtes Projekt ausgewählt ist (Schritt 1 im unteren Bild) und folge dann den Schritten 2-4.
+
+   ![Google Cloud Console - APIs aktivieren 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_enableAPIs_01.png)
+
+9. Klicke nun auf der folgenden Seite auf **'+ APIS UND DIENSTE AKTIVIEREN'**.
+   ![Google Cloud Console - APIs aktivieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_enableAPIs_02.png)
+
+10. Nutze die Suchleiste auf der folgenden Seite um die Google **'API Bibliothek'** nach der **'Smart Device Management API'** zu durchsuchen.
+    ![Google Cloud Console - APIs durchsuchen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_searchAPIs.png)
+
+11. Wähle die **'Smart Device Management API'** aus den Suchergebnissen aus.
+    ![Google Cloud Console - APIs durchsuchen - Smart Device Management API](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_searchAPI_smartDeviceManagementAPI.png)
+
+12. Klicke auf der Seite der **'Smart Device Management API'** auf den Button **'AKTIVIEREN'** um die API zu aktivieren.
+    ![Google Cloud Console - API aktivieren - Smart Device Management API](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_activateAPI_smartManagementAPI.png)
 
 ## **'Projekt-ID'** erwerben
 
