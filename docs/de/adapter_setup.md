@@ -128,6 +128,12 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
 14. Klicke auf der Seite der **'Anmeldedaten'** in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
     ![Google Cloud Console - Anmeldedaten erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials.png)
 
+15. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem erstellen einer **'OAuth-Client-ID'** zuerst den Zustellungsbildschirm konfigurieren musst.<br>
+
+    Dies kannst du mit einem Klick auf den Button **'ZUSTIMMUNGSBILDSCHIRM KONFIGURIEREN'** nun tun.
+
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen.png)
+
 ## **'Projekt-ID'** erwerben
 
 Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
