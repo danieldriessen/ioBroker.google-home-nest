@@ -59,6 +59,32 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 4. Wähle nun im sich öffnenden Popup-Fenster **'Neues Projekt'** aus um ein neues Projekt anzulegen.
    ![Google Cloud Console - Projekt auswählen Popup](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_selectProjectPopup.png)
 
+5. Nun muss das neue Projekt konfiguriert werden.<br>
+
+   Hierfür muss ein gültiger **'Projektname'** und eine gültige **'Projekt-ID'** vergeben werden.<br>
+   <br>
+   Der **'Projektname'** dient allein zur Identifizierung des Projekts in deiner Projektbibliothek.<br>
+   Die **'Projekt-ID'** hingegen indentifiziert dein Projekt auf 'globaler' Ebene und muss daher eindeutig sein und kann nachträglich nicht geändert werden.<br>
+   <br>
+   Beim Öffnen der Seite für die Projekterstellung enthält das Textfeld **'Projektname'** bereits einen Vorschlag für den Projektnamen.<br>
+   Ebenfalls wird bereits eine eideutige **'Projekt-ID'** angezeigt, die mit einem Klick auf den Button **'BEARBEITEN'** geändert werden kann.<br>
+   <br>
+   Ein **'Speicherort'** muss nicht zwingend angegeben werden.
+
+> [!TIP]
+> Es bietet sich an einen eigenen **'Projektnamen'** zu vergeben, um das Projekt in Zukunft einfacher identifizieren zu können.<br>
+> z.B.: '*ioBroker - Google Home Nest*' (wie im folgendem Bild zu sehen).
+
+> [!TIP]
+> Da die **'Projekt-ID'** dein Google Cloud Projekt unter allen Google Cloud Projekten eindeutig identifiziert und daher unter allen Google Cloud Projekten eindeutig sein muss,
+> bietet es sich an der **'Projekt-ID'** eine persönliche Komponente zu verleihen.<br>
+> Dein Name oder Teile deines Namens, dein Spitzname oder deine Domain (falls vorhanden) sind gute Beispiele für persönliche Komponenten für die **'Projekt-ID'**.
+> Es spricht aber auch nichts dagegen, einfach die vorgeschlagene **'Projekt-ID'** zu übernehmen. Unter Umständen ist dies sogar die einfachste Option.
+
+![Google Cloud Console - Neues Projekt erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createNewProject_01.png)
+
+Nachdem Du die für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'** um das Projekt anzulegen.
+
 ## **'Projekt-ID'** erwerben
 
 Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
