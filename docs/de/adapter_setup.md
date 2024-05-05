@@ -138,6 +138,14 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_02.png)
 
 17. Auf der nächsten Seite müssen nun einige Angaben für den **'Zustimmungsbildschirm'** gemacht werden.
+
+    | Punkt | Feldname                                         | verpflichtend? | Beschreibung                                                                                                                 |
+    | ----- | ------------------------------------------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+    | 1     | Anwendungsname                                   | Ja             | Gebe hier einen Namen für die um Zustimmung bittende Anwendung ein.<br>Zum Beispiel: *'Google-Home-Nest (ioBroker Adapter)'* |
+    | 2     | Nutzersupport E-Mail                             | Ja             | Hier gibst Du deine E-Mail Adresse ein.                                                                                      |
+    | 3     | E-Mail Adressen<br>(Kontaktdaten des Entwicklers | Ja             | Hier gibst Du erneut deine E-Mail Adresse ein                                                                                |
+    | 4     | Hochzuladene Logodatei                           | Nein           | Hier kann ein Logo für die um Zustimmung bittende Anwendung hochgeladen werden.<br>Dies ist nicht verpflichtend und kann ausgelassen werden.<br>Falls erwünscht kann hier aber z.B. das Adapter-Logo hochgeladen werden.<br>Das Adapter-Logo kannst Du dir bei Bedarf von [hier](https://github.com/danieldriessen/ioBroker.google-home-nest/blob/main/admin/google-home-nest.png) herunterladen. |
+    
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_03.png)
 
 ## **'Projekt-ID'** erwerben
