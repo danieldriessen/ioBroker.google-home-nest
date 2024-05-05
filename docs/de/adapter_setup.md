@@ -52,6 +52,10 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 > [!IMPORTANT]
 > Achte darauf, das Du mit demselben Google Konto eingeloggt bist, mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
+3. Als nächstes muss in der **'Google Cloud Console'** ein neues Projekt angelegt werden.<br>
+   Klicke dazu im oberen Bereich der **'Google Cloud Console'** auf das Auswahlmenü 'Projekt auswählen'.
+   ![Google Cloud Console - Projekt auswählen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_selectProject.png)
+
 ## **'Projekt-ID'** erwerben
 
 Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
