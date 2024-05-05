@@ -46,6 +46,11 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 > Die **'Google Cloud Console'** kann auch über die Adresse 'https://console.cloud.google.com/'<br>oder einem Klick auf einer der entsprechenden Button im **'Admin Panel'** aufgerufen werden.
 
 2. Wenn Du die **'Google Cloud Console'** zum ersten Mal aufrufst, wirst Du nun aufgefordert die Nutzungsbedingungen für die **'Google Cloud Platform'** zu akzeptieren.
+   ![Nutzungsbedingungen - Google Cloud Console](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_terms.png)
+   
+   Um fortzufahren, stimme den Nutzungsbedingungen zu.
+> [!IMPORTANT]
+> Achte darauf, das Du mit demselben Google Konto eingeloggt bist, mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
 ## **'Projekt-ID'** erwerben
 
@@ -59,4 +64,4 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 > Die **'Gerätezugriffskonsole'** kann auch über die Adresse 'https://console.nest.google.com/device-access/'<br>oder einem Klick auf einer der entsprechenden Button im **'Admin Panel'** aufgerufen werden.
 
 2. Sofern nicht bereits geschehen, müssen nun die Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' akzeptiert werden.
-![Terms - Google Device Access Console](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
+   ![Nutzungsbedingungen - Google Device Access Console](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
