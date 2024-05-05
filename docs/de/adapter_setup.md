@@ -85,11 +85,26 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 
 Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'** um das Projekt anzulegen.
 
-6. Wähle nun im Dropdown-Menü dein neu angelegtes Projekt aus und gehe dann zum 'Dashboard' des Projekts.<br>
+6. Wähle nun im Dropdown-Menü dein neu angelegtes Projekt aus und gehe dann zum **'Dashboard'** des Projekts.<br>
    
    Folge hierfür die Schritte 1-4 im unteren Bild.
 
    ![Google Cloud Console - Gehe zu Projekt Dashboard](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToProjectDashboard.png)
+
+7. Auf dem **'Dashboard'** des Projekts findest du nun im Bereich **'Projektinformationen'** deinen **'Projektnamen'**, deine **'Projektnummer'** und deine **'Projekt-ID'**.<br>
+
+> [!NOTE]
+> Die **'Projekt-ID'** benötigst Du für die **Erweiterte Einrichtung** und ist für die **Basis-Einrichtung** nicht erforderlich.
+
+> [!IMPORTANT]
+> Bei der **'Projekt-ID'** (wie im unteren Bild zu sehen) handelt es sich um die **'Google Cloud - Projekt-ID'**.<br>
+> Diese ist bitte nicht mit der **'Google - Device Access Console - Projekt-ID'** zu verwechseln, die Du für die **Basis-Einrichtung** benötigst und im **'Admin Panel'** unter **Punkt 3** einzutragen ist.
+
+   ![Google Cloud Console - Projektinformationen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_projectInformation.png)
+
+8. Nachdem Du nun erfolgreich das Projekt in der **'Google Cloud Console'** angelegt hast, muss als nächstes die **'Smart Device Management API'** aktiviert werden.<br>
+
+   
 
 ## **'Projekt-ID'** erwerben
 
