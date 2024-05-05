@@ -132,7 +132,10 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
 
     Dies kannst du mit einem Klick auf den Button **'ZUSTIMMUNGSBILDSCHIRM KONFIGURIEREN'** nun tun.
 
-    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_01.png)
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_01.png)
+
+16. Wähle nun auf der nächsten Seite **'Extern'** für den **'User Type'** aus und klicke anschließend auf den Button **'ERSTELLEN'**
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_02.png)
 
 ## **'Projekt-ID'** erwerben
 
