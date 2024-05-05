@@ -17,17 +17,17 @@
 
 ## Basis-Einrichtung
 
-Für die **Basis-Einrichtung** muss zunächst unter Punkt 1 ein Port für den HTTP-Server ausgewählt werden.<br>
+1. Für die **Basis-Einrichtung** muss zunächst unter Punkt 1 ein Port für den HTTP-Server ausgewählt werden.<br>
 
 > [!IMPORTANT]
 > Stelle sicher, dass der ausgewählte Port nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.
 
-Anschließend müssen die Werte 2-4 eingetragen werden. Wie Du an diese Werte kommst wird in den nächsten Abschnitten beschrieben.<br>
-<br>
-Nach der Eingabe der erforderlichen Daten können diese mit einem Klick auf **'SPEICHERN'** gespeichert werden.<br>
-<br>
-Als nächstes muss der Adapter gestartet werden.<br>
-Der Adapter wird unmittelbar nach dem Start versuchen einen HTTP-Server zu erstellen der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
+2. Anschließend müssen die Werte 2-4 eingetragen werden. Wie Du an diese Werte kommst wird in den nächsten Abschnitten beschrieben.<br>
+
+3. Nach der Eingabe der erforderlichen Daten können diese mit einem Klick auf **'SPEICHERN'** gespeichert werden.<br>
+
+4. Als nächstes muss der Adapter gestartet werden.<br>
+   Der Adapter wird unmittelbar nach dem Start versuchen einen HTTP-Server zu erstellen der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
 
 > [!IMPORTANT]
 > Um den nachfolgenden Schritt erfolgreich abschließen zu können ist es zwingend erforderlich das der Adapter und damit der HTTP-Server gestartet wurde und der HTTP-Server den angegebenen Port überwachen kann.
@@ -35,18 +35,18 @@ Der Adapter wird unmittelbar nach dem Start versuchen einen HTTP-Server zu erste
 > [!IMPORTANT]
 > Um den folgenden Schritt erfolgreich abschließen zu können, muss dieser zwingend von einem Browser auf demselben Gerät ausgeführt werden, auf dem der ioBroker installiert ist.
 
-Nun kann mit einem Klick auf den **'Authentifizieren'** Button im Bereich **'Authentifizierung'** des **'Admin Panel'** die Authentifizierung gestartet werden.
+5. Nun kann mit einem Klick auf den **'Authentifizieren'** Button im Bereich **'Authentifizierung'** des **'Admin Panel'** die Authentifizierung gestartet werden.
 
-## OAuth-Client-ID & Projekt-ID erwerben
+## **'Projekt-ID'** erwerben
 
-Um eine **'OAuth-Client-ID'** & eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
+1. Um eine **'OAuth-Client-ID'** & eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
 
 > [!NOTE]
 > Die Registrierung setzt die Annahme der Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' sowie eine **einmalige Gebühr** von (Stand: Mai 2024) **$5 (US Dollar)** vorraus.
 
-Rufe in deinem Browser die [Gerätezugriffskonsole](https://console.nest.google.com/device-access/) auf.<br>
+2. Rufe in deinem Browser die [Gerätezugriffskonsole](https://console.nest.google.com/device-access/) auf.<br>
 > [!TIP]
 > Die **'Gerätezugriffskonsole'** kann auch über die Adresse 'https://console.nest.google.com/device-access/'<br>oder einem Klick auf einer der entsprechenden Button im **'Admin Panel'** aufgerufen werden.
 
-Sofern nicht bereits geschehen, müssen nun die Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' akzeptiert werden.
+3. Sofern nicht bereits geschehen, müssen nun die Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' akzeptiert werden.
 ![Terms - Google Device Access Console](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
