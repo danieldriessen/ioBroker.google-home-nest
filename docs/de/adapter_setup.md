@@ -71,6 +71,10 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
    <br>
    Ein **'Speicherort'** muss nicht zwingend angegeben werden.
 
+   ![Google Cloud Console - Neues Projekt erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createNewProject_01.png)
+
+   Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'** um das Projekt anzulegen.
+
 > [!TIP]
 > Es bietet sich an einen eigenen **'Projektnamen'** zu vergeben, um das Projekt in Zukunft einfacher identifizieren zu können.<br>
 > z.B.: '*ioBroker - Google Home Nest*' (wie im folgendem Bild zu sehen).
@@ -81,10 +85,6 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 > Dein Name oder Teile deines Namens, dein Spitzname oder deine Domain (falls vorhanden) sind gute Beispiele für persönliche Komponenten für die **'Projekt-ID'**.
 > Es spricht aber auch nichts dagegen, einfach die vorgeschlagene **'Projekt-ID'** zu übernehmen. Unter Umständen ist dies sogar die einfachste Option.
 
-![Google Cloud Console - Neues Projekt erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createNewProject_01.png)
-
-Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'** um das Projekt anzulegen.
-
 6. Wähle nun im Dropdown-Menü dein neu angelegtes Projekt aus und gehe dann zum **'Dashboard'** des Projekts.<br>
    
    Folge hierfür die Schritte 1-4 im unteren Bild.
@@ -92,6 +92,7 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
    ![Google Cloud Console - Gehe zu Projekt Dashboard](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToProjectDashboard.png)
 
 7. Auf dem **'Dashboard'** des Projekts findest du nun im Bereich **'Projektinformationen'** deinen **'Projektnamen'**, deine **'Projektnummer'** und deine **'Projekt-ID'**.<br>
+   ![Google Cloud Console - Projektinformationen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_projectInformation.png)
 
 > [!NOTE]
 > Die **'Projekt-ID'** benötigst Du für die **Erweiterte Einrichtung** und ist für die **Basis-Einrichtung** nicht erforderlich.
@@ -99,8 +100,6 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
 > [!IMPORTANT]
 > Bei der **'Projekt-ID'** (wie im unteren Bild zu sehen) handelt es sich um die **'Google Cloud - Projekt-ID'**.<br>
 > Diese ist bitte nicht mit der **'Google - Device Access Console - Projekt-ID'** zu verwechseln, die Du für die **Basis-Einrichtung** benötigst und im **'Admin Panel'** unter **Punkt 3** einzutragen ist.
-
-   ![Google Cloud Console - Projektinformationen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_projectInformation.png)
 
 8. Nachdem Du nun erfolgreich das Projekt in der **'Google Cloud Console'** angelegt hast, muss als nächstes die **'Smart Device Management API'** aktiviert werden.<br>
 
@@ -137,7 +136,7 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
 16. Wähle nun auf der nächsten Seite **'Extern'** für den **'User Type'** aus und klicke anschließend auf den Button **'ERSTELLEN'**
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_02.png)
 
-17. Auf der nächsten Seite müssen nun einige Angaben für den **'Zustimmungsbildschirm'** gemacht werden.
+18. Auf der nächsten Seite müssen nun einige Angaben für den **'Zustimmungsbildschirm'** gemacht werden.
 
     | Punkt | Feldname                                         | verpflichtend? | Beschreibung                                                                                                                 |
     | ----- | ------------------------------------------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -150,8 +149,20 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
     
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_03.png)
 
-18. Der nächste Bildschirm kann mit einem Klick auf **'SPEICHERN UND FORTFAHREN'** einfach übersprungen werden.
-    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_04.png)
+19. Der nächste Bildschirm kann mit einem Klick auf **'SPEICHERN UND FORTFAHREN'** einfach übersprungen werden.
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_04.png)
+
+20. Auf dem nächsten Bildschirm muss ein **Testnutzer** angelegt werden.<br>
+
+    Klicke hierzu zunächst auf **'+ ADD USER'**.
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 05](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_05.png)
+
+    Im angezeigten Dialogfenster muss nun ein **Google Benutzerkonto** angegeben werden.
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_06.png)
+    Klicke anschließend auf den Button **'HINZUFÜGEN'** im Dialogfenster und dann auf dem Button **'SPEICHERN UND FORTFAHREN'** auf der Haupseite.
+    
+> [!IMPORTANT]
+> Stelle sicher das Du hier das **Google Benutzerkonto** angibst mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
 ## **'Projekt-ID'** erwerben
 
