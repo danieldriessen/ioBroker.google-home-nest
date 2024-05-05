@@ -71,7 +71,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
    <br>
    Ein **'Speicherort'** muss nicht zwingend angegeben werden.
 
-   ![Google Cloud Console - Neues Projekt erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createNewProject_01.png)
+   ![Google Cloud Console - Neues Projekt erstellen 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createNewProject_01.png)
 
    Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'** um das Projekt anzulegen.
 
@@ -122,10 +122,10 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 13. Nachdem nun die **'Smart Device Management API'** aktiviert ist, müssen die Anmeldedaten erstellt werden.<br>
 
     Klicke dazu zunächst im Menü auf der linken Seite auf **'Anmeldedaten'** um die entsprechende Seite aufzurufen.
-    ![Google Cloud Console - Gehe zu Anmeldedaten](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_01.png)
+    ![Google Cloud Console - Gehe zu Anmeldedaten 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_01.png)
 
 14. Klicke auf der Seite der **'Anmeldedaten'** in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
-    ![Google Cloud Console - Anmeldedaten erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_01.png)
+    ![Google Cloud Console - Anmeldedaten erstellen 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_01.png)
 
 16. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem Erstellen einer **'OAuth-Client-ID'** zuerst den **'Zustimmungsbildschirm'** konfigurieren musst.<br>
 
@@ -169,10 +169,13 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 
 22. Da der **'Zustimmungsbildschirm'** nun konfiguriert ist, kannst Du nun deine **'Anmeldedaten'** erstellen.
     Klicke hierzu wieder auf **'Anmeldedaten'** in der linken Menüleiste.
-    ![Google Cloud Console - Gehe zu Anmeldedaten](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_02.png)
+    ![Google Cloud Console - Gehe zu Anmeldedaten 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_02.png)
 
 23. Klicke nun auf der Seite der **'Anmeldedaten'** wieder in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
-    ![Google Cloud Console - Anmeldedaten erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_02.png)
+    ![Google Cloud Console - Anmeldedaten erstellen 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_02.png)
+
+24. Auf der Seite zur Erstellung der **'OAuth-Client-ID'** wählst Du nun bitte **'Webanwendung'** aus dem Dropdown-Menü aus.
+    ![Google Cloud Console - Anmeldedaten erstellen 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_03.png)
 
 ## **'Projekt-ID'** erwerben
 
