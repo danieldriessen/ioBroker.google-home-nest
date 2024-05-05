@@ -132,7 +132,7 @@ Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **
 
     Dies kannst du mit einem Klick auf den Button **'ZUSTIMMUNGSBILDSCHIRM KONFIGURIEREN'** nun tun.
 
-    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen.png)
+    ![Google Cloud Console - Zustimmungsbildschirm konfigurieren](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_01.png)
 
 ## **'Projekt-ID'** erwerben
 
