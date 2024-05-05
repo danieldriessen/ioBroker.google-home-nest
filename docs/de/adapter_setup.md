@@ -171,6 +171,9 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
     Klicke hierzu wieder auf **'Anmeldedaten'** in der linken Menüleiste.
     ![Google Cloud Console - Gehe zu Anmeldedaten](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_02.png)
 
+23. Klicke nun auf der Seite der **'Anmeldedaten'** wieder in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
+    ![Google Cloud Console - Anmeldedaten erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_02.png)
+
 ## **'Projekt-ID'** erwerben
 
 Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Device Access'** registrieren.
