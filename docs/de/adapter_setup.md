@@ -127,13 +127,13 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 14. Klicke auf der Seite der **'Anmeldedaten'** in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
     ![Google Cloud Console - Anmeldedaten erstellen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials.png)
 
-15. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem erstellen einer **'OAuth-Client-ID'** zuerst den Zustellungsbildschirm konfigurieren musst.<br>
+16. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem Erstellen einer **'OAuth-Client-ID'** zuerst den **'Zustimmungsbildschirm'** konfigurieren musst.<br>
 
     Dies kannst du mit einem Klick auf den Button **'ZUSTIMMUNGSBILDSCHIRM KONFIGURIEREN'** nun tun.
 
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_01.png)
 
-16. Wähle nun auf der nächsten Seite **'Extern'** für den **'User Type'** aus und klicke anschließend auf den Button **'ERSTELLEN'**
+17. Wähle nun auf der nächsten Seite **'Extern'** für den **'User Type'** aus und klicke anschließend auf den Button **'ERSTELLEN'**
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_02.png)
 
 18. Auf der nächsten Seite müssen nun einige Angaben für den **'Zustimmungsbildschirm'** gemacht werden.
@@ -166,6 +166,9 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 
 21. Klicke im nächsten Bildschirm, der eine Zusammenfassung der getätigten Einstellungen anzeigt, auf **'ZURÜCK ZUM DASHBOARD'**.
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_07.png)
+
+22. Da der **'Zustimmungsbildschirm'** nun konfiguriert ist, kannst Du nun deine **Anmeldedaten** erstellen.
+    Klicke hierzu wieder
 
 ## **'Projekt-ID'** erwerben
 
