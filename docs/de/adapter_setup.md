@@ -57,6 +57,11 @@
 > Mache Optionen werden hier erst aktivierbar nachdem andere Optionen bereits aktiviert wurden.<br>
 > Es kann außerdem einen kurzen Moment dauern bis einige Optionen aktivierbar werden.
 
+8. Im folgenden Schritt wirst du evtl. nochmals aufgefordert dein **'Google Benutzerkonto'** auszuwählen.<br>
+   Falls dem so ist, wähle hier bitte das **'Google Benutzerkonto'** aus mit dem auch deine Google (Nest) Geräte verknüpft sind.
+
+9. 
+
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
 Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projekt angelegt werden.
