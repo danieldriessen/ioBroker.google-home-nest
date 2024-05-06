@@ -98,8 +98,8 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 > Die **'Projekt-ID'** benötigst Du für die **Erweiterte Einrichtung** und ist für die **Basis-Einrichtung** nicht erforderlich.
 
 > [!IMPORTANT]
-> Bei der **'Projekt-ID'** (wie im unteren Bild zu sehen) handelt es sich um die **'Google Cloud - Projekt-ID'**.<br>
-> Diese ist bitte nicht mit der **'Google - Device Access Console - Projekt-ID'** zu verwechseln, die Du für die **Basis-Einrichtung** benötigst und im **'Admin Panel'** unter **Punkt 3** einzutragen ist.
+> Bei der **'Projekt-ID'** (im oberen Bild) handelt es sich um die **'Google Cloud - Projekt-ID'**.<br>
+> Diese ist bitte nicht mit der **'Projekt-ID'** der Google **'Gerätezugriffskonsole'** zu verwechseln, die Du für die **Basis-Einrichtung** benötigst und im **'Admin Panel'** unter **Punkt 3** einzutragen ist.
 
 8. Nachdem Du nun erfolgreich das Projekt in der **'Google Cloud Console'** angelegt hast, muss als nächstes die **'Smart Device Management API'** aktiviert werden.<br>
 
@@ -234,29 +234,29 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 > Die **'Gerätezugriffskonsole'** kann auch über die Adresse 'https://console.nest.google.com/device-access/'<br>oder einem Klick auf einer der entsprechenden Button im **'Admin Panel'** aufgerufen werden.
 
 2. Sofern nicht bereits geschehen, müssen nun die Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' akzeptiert werden.
-   ![Google Device Access Console - Nutzungsbedingungen](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
+   ![Google Gerätezugriffskonsole - Nutzungsbedingungen](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
    Setze hier das Häckchen und klicke auf **'Weiter zur Zahlung'**.
 
 3. Im nächsten Bildschirm wirst Du nun zur Begleichung der Gebühr aufgefordert.
    Füge falls nötig eine Kredit- oder Debitkarte hinzu und klicke anschließend auf den Button **'KAUFEN'** um die Gebühr zu begleichen und fortzufahren.
-   ![Google Device Access Console - Gebühr 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_01.png)
-   ![Google Device Access Console - Gebühr 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_02.png)
+   ![Google Gerätezugriffskonsole - Gebühr 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_01.png)
+   ![Google Gerätezugriffskonsole - Gebühr 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_02.png)
 
 > [!IMPORTANT]
 > Bitte stelle vor dem Begleichen der Gebühr nochmals sicher, dass Du mit demselben **Google Benutzerkonto** angemeldet bist mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
 5. Auf der **'Gerätezugriffskonsole'** klickst Du nun auf **'Projekt erstellen'** um ein neues Projekt anzulegen.
-   ![Google Device Access Console - Projekt erstellen 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_01.png)
+   ![Google Gerätezugriffskonsole - Projekt erstellen 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_01.png)
 
 6. Als nächstes musst Du dem neuen Projekt einen Namen geben.<br>
    Du kannst den Namen für das neue Projekt frei wählen. **'*ioB: Google-Home-Nest*'** wäre Beispielsweise ein geeigneter Name.
-   ![Google Device Access Console - Projekt erstellen 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
+   ![Google Gerätezugriffskonsole - Projekt erstellen 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
    Nachdem Du den Projektnamen eingegeben hast, klickst du auf den Button **'Weiter'** um zum nächsten Bildschirm zu gelangen.
 
 7. Nun wirst Du aufgefordert deine **'OAuth-Client-ID'** anzugeben.<br>
    Wie du **'Anmeldedaten'** erstellst und hierdurch eine **'OAuth-Client-ID'** erhälst, wird im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** erklärt.<br>
    Gib deine **'OAuth-Client-ID'** ein und klicke anschließend auf den Button **'Weiter'**.
-   ![Google Device Access Console - Projekt erstellen 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
+   ![Google Gerätezugriffskonsole - Projekt erstellen 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
 
 > [!IMPORTANT]
 > An dieser Stelle wird dir die Möglichkeit gegeben diesen Schritt zu überspringen.<br>
@@ -267,4 +267,11 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 8. Der nächste Bildschirm möchte von dir eine Entscheidung bezüglich der Aktivierung von **Ereignissen**.<br>
    Die Aktivierung von **Ereignissen** ist Teil der **'Erweiterten-Einrichtung'**. Gerne kannst du aber schon jezt die **Ereignissen** aktivieren.
    Wähle ob du die **Ereignisse** aktivieren möchtest oder nicht und klicke anschließend auf den Button **'Projekt erstellen'**.
-   ![Google Device Access Console - Projekt erstellen 04](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_04.png)
+   ![Google Gerätezugriffskonsole - Projekt erstellen 04](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_04.png)
+
+9. Das neue Projekt ist nun angelegt und deine **'Projekt-ID'** wird dir im nächsten Bildschirm angezeigt.
+   ![Google Gerätezugriffskonsole - Projekt erstellen 05](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_05.png)
+   Die **'Projekt-ID'** wird für die **Basis-Einrichtung** benötigt und muss im **'Admin Panel'** unter **Punkt 3** eingetragen werden.
+   
+> [!IMPORTANT]
+> Bei der **'Projekt-ID'** (im oberen Bild) handelt es sich um die **'Projekt-ID'** der Google **'Gerätezugriffskonsole'** und NICHT um die **'Google Cloud - Projekt-ID'**.<br>
