@@ -192,6 +192,9 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
     Hierbei ersetzt Du bitte den **'{HTTP-SERVER-PORT}'** - Teil der **URI**<br>mit dem **'HTTP-Server-Port'** den du im **'Admin Panel'** konfiguriert hast.
     ![Google Cloud Console - Anmeldedaten erstellen 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_06.png)
 
+    Sobald Du die **URI** - Eingabe getätigt hast, klickst du bitte auf den Button **'ERSTELLEN'** um die Erstellung der **'OAuth-Client-ID'** abzuschließen.
+    Beacht hierbei aber bitte dringend die folgenden Hinweise...
+
 > [!NOTE]
 > Wenn du den **HTTP-Server-Port** im **Admin Panel** nicht geändert hast, sollte dieser weiterhin auf den Port **'8881'** voreingestellt sein.<br>
 > Die einzugebende **URI** würde in diesem Fall **'*http://localhost:8881*'** lauten.
