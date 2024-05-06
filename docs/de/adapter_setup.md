@@ -22,12 +22,12 @@
 > [!IMPORTANT]
 > Stelle sicher, dass der ausgewählte Port nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.
 
-2. Anschließend müssen die Werte 2-4 eingetragen werden. Wie Du an diese Werte kommst wird in den nächsten Abschnitten beschrieben.<br>
+2. Anschließend müssen die Werte 2-4 eingetragen werden. Wie Du diese Werte erhälst, wird in den nächsten Abschnitten beschrieben.<br>
 
 3. Nach der Eingabe der erforderlichen Daten können diese mit einem Klick auf **'SPEICHERN'** gespeichert werden.<br>
 
 4. Als nächstes muss der Adapter gestartet werden.<br>
-   Der Adapter wird unmittelbar nach dem Start versuchen einen HTTP-Server zu erstellen der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
+   Der Adapter wird unmittelbar nach dem Start versuchen, einen HTTP-Server zu erstellen der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
 
 > [!IMPORTANT]
 > Um die folgenden Schritte erfolgreich abschließen zu können, ist es zwingend erforderlich, dass der Adapter und damit der HTTP-Server gestartet wurde und der HTTP-Server den angegebenen Port überwachen kann.
@@ -64,7 +64,7 @@
    Google möchte hier nochmals deine Zustimmung.<br>
    Klicke auf den Button **'Weiter'** um fortzufahren.
 
-10. Evtl. wirst Du nun nochmals aufgefordert deine Zustimmung zu geben.
+10. Möglicherweise wirst Du nun erneut aufgefordert, deine Zustimmung zu geben.
 
 11. Wenn Du nun in deinem Browser die Nachricht **'*Authorization Code sent to ioBroker successfully. You can close this tab/window now.*'** bekommst, dann hat alles funktioniert und der **'Authorization Code'** wurde vom Adapter empfangen und im ioBroker als Objekt gespeichert.<br>
     Klicke im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Basis-Einrichtung'** abzuschließen.
@@ -90,7 +90,7 @@
 5. Unter Punkt 8 kannst Du nun noch das **'Ereignis-Pull-Timeout'** (in Sekunden) definieren.<br>
    Dieses Timeout gibt an, wie lange der Adapter nach dem letzten Holen von Ereignissen wartet, ehe er erneut beginnt die Ereignisse der Google (Nest) Geräte abzurufen.
 
-6.  Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Erweiterte-Einrichtung'** abzuschließen.
+6. Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Erweiterte-Einrichtung'** abzuschließen.
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
