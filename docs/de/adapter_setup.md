@@ -267,3 +267,4 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 8. Der nächste Bildschirm möchte von dir eine Entscheidung bezüglich der Aktivierung von **Ereignissen**.<br>
    Die Aktivierung von **Ereignissen** ist Teil der **'Erweiterten-Einrichtung'**. Gerne kannst du aber schon jezt die **Ereignissen** aktivieren.
    Wähle ob du die **Ereignisse** aktivieren möchtest oder nicht und klicke anschließend auf den Button **'Projekt erstellen'**.
+   ![Google Device Access Console - Projekt erstellen 04](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_04.png)
