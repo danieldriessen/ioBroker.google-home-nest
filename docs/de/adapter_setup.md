@@ -30,12 +30,17 @@
    Der Adapter wird unmittelbar nach dem Start versuchen einen HTTP-Server zu erstellen der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
 
 > [!IMPORTANT]
-> Um den folgenden Schritt erfolgreich abschließen zu können, ist es zwingend erforderlich, dass der Adapter und damit der HTTP-Server gestartet wurde und der HTTP-Server den angegebenen Port überwachen kann.
-
-> [!IMPORTANT]
-> Um den folgenden Schritt erfolgreich abschließen zu können, muss dieser zwingend von einem Browser auf demselben Gerät ausgeführt werden, auf dem der ioBroker installiert ist.
+> Um die folgenden Schritte erfolgreich abschließen zu können, ist es zwingend erforderlich, dass der Adapter und damit der HTTP-Server gestartet wurde und der HTTP-Server den angegebenen Port überwachen kann.
 
 5. Nun kann mit einem Klick auf den **'Authentifizieren'** Button im Bereich **'Authentifizierung'** des **'Admin Panel'** die Authentifizierung gestartet werden.
+
+> [!IMPORTANT]
+> Um die folgenden Schritte erfolgreich abschließen zu können, muss der Klick auf den Button **'Authentifizieren'** zwingend in einem Browser auf demselben Gerät ausgeführt werden, auf dem der ioBroker installiert ist.
+
+> [!IMPORTANT]
+> Die **'Authentifizierung'** kann nur erfolgreich abgeschlossen werden, wenn Du in deinem Browser mit dem **'Google Benutzerkonto'** angemeldet bist, mit dem auch deine Google (Nest) Geräte verknüpft sind.<br>
+> Wenn du in deinem Standardbrowser zur Zeit mit keinem **'Google Benutzerkonto'** angemeldet bist, wirst Du nach dem Klick auf den Button **'Authentifizieren'** als erstes aufgefordert dich mit deinem **'Google Benutzerkonto'** anzumelden.<br>
+> Solltest Du nach dem Klick auf den Button **'Authentifizieren'** hingegen eine Fehlermeldung erhalten, prüfe bitte zuerst ob Du evtl. zurzeit mit dem falschen **'Google Benutzerkonto'** angemeldet bist.
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
