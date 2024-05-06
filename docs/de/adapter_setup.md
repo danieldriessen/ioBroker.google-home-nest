@@ -60,7 +60,14 @@
 8. Im folgenden Schritt wirst du evtl. nochmals aufgefordert dein **'Google Benutzerkonto'** auszuwählen.<br>
    Falls dem so ist, wähle hier bitte das **'Google Benutzerkonto'** aus mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
-9. 
+9. Jetzt wirst Du darauf aufmerksam gemacht, dass der Adapter nicht von Google überprüft worden ist.<br>
+   Google möchte hier nochmals deine Zustimmung.<br>
+   Klicke auf den Button **'Weiter'** um fortzufahren.
+
+10. Evtl. wirst Du nun nochmals aufgefordert deine Zustimmung zu geben.
+
+11. Wenn Du nun in deinem Browser die Nachricht **'*Authorization Code sent to ioBroker successfully. You can close this tab/window now.*'** bekommst, dann hat alles funktioniert und der **'Authorization Code'** wurde vom Adapter empfangen und im ioBroker als Objekt gespeichert.<br>
+    Klicke im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Basis-Einrichtung'** abzuschließen.
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
