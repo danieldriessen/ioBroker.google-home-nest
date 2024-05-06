@@ -12,8 +12,8 @@
 
 |                                                               | Einrichtungsart            | Beschreibung                                                                                                               |
 | ------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| ![Red annotation dot](../img/annotationDots/redDot.png)       | **Basis-Einrichtung**      | Die in der Übersicht mit roten Kreisen gekennzeichneten Bereiche<br>sind für die **Basis-Einrichtung** erforderlich.       |
-| ![Yellow annotation dot](../img/annotationDots/yellowDot.png) | **Erweiterte-Einrichtung** | Die in der Übersicht mit gelben Kreisen gekennzeichneten Bereiche<br>sind für die **Erweiterte-Einrichtung** erforderlich. |
+| ![Red annotation dot](../img/annotationDots/redDot.png)       | **Basis-Einrichtung**      | Die in der Übersicht mit roten Kreisen gekennzeichneten Bereiche<br>sind für die **Basis-Einrichtung** erforderlich.<br><br>Mit der **Basis-Einrichtung** kann der Adapter grundsätzliche Eigenschaften deiner Google (Nest) Geräte abfragen und einen Objektbaum für deine Geräte im ioBroker anlegen.    |
+| ![Yellow annotation dot](../img/annotationDots/yellowDot.png) | **Erweiterte-Einrichtung** | Die in der Übersicht mit gelben Kreisen gekennzeichneten Bereiche<br>sind für die **Erweiterte-Einrichtung** erforderlich.<br><br>Mit der **Erweiterten-Einrichtung** kann der Adapter **'Ereignisnachrichten'** empfangen (bzw. abrufen) und diese kurzzeitig in den entsprechenden ioBroker Objekten wiederspiegeln. |
 
 ## Basis-Einrichtung
 
