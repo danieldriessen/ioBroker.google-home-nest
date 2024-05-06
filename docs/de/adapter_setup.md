@@ -71,19 +71,26 @@
 
 ## Erweiterte-Einrichtung
 
-1. Für die **Erweiterte-Einrichtung** muss zunächst unter Punkt 5 die **'Google Cloud - Projekt-ID'** eingetragen werden.
+1. Für die **Erweiterte-Einrichtung** muss zunächst unter Punkt 5 die **'Google Cloud - Projekt-ID'** eingetragen werden.<br>
+   Wenn du der Anleitung im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** gefolgt bist, wurde dir die **'Google Cloud - Projekt-ID'** u.a. im **Schritt 7** dieses Abschnitts angezeigt.<br>
+   Um dir die **'Google Cloud - Projekt-ID'** erneut anzeigen zu lassen, kannst du einen der **'Google Cloud Console'** Buttons im Adapter **'Admin Panel'** benutzen um die **'Google Cloud Console'** erneut zu öffnen.<br>
+   Wenn Du oben links auf der **'Google Cloud Console'** dein entsprechendes Projekt ausgewählt hast, wird dir die **'Google Cloud - Projekt-ID'** auf der **'Google Cloud Console'** angezeigt.
 
-2. Danach kann das Häckchen bei **'Ereignisse aktivieren'** (Punkt 6) gesetzt werden.
+2. Damit Ereignisse empfangen (bzw. abgeholt) werden können, muss noch das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** aktiviert sein.<br>
+   Wenn du der Anleitung im Abschnitt **'Projekt-ID erwerben'** gefolgt bist und dich im **Schritt 8** des Abschnitts bereits zur Aktivierung der Ereignisse entschieden hast, sollte das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** bereits aktiviert sein und Du brauchst dich um nichts weiter zu kümmern.<br>
+   Andernfalls folge bitte dem Abschnitt **'Pub/Sub-Thema aktivieren'** um das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** zu aktivieren.
 
-3. Nun kannst Du unter Punkt 7 die **'Ereigniserfassungsmethode'** auswählen.
+3. Danach kann das Häckchen bei **'Ereignisse aktivieren'** (Punkt 6) gesetzt werden.
+
+4. Nun kannst Du unter Punkt 7 die **'Ereigniserfassungsmethode'** auswählen.
 
 > [!WARNING]
 > Momentan wird nur **'PULL'** als **'Ereigniserfassungsmethode'** unterstützt.
 
-4. Unter Punkt 8 kannst Du nun noch das **'Ereignis-Pull-Timeout'** (in Sekunden) definieren.<br>
+5. Unter Punkt 8 kannst Du nun noch das **'Ereignis-Pull-Timeout'** (in Sekunden) definieren.<br>
    Dieses Timeout gibt an, wie lange der Adapter nach dem letzten Holen von Ereignissen wartet, ehe er erneut beginnt die Ereignisse der Google (Nest) Geräte abzurufen.
 
-5.  Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Erweiterte-Einrichtung'** abzuschließen.
+6.  Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Erweiterte-Einrichtung'** abzuschließen.
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
