@@ -340,3 +340,9 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 1. Rufe in deinem Browser die [Gerätezugriffskonsole](https://console.nest.google.com/device-access/) auf.<br>
 > [!TIP]
 > Die **'Gerätezugriffskonsole'** kann auch über die Adresse 'https://console.nest.google.com/device-access/'<br>oder einem Klick auf einer der entsprechenden Button im Adapter **'Admin Panel'** aufgerufen werden.
+
+2. Wähle dein entsprechendes **Projekt** auf der **'Gerätezugriffskonsole'** aus.
+
+3. Klicke auf deiner Projektseite in der Zeile **'Pub/Sub-Thema'** auf den Button mit den drei Punkten und wähle **'Aktivieren'** aus.
+   ![Google Gerätezugriffskonsole - Pub/Sub-Thema aktivieren](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_enablePubSubTopic.png)
+   Das **'Pub/Sub-Thema'** sollte jetzt nach kurzer Bearbeitungszeit in der Zeile als **'Aktiviert'** erscheinen.
