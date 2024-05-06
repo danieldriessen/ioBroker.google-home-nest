@@ -69,6 +69,22 @@
 11. Wenn Du nun in deinem Browser die Nachricht **'*Authorization Code sent to ioBroker successfully. You can close this tab/window now.*'** bekommst, dann hat alles funktioniert und der **'Authorization Code'** wurde vom Adapter empfangen und im ioBroker als Objekt gespeichert.<br>
     Klicke im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Basis-Einrichtung'** abzuschließen.
 
+## Erweiterte-Einrichtung
+
+1. Für die **Erweiterte-Einrichtung** muss zunächst unter Punkt 5 die **'Google Cloud - Projekt-ID'** eingetragen werden.
+
+2. Danach kann das Häckchen bei **'Ereignisse aktivieren'** (Punkt 6) gesetzt werden.
+
+3. Nun kannst Du unter Punkt 7 die **'Ereigniserfassungsmethode'** auswählen.
+
+> [!WARNING]
+> Momentan wird nur **'PULL'** als **'Ereigniserfassungsmethode'** unterstützt.
+
+4. Unter Punkt 8 kannst Du nun noch das **'Ereignis-Pull-Timeout'** (in Sekunden) definieren.<br>
+   Dieses Timeout gibt an, wie lange der Adapter nach dem letzten Holen von Ereignissen wartet, ehe er erneut beginnt die Ereignisse der Google (Nest) Geräte abzurufen.
+
+5.  Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Erweiterte-Einrichtung'** abzuschließen.
+
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
 Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projekt angelegt werden.
