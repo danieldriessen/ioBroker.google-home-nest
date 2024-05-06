@@ -206,6 +206,9 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 > [!IMPORTANT]
 > Bitte beachte auch, dass die **'Weiterleitungs-URI'** **'*http://localhost:{HTTP-SERVER-PORT}*'** von Google akzeptiert wird, während die **'Weiterleitungs-URI'** **'*http://127.0.0.1:{HTTP-SERVER-PORT}*'** von Google NICHT akzeptiert wird.
 
+> [!IMPORTANT]
+> Die Verwendung von **'HTTPS'** anstelle von **'HTTP'** wird an dieser Stelle zu Problemen führen. Stelle sicher das Du **'HTTP'** verwendest.
+
 > [!NOTE]
 > Bei einer zukünftigen Änderung des **'HTTP-Server Port'** im Adapter **'Admin Panel'** muss zwingend auch die **'Weiterleitungs-URI'** entsprechend angepasst werden.
 
