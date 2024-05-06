@@ -330,3 +330,5 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
    
 > [!IMPORTANT]
 > Bei der **'Projekt-ID'** (im oberen Bild) handelt es sich um die **'Projekt-ID'** der Google **'Gerätezugriffskonsole'** und NICHT um die **'Google Cloud - Projekt-ID'**.<br>
+
+## **'Pub/Sub-Thema'** aktivieren
