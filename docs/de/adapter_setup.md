@@ -37,7 +37,7 @@
 
 5. Nun kann mit einem Klick auf den **'Authentifizieren'** Button im Bereich **'Authentifizierung'** des **'Admin Panel'** die Authentifizierung gestartet werden.
 
-## **'OAuth-Client-ID'** erwerben
+## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
 Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projekt angelegt werden.
 
