@@ -235,3 +235,4 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 
 2. Sofern nicht bereits geschehen, müssen nun die Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' akzeptiert werden.
    ![Nutzungsbedingungen - Google Device Access Console](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
+   Setze hier das Häckchen und klicke auf **'Weiter zur Zahlung'**.
