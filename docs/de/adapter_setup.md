@@ -241,3 +241,9 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
    Füge falls nötig eine Kredit- oder Debitkarte hinzu und klicke anschließend auf den Button **'KAUFEN'** um die Gebühr zu begleichen und fortzufahren.
    ![Google Device Access Console - Gebühr 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_01.png)
    ![Google Device Access Console - Gebühr 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_02.png)
+
+> [!IMPORTANT]
+> Bitte stelle vor dem Begleichen der Gebühr nochmals sicher, dass Du mit demselben **Google Benutzerkonto** angemeldet bist mit dem auch deine Google (Nest) Geräte verknüpft sind.
+
+5. Auf der **'Gerätezugriffskonsole'** klickst Du nun auf **'Projekt erstellen'**.
+   ![Google Device Access Console - Projekt erstellen 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_01.png)
