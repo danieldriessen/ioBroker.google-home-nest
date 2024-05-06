@@ -252,3 +252,18 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
    Du kannst den Namen für das neue Projekt frei wählen. **'*ioB: Google-Home-Nest*'** wäre Beispielsweise ein geeigneter Name.
    ![Google Device Access Console - Projekt erstellen 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
    Nachdem Du den Projektnamen eingegeben hast, klickst du auf den Button **'Weiter'** um zum nächsten Bildschirm zu gelangen.
+
+7. Nun wirst Du aufgefordert deine **'OAuth-Client-ID'** anzugeben.<br>
+   Wie du **'Anmeldedaten'** erstellst und hierdurch eine **'OAuth-Client-ID'** erhälst, wird im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** erklärt.<br>
+   Gib deine **'OAuth-Client-ID'** ein und klicke anschließend auf den Button **'Weiter'**.
+   ![Google Device Access Console - Projekt erstellen 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
+
+> [!IMPORTANT]
+> An dieser Stelle wird dir die Möglichkeit gegeben diesen Schritt zu überspringen.<br>
+> Solltest Du noch keine **'OAuth-Client-ID'** erworben haben, kannst Du diesen Schritt nun überspringen.<br>
+> Beachte jedoch, dass die Eingabe der **'OAuth-Client-ID'** zwingend erforderlich ist.<br>
+> Wenn du diesen Schritt überspringst, musst Du die **'OAuth-Client-ID'** zu einem späteren Zeitpunkt nachträglich hinzufügen.
+
+8. Der nächste Bildschirm möchte von dir eine Entscheidung bezüglich der Aktivierung von **Ereignissen**.<br>
+   Die Aktivierung von **Ereignissen** ist Teil der **'Erweiterten-Einrichtung'**. Gerne kannst du aber schon jezt die **Ereignissen** aktivieren.
+   Wähle ob du die **Ereignisse** aktivieren möchtest oder nicht und klicke anschließend auf den Button **'Projekt erstellen'**.
