@@ -234,8 +234,10 @@ Um eine **'Projekt-ID'** zu erhalten muss man sich zunächst für Google **'Devi
 > Die **'Gerätezugriffskonsole'** kann auch über die Adresse 'https://console.nest.google.com/device-access/'<br>oder einem Klick auf einer der entsprechenden Button im **'Admin Panel'** aufgerufen werden.
 
 2. Sofern nicht bereits geschehen, müssen nun die Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' akzeptiert werden.
-   ![Nutzungsbedingungen - Google Device Access Console](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
+   ![Google Device Access Console - Nutzungsbedingungen](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
    Setze hier das Häckchen und klicke auf **'Weiter zur Zahlung'**.
 
 3. Im nächsten Bildschirm wirst Du nun zur Begleichung der Gebühr aufgefordert.
-   Füge eine Kredit- oder Debitkarte hinzu und klicke anschließend auf den Button **'KAUFEN'** um die Gebühr zu begleichen und fortzufahren.
+   Füge falls nötig eine Kredit- oder Debitkarte hinzu und klicke anschließend auf den Button **'KAUFEN'** um die Gebühr zu begleichen und fortzufahren.
+   ![Google Device Access Console - Gebühr 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_01.png)
+   ![Google Device Access Console - Gebühr 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_02.png)
