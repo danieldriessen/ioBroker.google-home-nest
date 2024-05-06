@@ -45,7 +45,17 @@
 6. Solltest Du noch nicht mit einem **'Google Benutzerkonto'** angemeldet sein, melde dich nun mit deinem **'Google Benutzerkonto'** mit dem auch deine Google (Nest) Geräte verknüpft sind an.<br>
    Wenn du bereits mit dem entsprechenden **'Google Benutzerkonto'** angemeldet bist, fahre mit dem nächsten Schritt fort.
 
-7. 
+7. Im nächsten Schritt musst Du nun dem Adapter die Berechtigungen zum Zugriff auf deine Google (Nest) Geräte erteilen.<br>
+   Aktiviere hierzu bitte alle Optionen und klicke anschließend auf den Button **'Weiter'**.
+   ![Adapter Berechtigungen erteilen](img/screenshots/adminPanel/googleAuthorization/screenshot_adminPanel_googleAuthorization_permissions.png)
+
+> [!NOTE]
+> Die Anzahl der hier zu aktivierenden Optionen variiert basierend auf der Anzahl und Art deiner Google (Nest) Geräte.
+> Dementsprechend wird der dir angezeigte Bildschirm vom oberen Screenshot abweichen.
+
+> [!TIP]
+> Mache Optionen werden hier erst aktivierbar nachdem andere Optionen bereits aktiviert wurden.<br>
+> Es kann außerdem einen kurzen Moment dauern bis einige Optionen aktivierbar werden.
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
