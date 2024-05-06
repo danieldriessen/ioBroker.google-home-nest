@@ -193,7 +193,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
     ![Google Cloud Console - Anmeldedaten erstellen 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_06.png)
 
     Sobald Du die **URI** - Eingabe getätigt hast, klickst du bitte auf den Button **'ERSTELLEN'** um die Erstellung der **'OAuth-Client-ID'** abzuschließen.
-    Beacht hierbei aber bitte dringend die folgenden Hinweise...
+    Beachte hierbei aber bitte dringend die folgenden Hinweise...
 
 > [!NOTE]
 > Wenn du den **HTTP-Server-Port** im **Admin Panel** nicht geändert hast, sollte dieser weiterhin auf den Port **'8881'** voreingestellt sein.<br>
@@ -217,6 +217,9 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 
 > [!NOTE]
 > Es kann zwischen 5 Minuten und mehrere Stunden dauern, bis die Einstellungen wirksam werden.
+
+28. In der nun angezeigten Übersicht findest Du deine **'OAuth-Client-ID'** & dein **'Clientschlüssel'**.<br>
+    Trage diese im **'Admin Panel'** in die entsprechenden Felder ein (2 & 4) ein.
 
 ## **'Projekt-ID'** erwerben
 
