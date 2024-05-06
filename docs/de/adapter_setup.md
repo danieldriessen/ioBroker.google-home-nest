@@ -10,7 +10,7 @@
 
 ![Übersicht 'Admin Panel'](img/screenshots/adminPanel/v0.2.0/annotated/5868px/screenshot_adminPanel_annotated_v0.2.0_(5868px).png)
 
-|                                                               |                            |                                                                                                                            |
+|                                                               | Einrichtungsart            | Beschreibung                                                                                                               |
 | ------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ![Red annotation dot](../img/annotationDots/redDot.png)       | **Basis-Einrichtung**      | Die in der Übersicht mit roten Kreisen gekennzeichneten Bereiche<br>sind für die **Basis-Einrichtung** erforderlich.       |
 | ![Yellow annotation dot](../img/annotationDots/yellowDot.png) | **Erweiterte-Einrichtung** | Die in der Übersicht mit gelben Kreisen gekennzeichneten Bereiche<br>sind für die **Erweiterte-Einrichtung** erforderlich. |
