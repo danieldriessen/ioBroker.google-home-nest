@@ -42,6 +42,11 @@
 > Wenn du in deinem Standardbrowser zur Zeit mit keinem **'Google Benutzerkonto'** angemeldet bist, wirst Du nach dem Klick auf den Button **'Authentifizieren'** als erstes aufgefordert dich mit deinem **'Google Benutzerkonto'** anzumelden.<br>
 > Solltest Du nach dem Klick auf den Button **'Authentifizieren'** hingegen eine Fehlermeldung erhalten, prüfe bitte zuerst ob Du evtl. zurzeit mit dem falschen **'Google Benutzerkonto'** angemeldet bist.
 
+6. Solltest Du noch nicht mit einem **'Google Benutzerkonto'** angemeldet sein, melde dich nun mit deinem **'Google Benutzerkonto'** mit dem auch deine Google (Nest) Geräte verknüpft sind an.<br>
+   Wenn du bereits mit dem entsprechenden **'Google Benutzerkonto'** angemeldet bist, fahre mit dem nächsten Schritt fort.
+
+7. 
+
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
 Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projekt angelegt werden.
