@@ -174,8 +174,43 @@ Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projek
 23. Klicke nun auf der Seite der **'Anmeldedaten'** wieder in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
     ![Google Cloud Console - Anmeldedaten erstellen 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_02.png)
 
-24. Auf der Seite zur Erstellung der **'OAuth-Client-ID'** wählst Du nun bitte **'Webanwendung'** aus dem Dropdown-Menü aus.
+24. Auf der Seite zur Erstellung der **'OAuth-Client-ID'** wählst Du nun **'Webanwendung'** aus dem Dropdown-Menü aus.
     ![Google Cloud Console - Anmeldedaten erstellen 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_03.png)
+
+25. Im daraufhin erscheinendem Feld **'Name'**, (welches bereits mit dem Text '*Webclient 1*' vorausgefüllt ist, kannst du nun den Namen der 'Anwendung' (des Webclient) angeben, der Zugriff auf die Resource verlangt.
+    ![Google Cloud Console - Anmeldedaten erstellen 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_04.png)
+
+> [!TIP]
+> Ein guter Name wäre an dieser Stelle z.B.: '*ioBroker*'
+
+26. Als nächstes klickst Du bitte auf den Button **'+ URI HINZUFÜGEN'**.
+    ![Google Cloud Console - Anmeldedaten erstellen 05](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_05.png)
+
+27. Es erscheint nun ein weiteres Textfeld **'URIs 1'** in dem die **'Weiterleitungs-URI'** angegeben werden muss.<br>
+
+    An dieser Stelle gibst Du bitte die folgende **URI** ein: **'http://localhost:{HTTP-SERVER-PORT}'**.<br>
+    Hierbei ersetzt Du bitte den **'{HTTP-SERVER-PORT}'** - Teil der **URI**<br>mit dem **'HTTP-Server-Port'** den du im **'Admin Panel'** konfiguriert hast.
+    ![Google Cloud Console - Anmeldedaten erstellen 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_06.png)
+
+> [!NOTE]
+> Wenn du den **HTTP-Server-Port** im **Admin Panel** nicht geändert hast, sollte dieser weiterhin auf den Port **'8881'** voreingestellt sein.<br>
+> Die einzugebende **URI** würde in diesem Fall **'*http://localhost:8881*'** lauten.
+
+> [!NOTE]
+> Für die spätere Abfrage eines **'Authorization Code'** ist eine korrekt konfigurierte **'Weiterleitungs-URI'** zwingend erforderlich.
+
+> [!IMPORTANT]
+> An dieser Stelle nochmal der Hinweis:<br>
+> Stelle sicher, dass der ausgewählte **HTTP-Server-Port** nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.
+
+> [!IMPORTANT]
+> Bitte beachte auch, dass die **'Weiterleitungs-URI'** **'*http://localhost:{HTTP-SERVER-PORT}*'** von Google akzeptiert wird, während die **'Weiterleitungs-URI'** **'*http://127.0.0.1:{HTTP-SERVER-PORT}*'** von Google NICHT akzeptiert wird.
+
+> [!NOTE]
+> Bei einer zukünftigen Änderung des **'HTTP-Server Port'** im Adapter **'Admin Panel'** muss zwingend auch die **'Weiterleitungs-URI'** entsprechend angepasst werden.
+
+> [!NOTE]
+> Es kann zwischen 5 Minuten und mehrere Stunden dauern, bis die Einstellungen wirksam werden.
 
 ## **'Projekt-ID'** erwerben
 
