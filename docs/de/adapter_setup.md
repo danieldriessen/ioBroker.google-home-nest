@@ -274,7 +274,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 > Es kann zwischen 5 Minuten und mehrere Stunden dauern, bis die Einstellungen wirksam werden.
 
 27. In der nun angezeigten Übersicht findest Du deine **'OAuth-Client-ID'** & dein **'Clientschlüssel'**.<br>
-    Trage diese im **'Admin Panel'** in die entsprechenden Felder ein (2 & 4) ein.
+    Trage diese im Adapter **'Admin Panel'** in die entsprechenden Felder ein (2 & 4) ein.
     ![Google Cloud Console - Anmeldedaten erstellen 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_07.png)
 
 ## **'Projekt-ID'** erwerben
