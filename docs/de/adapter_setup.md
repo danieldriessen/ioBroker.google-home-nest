@@ -306,7 +306,7 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
 5. Als nächstes musst Du dem neuen Projekt einen Namen geben.<br>
    Du kannst den Namen für das neue Projekt frei wählen. **'*ioB: Google-Home-Nest*'** wäre beispielsweise ein geeigneter Name.
    ![Google Gerätezugriffskonsole - Projekt erstellen 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
-   Nachdem Du den Projektnamen eingegeben hast, klickst du auf den Button **'Weiter'** um zum nächsten Bildschirm zu gelangen.
+   Nachdem Du den Projektnamen eingegeben hast, klickst du auf den Button **'Weiter'**, um zum nächsten Bildschirm zu gelangen.
 
 6. Nun wirst Du aufgefordert deine **'OAuth-Client-ID'** anzugeben.<br>
    Wie du **'Anmeldedaten'** erstellst und hierdurch eine **'OAuth-Client-ID'** erhälst, wird im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** erklärt.<br>
