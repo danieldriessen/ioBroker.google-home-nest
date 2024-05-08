@@ -251,7 +251,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
     Beachte hierbei aber bitte dringend die folgenden Hinweise...
 
 > [!NOTE]
-> Wenn du den **HTTP-Server-Port** im **Admin Panel** nicht geändert hast, sollte dieser weiterhin auf den Port **'8881'** voreingestellt sein.<br>
+> Wenn du den **HTTP-Server-Port** im Adapter **Admin Panel** nicht geändert hast, sollte dieser weiterhin auf den Port **'8881'** voreingestellt sein.<br>
 > Die einzugebende **URI** würde in diesem Fall **'*http://localhost:8881*'** lauten.
 
 > [!NOTE]
