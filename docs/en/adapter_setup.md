@@ -34,3 +34,37 @@
 
 5. Now, authentication can be initiated by clicking the **'Authenticate'** button in the **'Authentication'** section of the Adapter **'Admin Panel'**.
 
+> [!IMPORTANT]
+> To successfully complete the following steps, it is essential that the click on the **'Authenticate'** button is performed in a browser on the same device where ioBroker is installed.
+
+> [!IMPORTANT]
+> The **'Authentication'** can only be successfully completed if you are signed in to your browser with the **'Google Account'** associated with your Google (Nest) devices.<br>
+> If you are currently not signed in with any **'Google Account'** in your default browser, you will be prompted to sign in with your **'Google Account'** first after clicking the **'Authenticate'** button.<br>
+> If, however, you receive an error message after clicking the **'Authenticate'** button, please first check if you are currently signed in with the wrong **'Google Account'**.
+
+6. If you are not already signed in with a **'Google Account'**, please sign in now with the **'Google Account'** associated with your Google (Nest) devices.<br>
+   If you are already signed in with the corresponding **'Google Account'**, proceed to the next step.
+
+7. In the next step, you need to grant the adapter permissions to access your Google (Nest) devices.<br>
+   To do this, please enable all options and then click the 'Next' button.
+   ![Grant Adapter permission](img/screenshots/adminPanel/googleAuthorization/screenshot_adminPanel_googleAuthorization_permissions.png)
+
+> [!NOTE]
+> The number of options to be activated here varies based on the number and type of your Google (Nest) devices.
+> Accordingly, the screen you see may differ from the screenshot at the top.
+
+> [!TIP]
+> Some options may only become available for activation after other options have already been activated.<br>
+> Additionally, it may take a short moment for some options to become activatable.
+
+8. In the following step, you may be prompted again to select your **'Google Account'**.<br>
+   If prompted, please select the **'Google Account'** associated with your Google (Nest) devices.
+
+9. Now you will be notified that the adapter has not been verified by Google.<br>
+   Google requires your consent again here.<br>
+   Click the **'Next'** button to proceed.
+
+10. You may now be prompted again to give your consent.
+
+11. If you now receive the message **'*Authorization Code sent to ioBroker successfully. You can close this tab/window now.*'** in your browser, then everything has worked, and the **'Authorization Code'** has been received by the adapter and stored in ioBroker as an object.<br>
+    Click on the **'SAVE AND CLOSE'** button in the adapter **'Admin Panel'** to complete the **'Basic-Setup'**.
