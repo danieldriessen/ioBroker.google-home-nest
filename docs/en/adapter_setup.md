@@ -32,7 +32,7 @@
 > [!IMPORTANT]
 > For the successful completion of the following steps, it is essential that the adapter and thus the HTTP-server have been started, and the HTTP-server is capable of monitoring the specified port.
 
-5. Now, authentication can be initiated by clicking the **'Authenticate'** button in the **'Authentication'** section of the Adapter **'Admin Panel'**.
+5. Now, authentication can be initiated by clicking the **'Authenticate'** button in the **'Authentication'** section of the adapter **'Admin Panel'**.
 
 > [!IMPORTANT]
 > To successfully complete the following steps, it is essential that the click on the **'Authenticate'** button is performed in a browser on the same device where ioBroker is installed.
@@ -47,7 +47,7 @@
 
 7. In the next step, you need to grant the adapter permissions to access your Google (Nest) devices.<br>
    To do this, please enable all options and then click the 'Next' button.
-   ![Grant Adapter permission](img/screenshots/adminPanel/googleAuthorization/screenshot_adminPanel_googleAuthorization_permissions.png)
+   ![Grant adapter permission](img/screenshots/adminPanel/googleAuthorization/screenshot_adminPanel_googleAuthorization_permissions.png)
 
 > [!NOTE]
 > The number of options to be activated here varies based on the number and type of your Google (Nest) devices.
@@ -98,7 +98,7 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 
 1. Open the [Google Cloud Console](https://console.cloud.google.com/) in your browser.<br>
 > [!TIP]
-> The **'Google Cloud Console'** can also be accessed via the address 'https://console.cloud.google.com/' or by clicking on one of the corresponding buttons in the Adapter **'Admin Panel'**.
+> The **'Google Cloud Console'** can also be accessed via the address 'https://console.cloud.google.com/' or by clicking on one of the corresponding buttons in the adapter **'Admin Panel'**.
 
 2. If you access the **'Google Cloud Console'** for the first time, you will now be prompted to accept the terms of use for the **'Google Cloud Platform'**.<br>
    ![Google Cloud Console - Terms](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_terms.png)
@@ -153,7 +153,7 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 
 > [!IMPORTANT]
 > The **'Project-ID'** (in the upper image) is the **'Google Cloud - Project-ID'**.<br>
-> Please do not confuse this with the **'Project-ID'** of the Google **'Device Access Console'**, which you need for the **Basic-Setup** and is to be entered in the Adapter **'Admin Panel'** under **point 3**.
+> Please do not confuse this with the **'Project-ID'** of the Google **'Device Access Console'**, which you need for the **Basic-Setup** and is to be entered in the adapter **'Admin Panel'** under **point 3**.
 
 8. After successfully creating the project in the **'Google Cloud Console'**, the next step is to activate the **'Smart Device Management API'**.<br>
 
