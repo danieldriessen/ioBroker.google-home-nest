@@ -300,15 +300,15 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
 > [!IMPORTANT]
 > Bitte stelle vor dem Begleichen der Gebühr nochmals sicher, dass Du mit demselben **Google Benutzerkonto** angemeldet bist, mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
-5. Auf der **'Gerätezugriffskonsole'** klickst Du nun auf **'Projekt erstellen'** um ein neues Projekt anzulegen.
+4. Auf der **'Gerätezugriffskonsole'** klickst Du nun auf **'Projekt erstellen'** um ein neues Projekt anzulegen.
    ![Google Gerätezugriffskonsole - Projekt erstellen 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_01.png)
 
-6. Als nächstes musst Du dem neuen Projekt einen Namen geben.<br>
+5. Als nächstes musst Du dem neuen Projekt einen Namen geben.<br>
    Du kannst den Namen für das neue Projekt frei wählen. **'*ioB: Google-Home-Nest*'** wäre Beispielsweise ein geeigneter Name.
    ![Google Gerätezugriffskonsole - Projekt erstellen 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
    Nachdem Du den Projektnamen eingegeben hast, klickst du auf den Button **'Weiter'** um zum nächsten Bildschirm zu gelangen.
 
-7. Nun wirst Du aufgefordert deine **'OAuth-Client-ID'** anzugeben.<br>
+6. Nun wirst Du aufgefordert deine **'OAuth-Client-ID'** anzugeben.<br>
    Wie du **'Anmeldedaten'** erstellst und hierdurch eine **'OAuth-Client-ID'** erhälst, wird im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** erklärt.<br>
    Gib deine **'OAuth-Client-ID'** ein und klicke anschließend auf den Button **'Weiter'**.
    ![Google Gerätezugriffskonsole - Projekt erstellen 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
@@ -319,12 +319,12 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
 > Beachte jedoch, dass die Eingabe der **'OAuth-Client-ID'** zwingend erforderlich ist.<br>
 > Wenn du diesen Schritt überspringst, musst Du die **'OAuth-Client-ID'** zu einem späteren Zeitpunkt nachträglich hinzufügen.
 
-8. Der nächste Bildschirm möchte von dir eine Entscheidung bezüglich der Aktivierung von **Ereignissen**.<br>
+7. Der nächste Bildschirm möchte von dir eine Entscheidung bezüglich der Aktivierung von **Ereignissen**.<br>
    Die Aktivierung von **Ereignissen** ist Teil der **'Erweiterten-Einrichtung'**. Gerne kannst du aber schon jezt die **Ereignissen** aktivieren.
    Wähle ob du die **Ereignisse** aktivieren möchtest oder nicht und klicke anschließend auf den Button **'Projekt erstellen'**.
    ![Google Gerätezugriffskonsole - Projekt erstellen 04](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_04.png)
 
-9. Das neue Projekt ist nun angelegt und deine **'Projekt-ID'** wird dir im nächsten Bildschirm angezeigt.
+8. Das neue Projekt ist nun angelegt und deine **'Projekt-ID'** wird dir im nächsten Bildschirm angezeigt.
    ![Google Gerätezugriffskonsole - Projekt erstellen 05](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_05.png)
    Die **'Projekt-ID'** wird für die **Basis-Einrichtung** benötigt und muss im **'Admin Panel'** unter **Punkt 3** eingetragen werden.
    
