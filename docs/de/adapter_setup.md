@@ -182,16 +182,16 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 14. Klicke auf der Seite der **'Anmeldedaten'** in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
     ![Google Cloud Console - Anmeldedaten erstellen 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_01.png)
 
-16. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem Erstellen einer **'OAuth-Client-ID'** zuerst den **'Zustimmungsbildschirm'** konfigurieren musst.<br>
+15. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem Erstellen einer **'OAuth-Client-ID'** zuerst den **'Zustimmungsbildschirm'** konfigurieren musst.<br>
 
     Dies kannst du mit einem Klick auf den Button **'ZUSTIMMUNGSBILDSCHIRM KONFIGURIEREN'** nun tun.
 
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_01.png)
 
-17. Wähle nun auf der nächsten Seite **'Extern'** für den **'User Type'** aus und klicke anschließend auf den Button **'ERSTELLEN'**
+16. Wähle nun auf der nächsten Seite **'Extern'** für den **'User Type'** aus und klicke anschließend auf den Button **'ERSTELLEN'**
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_02.png)
 
-18. Auf der nächsten Seite müssen nun einige Angaben für den **'Zustimmungsbildschirm'** gemacht werden.
+17. Auf der nächsten Seite müssen nun einige Angaben für den **'Zustimmungsbildschirm'** gemacht werden.
 
     | Punkt | Feldname                                         | verpflichtend? | Beschreibung                                                                                                                 |
     | ----- | ------------------------------------------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -204,10 +204,10 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
     
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_03.png)
 
-19. Der nächste Bildschirm kann mit einem Klick auf **'SPEICHERN UND FORTFAHREN'** einfach übersprungen werden.
+18. Der nächste Bildschirm kann mit einem Klick auf **'SPEICHERN UND FORTFAHREN'** einfach übersprungen werden.
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_04.png)
 
-20. Auf dem nächsten Bildschirm muss ein **Testnutzer** angelegt werden.<br>
+19. Auf dem nächsten Bildschirm muss ein **Testnutzer** angelegt werden.<br>
 
     Klicke hierzu zunächst auf **'+ ADD USER'**.
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 05](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_05.png)
@@ -219,29 +219,29 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 > [!IMPORTANT]
 > Stelle sicher das Du hier das **Google Benutzerkonto** angibst mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
-21. Klicke im nächsten Bildschirm, der eine Zusammenfassung der getätigten Einstellungen anzeigt, auf **'ZURÜCK ZUM DASHBOARD'**.
+20. Klicke im nächsten Bildschirm, der eine Zusammenfassung der getätigten Einstellungen anzeigt, auf **'ZURÜCK ZUM DASHBOARD'**.
     ![Google Cloud Console - Zustimmungsbildschirm konfigurieren 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_07.png)
 
-22. Da der **'Zustimmungsbildschirm'** nun konfiguriert ist, kannst Du nun deine **'Anmeldedaten'** erstellen.
+21. Da der **'Zustimmungsbildschirm'** nun konfiguriert ist, kannst Du nun deine **'Anmeldedaten'** erstellen.
     Klicke hierzu wieder auf **'Anmeldedaten'** in der linken Menüleiste.
     ![Google Cloud Console - Gehe zu Anmeldedaten 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_02.png)
 
-23. Klicke nun auf der Seite der **'Anmeldedaten'** wieder in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
+22. Klicke nun auf der Seite der **'Anmeldedaten'** wieder in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
     ![Google Cloud Console - Anmeldedaten erstellen 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_02.png)
 
-24. Auf der Seite zur Erstellung der **'OAuth-Client-ID'** wählst Du nun **'Webanwendung'** aus dem Dropdown-Menü aus.
+23. Auf der Seite zur Erstellung der **'OAuth-Client-ID'** wählst Du nun **'Webanwendung'** aus dem Dropdown-Menü aus.
     ![Google Cloud Console - Anmeldedaten erstellen 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_03.png)
 
-25. Im daraufhin erscheinendem Feld **'Name'**, (welches bereits mit dem Text '*Webclient 1*' vorausgefüllt ist, kannst du nun den Namen der 'Anwendung' (des Webclient) angeben, der Zugriff auf die Resource verlangt.
+24. Im daraufhin erscheinendem Feld **'Name'**, (welches bereits mit dem Text '*Webclient 1*' vorausgefüllt ist, kannst du nun den Namen der 'Anwendung' (des Webclient) angeben, der Zugriff auf die Resource verlangt.
     ![Google Cloud Console - Anmeldedaten erstellen 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_04.png)
 
 > [!TIP]
 > Ein guter Name wäre an dieser Stelle z.B.: '*ioBroker*'
 
-26. Als nächstes klickst Du bitte auf den Button **'+ URI HINZUFÜGEN'**.
+25. Als nächstes klickst Du bitte auf den Button **'+ URI HINZUFÜGEN'**.
     ![Google Cloud Console - Anmeldedaten erstellen 05](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_05.png)
 
-27. Es erscheint nun ein weiteres Textfeld **'URIs 1'** in dem die **'Weiterleitungs-URI'** angegeben werden muss.<br>
+26. Es erscheint nun ein weiteres Textfeld **'URIs 1'** in dem die **'Weiterleitungs-URI'** angegeben werden muss.<br>
 
     An dieser Stelle gibst Du bitte die folgende **URI** ein: **'http://localhost:{HTTP-SERVER-PORT}'**.<br>
     Hierbei ersetzt Du bitte den **'{HTTP-SERVER-PORT}'** - Teil der **URI**<br>mit dem **'HTTP-Server-Port'** den du im **'Admin Panel'** konfiguriert hast.
@@ -273,7 +273,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 > [!NOTE]
 > Es kann zwischen 5 Minuten und mehrere Stunden dauern, bis die Einstellungen wirksam werden.
 
-28. In der nun angezeigten Übersicht findest Du deine **'OAuth-Client-ID'** & dein **'Clientschlüssel'**.<br>
+27. In der nun angezeigten Übersicht findest Du deine **'OAuth-Client-ID'** & dein **'Clientschlüssel'**.<br>
     Trage diese im **'Admin Panel'** in die entsprechenden Felder ein (2 & 4) ein.
     ![Google Cloud Console - Anmeldedaten erstellen 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_07.png)
 
