@@ -138,3 +138,19 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 > it's advisable to give the **'Project-ID'** a personal component.<br>
 > Your name or parts of your name, your nickname, or your domain (if available) are good examples of personal components for the **'Project-ID'**.<br>
 > However, there's also nothing wrong with simply accepting the proposed **'Project-ID'**. In some cases, this may even be the easiest option.
+
+6. Now, select your newly created project from the dropdown menu and navigate to the **'Dashboard'** of the project.<br>
+
+   For this, follow steps 1-4 in the image below.
+
+   ![Google Cloud Console - Go to project dashboard](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToProjectDashboard.png)
+
+7. On the **'Dashboard'** of the project, you will now find your **'Project name'**, your **'Project number'**, and your **'Project-ID'** in the **'Project information'** section.
+   ![Google Cloud Console - Project information](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_projectInformation.png)
+
+> [!NOTE]
+> You will need the **'Project-ID'** for the **Extended-Setup**. It is not required for the **Basic-Setup**.
+
+> [!IMPORTANT]
+> The **'Project-ID'** (in the upper image) is the **'Google Cloud - Project-ID'**.<br>
+> Please do not confuse this with the **'Project-ID'** of the Google **'Device Access Console'**, which you need for the **Basic-Setup** and is to be entered in the Adapter **'Admin Panel'** under **point 3**.
