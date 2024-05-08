@@ -165,7 +165,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 9. Klicke nun auf der folgenden Seite auf **'+ APIS UND DIENSTE AKTIVIEREN'**.
    ![Google Cloud Console - APIs aktivieren 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_enableAPIs_02.png)
 
-10. Nutze die Suchleiste auf der folgenden Seite um die Google **'API Bibliothek'** nach der **'Smart Device Management API'** zu durchsuchen.
+10. Nutze die Suchleiste auf der folgenden Seite, um die Google **'API Bibliothek'** nach der **'Smart Device Management API'** zu durchsuchen.
     ![Google Cloud Console - APIs durchsuchen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_searchAPIs.png)
 
 11. Wähle die **'Smart Device Management API'** aus den Suchergebnissen aus.
