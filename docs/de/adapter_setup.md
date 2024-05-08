@@ -244,7 +244,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 26. Es erscheint nun ein weiteres Textfeld **'URIs 1'**, in dem die **'Weiterleitungs-URI'** angegeben werden muss.<br>
 
     An dieser Stelle gibst Du bitte die folgende **URI** ein: **'http://localhost:{HTTP-SERVER-PORT}'**.<br>
-    Hierbei ersetzt Du bitte den **'{HTTP-SERVER-PORT}'** - Teil der **URI**<br>mit dem **'HTTP-Server-Port'**, den du im **'Admin Panel'** konfiguriert hast.
+    Hierbei ersetzt Du bitte den **'{HTTP-SERVER-PORT}'** - Teil der **URI**<br>mit dem **'HTTP-Server Port'**, den du im Adapter **'Admin Panel'** konfiguriert hast.
     ![Google Cloud Console - Anmeldedaten erstellen 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_06.png)
 
     Sobald Du die **URI** - Eingabe getätigt hast, klickst du bitte auf den Button **'ERSTELLEN'** um die Erstellung der **'OAuth-Client-ID'** abzuschließen.
