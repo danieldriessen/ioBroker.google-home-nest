@@ -182,7 +182,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 14. Klicke auf der Seite der **'Anmeldedaten'** in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
     ![Google Cloud Console - Anmeldedaten erstellen 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_01.png)
 
-15. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt dass Du vor dem Erstellen einer **'OAuth-Client-ID'** zuerst den **'Zustimmungsbildschirm'** konfigurieren musst.<br>
+15. Wenn Du gerade erst ein neues Projekt angelegt hast, wird dir nun angezeigt, dass Du vor dem Erstellen einer **'OAuth-Client-ID'** zuerst den **'Zustimmungsbildschirm'** konfigurieren musst.<br>
 
     Dies kannst du mit einem Klick auf den Button **'ZUSTIMMUNGSBILDSCHIRM KONFIGURIEREN'** nun tun.
 
