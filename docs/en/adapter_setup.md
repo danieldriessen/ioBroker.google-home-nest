@@ -277,3 +277,12 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
     ![Google Cloud Console - Create credentials 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_07.png)
 
 ## Acquiring **'Project-ID'**
+
+To obtain a **'Project ID'**, one must first register for Google **'Device Access'**.
+
+> [!NOTE]
+> Registration requires accepting the terms of use for the 'Google API' and the 'Device Access Sandbox', as well as a **one-time fee** of (as of May 2024) **$5 (US Dollars)**.
+
+1. Open your browser and navigate to the [Device Access Console](https://console.nest.google.com/device-access/).
+> [!TIP]
+> The **'Device Access Console'** can also be accessed via the URL 'https://console.nest.google.com/device-access/' or by clicking on one of the corresponding buttons in the adapter **'Admin Panel'**.
