@@ -68,3 +68,10 @@
 
 11. If you now receive the message **'*Authorization Code sent to ioBroker successfully. You can close this tab/window now.*'** in your browser, then everything has worked, and the **'Authorization Code'** has been received by the adapter and stored in ioBroker as an object.<br>
     Click on the **'SAVE AND CLOSE'** button in the adapter **'Admin Panel'** to complete the **'Basic-Setup'**.
+
+## Extended-Setup
+
+1. For the **'Extended-Setup'**, you first need to enter the **'Google Cloud - Project-ID'** under point 5.<br>
+   If you followed the instructions in the **'Acquiring OAuth-Client-ID & Client Secret'** section, the **'Google Cloud - Project-ID'** was displayed in Step 7 of this section.<br>
+   To have the **'Google Cloud - Project-ID'** displayed again, you can use one of the **'Google Cloud Console'** buttons in the adapter **'Admin Panel'** to reopen the **'Google Cloud Console'**.<br>
+   Once you have selected your corresponding project in the top left corner of the **'Google Cloud Console'**, the **'Google Cloud - Project-ID'** will be displayed to you on the **'Google Cloud Console'**.
