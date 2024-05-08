@@ -244,3 +244,7 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 
     At this point, please enter the following **URI**: **'http://localhost:{HTTP-SERVER-PORT}'**.<br>
     Replace the **'{HTTP-SERVER-PORT}'** part of the **URI** with the **'HTTP-Server Port'** you configured in the adapter **'Admin Panel'**.
+    ![Google Cloud Console - Create credentials 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_06.png)
+
+    Once you have entered the **URI**, please click on the **'CREATE'** button to complete the creation of the **'OAuth client ID'**.<br>
+    However, please pay close attention to the following information...
