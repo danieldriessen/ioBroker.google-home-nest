@@ -258,7 +258,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 > Für die spätere Abfrage eines **'Authorization Code'** ist eine korrekt konfigurierte **'Weiterleitungs-URI'** zwingend erforderlich.
 
 > [!IMPORTANT]
-> An dieser Stelle nochmal der Hinweis:<br>
+> An dieser Stelle noch mal der Hinweis:<br>
 > Stelle sicher, dass der ausgewählte **HTTP-Server-Port** nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.
 
 > [!IMPORTANT]
