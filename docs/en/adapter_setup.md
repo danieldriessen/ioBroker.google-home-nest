@@ -154,3 +154,51 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 > [!IMPORTANT]
 > The **'Project-ID'** (in the upper image) is the **'Google Cloud - Project-ID'**.<br>
 > Please do not confuse this with the **'Project-ID'** of the Google **'Device Access Console'**, which you need for the **Basic-Setup** and is to be entered in the Adapter **'Admin Panel'** under **point 3**.
+
+8. After successfully creating the project in the **'Google Cloud Console'**, the next step is to activate the **'Smart Device Management API'**.<br>
+
+   Ensure that your newly created project is selected in the dropdown menu (Step 1 in the lower image) and then follow steps 2-4.
+
+   ![Google Cloud Console - Activate APIs 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_enableAPIs_01.png)
+
+9. Now, on the following page, click on **'+ ACTIVATE APIS AND SERVICES'**.
+   ![Google Cloud Console - Activate_APIs 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_enableAPIs_02.png)
+
+10. Use the search bar on the following page to search the Google **'API Library'** for the **'Smart Device Management API'**.
+   ![Google Cloud Console - Search APIs](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_searchAPIs.png)
+
+11. Select the **'Smart Device Management API'** from the search results.
+    ![Google Cloud Console - Search APIs - Smart Device Management API](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_searchAPI_smartDeviceManagementAPI.png)
+
+12. On the **'Smart Device Management API'** page, click the **'ACTIVATE'** button to activate the API.
+    ![Google Cloud Console - Activate API - Smart Device Management API](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_activateAPI_smartManagementAPI.png)
+
+13. Now that the **'Smart Device Management API'** is activated, the credentials need to be created.<br>
+
+    To do this, first click on **'Credentials'** in the menu on the left side to access the corresponding page.
+    ![Google Cloud Console - Go to credentials 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_01.png)
+
+14. On the **'Credentials'** page, click the **'+ CREATE CREDENTIALS'** button in the top menu bar, then click on **'OAuth client ID'** (Step 2 in the lower image).
+    ![Google Cloud Console - Create credentials 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_01.png)
+
+15. If you have just created a new project, you will now be shown that before creating an **'OAuth client ID'**, you need to configure the **'Consent Screen'**.<br>
+
+    You can do this by clicking on the **'CONFIGURE CONSENT SCREEN'** button.
+
+    ![Google Cloud Console - Configure consent screen 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_01.png)
+
+16. Now, on the next page, select **'External'** for the **'User Type'** and then click on the **'CREATE'** button.
+    ![Google Cloud Console - Configure consent screen 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_02.png)
+
+17. On the next page, you now need to provide some information for the **'Consent Screen'**.
+
+    | Point | Field name                                         | mandatory?     | Description                                                                                                                  |
+    | ----- | -------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+    | 1     | App Name                                           | Yes            | Enter a name for the application requesting consent here.<br>For example: *'ioBroker Adapter: Google-Home-Nest'*             |
+    | 2     | User support email                                 | Yes            | Select your email address from the dropdown menu, here.                                                                      |
+    | 3     | EMail addresses<br>(Developer contact information) | Yes            | Here, you enter your email address again.                                                                                    |
+    | 4     | Logo file to upload                                | No             | Here, a logo for the application requesting consent can be uploaded.<br>This is not mandatory and can be skipped.<br>However, if desired, for example, the adapter logo can be uploaded here.<br>You can download the adapter logo from [here](https://github.com/danieldriessen/ioBroker.google-home-nest/blob/main/admin/google-home-nest.png) if needed. |
+
+    Once you have provided all the information, click on the **'SAVE AND CONTINUE'** button to save your settings and proceed to the next screen.
+
+    ![Google Cloud Console - Configure consent screen 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_03.png)
