@@ -90,7 +90,7 @@
 5. Unter Punkt 8 kannst Du nun noch das **'Ereignis-Pull-Timeout'** (in Sekunden) definieren.<br>
    Dieses Timeout gibt an, wie lange der Adapter nach dem letzten Holen von Ereignissen wartet, ehe er erneut beginnt, die Ereignisse der Google (Nest) Geräte abzurufen.
 
-6. Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Erweiterte-Einrichtung'** abzuschließen.
+6. Klicke nun im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'**, um die **'Erweiterte-Einrichtung'** abzuschließen.
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
