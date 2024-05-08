@@ -72,7 +72,7 @@
 ## Erweiterte-Einrichtung
 
 1. Für die **Erweiterte-Einrichtung** muss zunächst unter Punkt 5 die **'Google Cloud - Projekt-ID'** eingetragen werden.<br>
-   Wenn du der Anleitung im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** gefolgt bist, wurde dir die **'Google Cloud - Projekt-ID'** u.a. im **Schritt 7** dieses Abschnitts angezeigt.<br>
+   Wenn du der Anleitung im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** gefolgt bist, wurde dir die **'Google Cloud - Projekt-ID'** im **Schritt 7** dieses Abschnitts angezeigt.<br>
    Um dir die **'Google Cloud - Projekt-ID'** erneut anzeigen zu lassen, kannst du einen der **'Google Cloud Console'** Buttons im Adapter **'Admin Panel'** benutzen um die **'Google Cloud Console'** erneut zu öffnen.<br>
    Wenn Du oben links auf der **'Google Cloud Console'** dein entsprechendes Projekt ausgewählt hast, wird dir die **'Google Cloud - Projekt-ID'** auf der **'Google Cloud Console'** angezeigt.
 
