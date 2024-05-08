@@ -308,8 +308,8 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
    ![Google Gerätezugriffskonsole - Projekt erstellen 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
    Nachdem Du den Projektnamen eingegeben hast, klickst du auf den Button **'Weiter'**, um zum nächsten Bildschirm zu gelangen.
 
-6. Nun wirst Du aufgefordert deine **'OAuth-Client-ID'** anzugeben.<br>
-   Wie du **'Anmeldedaten'** erstellst und hierdurch eine **'OAuth-Client-ID'** erhälst, wird im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** erklärt.<br>
+6. Nun wirst Du aufgefordert, deine **'OAuth-Client-ID'** anzugeben.<br>
+   Wie du **'Anmeldedaten'** erstellst und hierdurch eine **'OAuth-Client-ID'** erhältst, wird im Abschnitt **'OAuth-Client-ID & Clientschlüssel erwerben'** erklärt.<br>
    Gib deine **'OAuth-Client-ID'** ein und klicke anschließend auf den Button **'Weiter'**.
    ![Google Gerätezugriffskonsole - Projekt erstellen 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
 
