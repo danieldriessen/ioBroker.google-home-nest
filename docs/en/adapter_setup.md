@@ -99,3 +99,42 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 1. Open the [Google Cloud Console](https://console.cloud.google.com/) in your browser.<br>
 > [!TIP]
 > The **'Google Cloud Console'** can also be accessed via the address 'https://console.cloud.google.com/' or by clicking on one of the corresponding buttons in the Adapter **'Admin Panel'**.
+
+2. If you access the **'Google Cloud Console'** for the first time, you will now be prompted to accept the terms of use for the **'Google Cloud Platform'**.<br>
+   ![Google Cloud Console - Terms](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_terms.png)
+
+   To proceed, please agree to the terms of use.
+> [!IMPORTANT]
+> Make sure you are logged in with the same Google account that is linked to your Google (Nest) devices.
+
+3. Next, a new project needs to be created in the **'Google Cloud Console'**.<br>
+   To do this, click on the project selection dropdown menu in the upper section of the **'Google Cloud Console'**.
+   ![Google Cloud Console - Select project](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_selectProject.png)
+
+4. Now, in the pop-up window that appears, select **'New Project'** to create a new project.
+
+5. Now, the new project needs to be configured.<br>
+
+   For this, a valid **'Project name'** and a valid **'Project-ID'** must be assigned.<br>
+   <br>
+   The **'Project name'** serves solely to identify the project in your project library.<br>
+   The **'Project-ID'**, on the other hand, identifies your project at a 'global' level and must therefore be unique and cannot be changed afterwards.<br>
+   <br>
+   When opening the page for project creation, the **'Project name'** text field already contains a suggestion for the project name.<br>
+   Similarly, a unique **'Project-ID'** is already displayed, which can be changed by clicking the **'EDIT'** button.<br>
+   <br>
+   A **'Location'** does not necessarily need to be specified.
+
+   ![Google Cloud Console - Create new project 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createNewProject_01.png)
+
+   After you have chosen a **'Project name'** and assigned a unique **'Project-ID'**, click on the **'CREATE'** button to create the project.
+
+> [!TIP]
+> It's advisable to assign a custom **'Project name'** to make it easier to identify the project in the future.<br>
+> For example: 'ioBroker - Google Home Nest' (as seen in the following image).
+
+> [!TIP]
+> Since the **'Project-ID'** uniquely identifies your Google Cloud project among all Google Cloud projects, and therefore must be unique among all Google Cloud projects,
+> it's advisable to give the **'Project-ID'** a personal component.<br>
+> Your name or parts of your name, your nickname, or your domain (if available) are good examples of personal components for the **'Project-ID'**.<br>
+> However, there's also nothing wrong with simply accepting the proposed **'Project-ID'**. In some cases, this may even be the easiest option.
