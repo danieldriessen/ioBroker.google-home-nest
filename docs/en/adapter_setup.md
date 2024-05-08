@@ -90,3 +90,12 @@
 5. Under point 8, you can now define the **'Events Pull timeout'** (in seconds).<br>
    This timeout specifies how long the adapter waits after the last event retrieval before it starts retrieving the events of the Google (Nest) devices again.
 
+6. Now click on the **'SAVE AND CLOSE'** button in the adapter **'Admin Panel'** to complete the **'Extended-Setup'**.
+
+## Acquiring **'OAuth-Client-ID'** & **'Client Secret'**
+
+To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud project.
+
+1. Open the [Google Cloud Console](https://console.cloud.google.com/) in your browser.<br>
+> [!TIP]
+> The **'Google Cloud Console'** can also be accessed via the address 'https://console.cloud.google.com/' or by clicking on one of the corresponding buttons in the Adapter **'Admin Panel'**.
