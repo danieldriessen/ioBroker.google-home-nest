@@ -80,7 +80,7 @@
    Wenn du der Anleitung im Abschnitt **'Projekt-ID erwerben'** gefolgt bist und dich im **Schritt 8** des Abschnitts bereits zur Aktivierung der Ereignisse entschieden hast, sollte das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** bereits aktiviert sein und Du brauchst dich, um nichts weiter zu kümmern.<br>
    Andernfalls folge bitte dem Abschnitt **'Pub/Sub-Thema aktivieren'**, um das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** zu aktivieren.
 
-3. Danach kann das Häckchen bei **'Ereignisse aktivieren'** (Punkt 6) gesetzt werden.
+3. Danach kann das Häkchen bei **'Ereignisse aktivieren'** (Punkt 6) gesetzt werden.
 
 4. Nun kannst Du unter Punkt 7 die **'Ereigniserfassungsmethode'** auswählen.
 
