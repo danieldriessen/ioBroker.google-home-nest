@@ -17,7 +17,7 @@ Um die Basisfunktionalität dieses Adapters nutzen zu können, müssen folgende 
 ### 2. Du musst für Google **'Device Access'** registriert sein.
   Wie das funktioniert, erfährst Du im Abschnitt 'Adaptereinrichtung' ([hier](adapter_setup.md)).
   > [!NOTE]
-  > Die Registrierung setzt die Annahme der Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' sowie eine **einmalige Gebühr** von (Stand: Mai 2024) **$5 (US Dollar)** vorraus.
+  > Die Registrierung setzt die Annahme der Nutzungsbedingungen für die 'Google API' und die 'Device Access Sandbox' sowie eine **einmalige Gebühr** von (Stand: Mai 2024) **$5 (US Dollar)** voraus.
 
   > [!IMPORTANT]
   > Achte darauf das die Registrierung für Google **'Device Access'** über demselben Google Konto erfolgt mit dem auch deine Google (Nest) Geräte verknüpft sind.<br>
