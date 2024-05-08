@@ -293,7 +293,7 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
    Setze hier das Häkchen und klicke auf **'Weiter zur Zahlung'**.
 
 3. Im nächsten Bildschirm wirst Du nun zur Begleichung der Gebühr aufgefordert.
-   Füge falls nötig eine Kredit- oder Debitkarte hinzu und klicke anschließend auf den Button **'KAUFEN'** um die Gebühr zu begleichen und fortzufahren.
+   Füge falls nötig eine Kredit- oder Debitkarte hinzu und klicke anschließend auf den Button **'KAUFEN'**, um die Gebühr zu begleichen und fortzufahren.
    ![Google Gerätezugriffskonsole - Gebühr 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_01.png)
    ![Google Gerätezugriffskonsole - Gebühr 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_02.png)
 
