@@ -202,3 +202,21 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
     Once you have provided all the information, click on the **'SAVE AND CONTINUE'** button to save your settings and proceed to the next screen.
 
     ![Google Cloud Console - Configure consent screen 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_03.png)
+
+18. You can simply skip the next screen by clicking on **'SAVE AND CONTINUE'**.
+    ![Google Cloud Console - Configure consent screen 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_04.png)
+
+19. On the next screen, a **Test User** needs to be created.<br>
+
+    To do this, first click on **'+ ADD USER'**.
+    ![Google Cloud Console - Configure consent screen 05](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_05.png)
+
+    In the displayed dialog box, a **Google user account** must now be specified.
+    ![Google Cloud Console - Configure consent screen 06](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_06.png)
+    Then click on the **'ADD'** button in the dialog box, and then on the **'SAVE AND CONTINUE'** button on the main page.
+
+> [!IMPORTANT]
+> Make sure to specify the **Google user account** here, which is also linked to your Google (Nest) devices.
+
+20. On the next screen, which displays a summary of the settings made, click on **'BACK TO DASHBOARD'**.
+    ![Google Cloud Console - Configure consent screen 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_07.png)
