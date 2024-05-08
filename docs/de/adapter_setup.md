@@ -77,8 +77,8 @@
    Wenn Du oben links auf der **'Google Cloud Console'** dein entsprechendes Projekt ausgewählt hast, wird dir die **'Google Cloud - Projekt-ID'** auf der **'Google Cloud Console'** angezeigt.
 
 2. Damit Ereignisse empfangen (bzw. abgeholt) werden können, muss noch das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** aktiviert sein.<br>
-   Wenn du der Anleitung im Abschnitt **'Projekt-ID erwerben'** gefolgt bist und dich im **Schritt 8** des Abschnitts bereits zur Aktivierung der Ereignisse entschieden hast, sollte das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** bereits aktiviert sein und Du brauchst dich um nichts weiter zu kümmern.<br>
-   Andernfalls folge bitte dem Abschnitt **'Pub/Sub-Thema aktivieren'** um das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** zu aktivieren.
+   Wenn du der Anleitung im Abschnitt **'Projekt-ID erwerben'** gefolgt bist und dich im **Schritt 8** des Abschnitts bereits zur Aktivierung der Ereignisse entschieden hast, sollte das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** bereits aktiviert sein und Du brauchst dich, um nichts weiter zu kümmern.<br>
+   Andernfalls folge bitte dem Abschnitt **'Pub/Sub-Thema aktivieren'**, um das **'Pub/Sub-Thema'** auf der Google **'Gerätezugriffskonsole'** zu aktivieren.
 
 3. Danach kann das Häckchen bei **'Ereignisse aktivieren'** (Punkt 6) gesetzt werden.
 
