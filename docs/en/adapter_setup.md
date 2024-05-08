@@ -75,3 +75,18 @@
    If you followed the instructions in the **'Acquiring OAuth-Client-ID & Client Secret'** section, the **'Google Cloud - Project-ID'** was displayed in Step 7 of this section.<br>
    To have the **'Google Cloud - Project-ID'** displayed again, you can use one of the **'Google Cloud Console'** buttons in the adapter **'Admin Panel'** to reopen the **'Google Cloud Console'**.<br>
    Once you have selected your corresponding project in the top left corner of the **'Google Cloud Console'**, the **'Google Cloud - Project-ID'** will be displayed to you on the **'Google Cloud Console'**.
+
+2. To receive (or fetch) events, the **'Pub/Sub-Topic'** must be activated on the Google **'Device Access Console'**.<br>
+   If you followed the instructions in the **'Acquiring Project-ID'** section and decided to already activate the events in Step 8 of the section, the **'Pub/Sub-Topic'** should already be activated on the Google **'Device Access Console'**, and you don't need to worry about anything further.<br>
+   Otherwise, please follow the **'Activate Pub/Sub-Topic'** section to activate the **'Pub/Sub-Topic'** on the Google **'Device Access Console'**.
+
+3. Afterwards, the checkbox for **'Enable Events'** (point 6) can be checked.
+
+4. Now you can select the **'Events acquisition method'** under point 7.
+
+> [!WARNING]
+> Currently, only **'PULL'** is supported as the **'Events acquisition method**'.
+
+5. Under point 8, you can now define the **'Events Pull timeout'** (in seconds).<br>
+   This timeout specifies how long the adapter waits after the last event retrieval before it starts retrieving the events of the Google (Nest) devices again.
+
