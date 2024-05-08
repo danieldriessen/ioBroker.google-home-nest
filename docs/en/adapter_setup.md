@@ -220,3 +220,27 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 
 20. On the next screen, which displays a summary of the settings made, click on **'BACK TO DASHBOARD'**.
     ![Google Cloud Console - Configure consent screen 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_configureConsentScreen_07.png)
+
+21. Now that the **'Consent Screen'** is configured, you can proceed to create your **'Credentials'**.<br>
+    To do this, click on **'Credentials'** again in the left menu bar.
+    ![Google Cloud Console - Go to credentials 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_02.png)
+
+22. Now, on the **'Credentials'** page, click the **'+ CREATE CREDENTIALS'** button again in the top menu bar, then click on **'OAuth client ID'** (Step 2 in the lower image).
+    ![Google Cloud Console - Create credentials 02](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_02.png)
+
+23. On the page for creating the **'OAuth client ID'**, select **'Web application'** from the dropdown menu.
+    ![Google Cloud Console - Create credentials 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_03.png)
+
+24. In the field **'Name'** that appears (which is already pre-filled with '*Web client 1*'), you can now specify the name of the 'application' (the web client) that requests access to the resource.
+    ![Google Cloud Console - Create credentials 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_04.png)
+
+> [!TIP]
+> A good name at this point would be, for example: '*ioBroker*'.
+
+25. Next, please click on the **'+ ADD URI'** button.
+    ![Google Cloud Console - Create credentials 05](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_05.png)
+
+26. Now, another text field **'URI 1'** appears, where the **'Redirect URI'** must be specified.<br>
+
+    At this point, please enter the following **URI**: **'http://localhost:{HTTP-SERVER-PORT}'**.<br>
+    Replace the **'{HTTP-SERVER-PORT}'** part of the **URI** with the **'HTTP-Server Port'** you configured in the adapter **'Admin Panel'**.
