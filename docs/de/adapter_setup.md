@@ -314,7 +314,7 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
    ![Google Gerätezugriffskonsole - Projekt erstellen 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
 
 > [!IMPORTANT]
-> An dieser Stelle wird dir die Möglichkeit gegeben diesen Schritt zu überspringen.<br>
+> An dieser Stelle wird dir die Möglichkeit gegeben, diesen Schritt zu überspringen.<br>
 > Solltest Du noch keine **'OAuth-Client-ID'** erworben haben, kannst Du diesen Schritt nun überspringen.<br>
 > Beachte jedoch, dass die Eingabe der **'OAuth-Client-ID'** zwingend erforderlich ist.<br>
 > Wenn du diesen Schritt überspringst, musst Du die **'OAuth-Client-ID'** zu einem späteren Zeitpunkt nachträglich hinzufügen.
