@@ -176,7 +176,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 
 13. Nachdem nun die **'Smart Device Management API'** aktiviert ist, müssen die Anmeldedaten erstellt werden.<br>
 
-    Klicke dazu zunächst im Menü auf der linken Seite auf **'Anmeldedaten'** um die entsprechende Seite aufzurufen.
+    Klicke dazu zunächst im Menü auf der linken Seite auf **'Anmeldedaten'**, um die entsprechende Seite aufzurufen.
     ![Google Cloud Console - Gehe zu Anmeldedaten 01](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_goToCredentials_01.png)
 
 14. Klicke auf der Seite der **'Anmeldedaten'** in der oberen Menüzeile auf den Button **'+ ANMELDEDATEN ERSTELLEN'** und dann auf **'OAuth-Client-ID'** (Schritt 2 im unteren Bild).
