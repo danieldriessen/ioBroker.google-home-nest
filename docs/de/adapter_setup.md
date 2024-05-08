@@ -22,12 +22,12 @@
 > [!IMPORTANT]
 > Stelle sicher, dass der ausgewählte Port nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.
 
-2. Anschließend müssen die Werte 2-4 eingetragen werden. Wie Du diese Werte erhälst, wird in den nächsten Abschnitten beschrieben.<br>
+2. Anschließend müssen die Werte 2-4 eingetragen werden. Wie Du diese Werte erhältst, wird in den nächsten Abschnitten beschrieben.<br>
 
 3. Nach der Eingabe der erforderlichen Daten können diese mit einem Klick auf **'SPEICHERN'** gespeichert werden.<br>
 
 4. Als nächstes muss der Adapter gestartet werden.<br>
-   Der Adapter wird unmittelbar nach dem Start versuchen, einen HTTP-Server zu erstellen der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
+   Der Adapter wird unmittelbar nach dem Start versuchen, einen HTTP-Server zu erstellen, der den unter Punkt 1 angegebenen Port auf eingehende Kommunikation überwacht.<br>
 
 > [!IMPORTANT]
 > Um die folgenden Schritte erfolgreich abschließen zu können, ist es zwingend erforderlich, dass der Adapter und damit der HTTP-Server gestartet wurde und der HTTP-Server den angegebenen Port überwachen kann.
@@ -39,10 +39,10 @@
 
 > [!IMPORTANT]
 > Die **'Authentifizierung'** kann nur erfolgreich abgeschlossen werden, wenn Du in deinem Browser mit dem **'Google Benutzerkonto'** angemeldet bist, mit dem auch deine Google (Nest) Geräte verknüpft sind.<br>
-> Wenn du in deinem Standardbrowser zur Zeit mit keinem **'Google Benutzerkonto'** angemeldet bist, wirst Du nach dem Klick auf den Button **'Authentifizieren'** als erstes aufgefordert dich mit deinem **'Google Benutzerkonto'** anzumelden.<br>
-> Solltest Du nach dem Klick auf den Button **'Authentifizieren'** hingegen eine Fehlermeldung erhalten, prüfe bitte zuerst ob Du evtl. zurzeit mit dem falschen **'Google Benutzerkonto'** angemeldet bist.
+> Wenn du in deinem Standardbrowser zur Zeit mit keinem **'Google Benutzerkonto'** angemeldet bist, wirst Du nach dem Klick auf den Button **'Authentifizieren'** als erstes aufgefordert, dich mit deinem **'Google Benutzerkonto'** anzumelden.<br>
+> Solltest Du nach dem Klick auf den Button **'Authentifizieren'** hingegen eine Fehlermeldung erhalten, prüfe bitte zuerst, ob Du evtl. zurzeit mit dem falschen **'Google Benutzerkonto'** angemeldet bist.
 
-6. Solltest Du noch nicht mit einem **'Google Benutzerkonto'** angemeldet sein, melde dich nun mit deinem **'Google Benutzerkonto'** mit dem auch deine Google (Nest) Geräte verknüpft sind an.<br>
+6. Solltest Du noch nicht mit einem **'Google Benutzerkonto'** angemeldet sein, melde dich nun mit deinem **'Google Benutzerkonto'**, mit dem auch deine Google (Nest) Geräte verknüpft sind an.<br>
    Wenn du bereits mit dem entsprechenden **'Google Benutzerkonto'** angemeldet bist, fahre mit dem nächsten Schritt fort.
 
 7. Im nächsten Schritt musst Du nun dem Adapter die Berechtigungen zum Zugriff auf deine Google (Nest) Geräte erteilen.<br>
@@ -54,20 +54,20 @@
 > Dementsprechend wird der dir angezeigte Bildschirm vom oberen Screenshot abweichen.
 
 > [!TIP]
-> Mache Optionen werden hier erst aktivierbar nachdem andere Optionen bereits aktiviert wurden.<br>
-> Es kann außerdem einen kurzen Moment dauern bis einige Optionen aktivierbar werden.
+> Mache Optionen werden hier erst aktivierbar, nachdem andere Optionen bereits aktiviert wurden.<br>
+> Es kann außerdem einen kurzen Moment dauern, bis einige Optionen aktivierbar werden.
 
-8. Im folgenden Schritt wirst du evtl. nochmals aufgefordert dein **'Google Benutzerkonto'** auszuwählen.<br>
-   Falls dem so ist, wähle hier bitte das **'Google Benutzerkonto'** aus mit dem auch deine Google (Nest) Geräte verknüpft sind.
+8. Im folgenden Schritt wirst du evtl. nochmals aufgefordert, dein **'Google Benutzerkonto'** auszuwählen.<br>
+   Falls dem so ist, wähle hier bitte das **'Google Benutzerkonto'** aus, mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
 9. Jetzt wirst Du darauf aufmerksam gemacht, dass der Adapter nicht von Google überprüft worden ist.<br>
    Google möchte hier nochmals deine Zustimmung.<br>
-   Klicke auf den Button **'Weiter'** um fortzufahren.
+   Klicke auf den Button **'Weiter'**, um fortzufahren.
 
 10. Möglicherweise wirst Du nun erneut aufgefordert, deine Zustimmung zu geben.
 
 11. Wenn Du nun in deinem Browser die Nachricht **'*Authorization Code sent to ioBroker successfully. You can close this tab/window now.*'** bekommst, dann hat alles funktioniert und der **'Authorization Code'** wurde vom Adapter empfangen und im ioBroker als Objekt gespeichert.<br>
-    Klicke im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'** um die **'Basis-Einrichtung'** abzuschließen.
+    Klicke im Adapter **'Admin Panel'** auf den Button **'SPEICHERN UND SCHLIESSEN'**, um die **'Basis-Einrichtung'** abzuschließen.
 
 ## Erweiterte-Einrichtung
 
