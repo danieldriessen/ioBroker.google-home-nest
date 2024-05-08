@@ -286,3 +286,28 @@ To obtain a **'Project ID'**, one must first register for Google **'Device Acces
 1. Open your browser and navigate to the [Device Access Console](https://console.nest.google.com/device-access/).
 > [!TIP]
 > The **'Device Access Console'** can also be accessed via the URL 'https://console.nest.google.com/device-access/' or by clicking on one of the corresponding buttons in the adapter **'Admin Panel'**.
+
+2. If not already done, the terms of use for the 'Google API' and the 'Device Access Sandbox' must now be accepted.
+   ![Google Device Access Console - Terms](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_terms.png)
+   Check the box here and click on **'Proceed to Payment'**.
+
+3. In the next screen, you will be prompted to pay the fee.<br>
+   If necessary, add a credit or debit card and then click on the **'BUY'** button to pay the fee and proceed.
+   ![Google Device Access Console - Payment 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_01.png)
+   ![Google Device Access Console - Payment 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_payment_02.png)
+
+> [!IMPORTANT]
+> Before proceeding with the payment, please ensure once again that you are logged in with the same **Google Account** linked to your Google (Nest) devices.
+
+4. On the **'Device Access Console'**, click on **'Create Project'** to create a new project.
+   ![Google Device Access Console - Create project 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_01.png)
+
+5. Next, you need to give the new project a name.<br>
+   You are free to choose the name for the new project. **'*ioB: Google-Home-Nest*'** would be a suitable name, for example.
+   ![Google Device Access Console - Create project 02](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_02.png)
+   After entering the project name, click on the **'Next'** button to proceed to the next screen.
+
+6. Now, you'll be prompted to provide your **'OAuth-Client-ID'**.<br>
+   For instructions on how to obtain **'Credentials'** and thereby obtain an **'OAuth-Client-ID'**, refer to the section **'Acquiring OAuth-Client-ID & Client Secret'**.<br>
+   Enter your **'OAuth-Client-ID'** and then click on the **'Next'** button.
+   ![Google Device Access Console - Create project 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
