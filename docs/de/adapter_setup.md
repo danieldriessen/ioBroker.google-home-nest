@@ -232,7 +232,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 23. Auf der Seite zur Erstellung der **'OAuth-Client-ID'** wählst Du nun **'Webanwendung'** aus dem Dropdown-Menü aus.
     ![Google Cloud Console - Anmeldedaten erstellen 03](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_03.png)
 
-24. Im daraufhin erscheinendem Feld **'Name'**, (welches bereits mit dem Text '*Webclient 1*' vorausgefüllt ist, kannst du nun den Namen der 'Anwendung' (des Webclient) angeben, der Zugriff auf die Resource verlangt.
+24. Im daraufhin erscheinenden Feld **'Name'** (welches bereits mit dem Text '*Webclient 1*' vorausgefüllt ist, kannst du nun den Namen der 'Anwendung' (des Webclient) angeben, der Zugriff auf die Ressource verlangt.
     ![Google Cloud Console - Anmeldedaten erstellen 04](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_04.png)
 
 > [!TIP]
