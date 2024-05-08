@@ -100,7 +100,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
 > [!TIP]
 > Die **'Google Cloud Console'** kann auch über die Adresse 'https://console.cloud.google.com/'<br>oder einem Klick auf einer der entsprechenden Button im Adapter **'Admin Panel'** aufgerufen werden.
 
-2. Wenn Du die **'Google Cloud Console'** zum ersten Mal aufrufst, wirst Du nun aufgefordert die Nutzungsbedingungen für die **'Google Cloud Platform'** zu akzeptieren.
+2. Wenn Du die **'Google Cloud Console'** zum ersten Mal aufrufst, wirst Du nun aufgefordert, die Nutzungsbedingungen für die **'Google Cloud Plattform'** zu akzeptieren.
    ![Nutzungsbedingungen - Google Cloud Console](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_terms.png)
    
    Um fortzufahren, stimme den Nutzungsbedingungen zu.
