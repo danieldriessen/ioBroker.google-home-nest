@@ -300,7 +300,7 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
 > [!IMPORTANT]
 > Bitte stelle vor dem Begleichen der Gebühr nochmals sicher, dass Du mit demselben **Google Benutzerkonto** angemeldet bist, mit dem auch deine Google (Nest) Geräte verknüpft sind.
 
-4. Auf der **'Gerätezugriffskonsole'** klickst Du nun auf **'Projekt erstellen'** um ein neues Projekt anzulegen.
+4. Auf der **'Gerätezugriffskonsole'** klickst Du nun auf **'Projekt erstellen'**, um ein neues Projekt anzulegen.
    ![Google Gerätezugriffskonsole - Projekt erstellen 01](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_01.png)
 
 5. Als nächstes musst Du dem neuen Projekt einen Namen geben.<br>
