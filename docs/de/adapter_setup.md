@@ -111,7 +111,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
    Klicke dazu im oberen Bereich der **'Google Cloud Console'** auf das Auswahlmenü 'Projekt auswählen'.
    ![Google Cloud Console - Projekt auswählen](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_selectProject.png)
 
-4. Wähle nun im sich öffnenden Popup-Fenster **'Neues Projekt'** aus um ein neues Projekt anzulegen.
+4. Wähle nun im sich öffnenden Popup-Fenster **'Neues Projekt'** aus, um ein neues Projekt anzulegen.
    ![Google Cloud Console - Projekt auswählen Popup](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_selectProjectPopup.png)
 
 5. Nun muss das neue Projekt konfiguriert werden.<br>
