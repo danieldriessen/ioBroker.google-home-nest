@@ -131,7 +131,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
    Nachdem Du dich für einen **'Projektnamen'** entschieden und eine eindeutige **'Projekt-ID'** vergeben hast, klicke auf den Button **'ERSTELLEN'**, um das Projekt anzulegen.
 
 > [!TIP]
-> Es bietet sich an einen eigenen **'Projektnamen'** zu vergeben, um das Projekt in Zukunft einfacher identifizieren zu können.<br>
+> Es bietet sich an, einen eigenen **'Projektnamen'** zu vergeben, um das Projekt in Zukunft einfacher identifizieren zu können.<br>
 > z.B.: '*ioBroker - Google Home Nest*' (wie im folgendem Bild zu sehen).
 
 > [!TIP]
