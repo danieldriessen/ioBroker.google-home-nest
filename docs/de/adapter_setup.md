@@ -119,7 +119,7 @@ Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Proje
    Hierfür muss ein gültiger **'Projektname'** und eine gültige **'Projekt-ID'** vergeben werden.<br>
    <br>
    Der **'Projektname'** dient allein zur Identifizierung des Projekts in deiner Projektbibliothek.<br>
-   Die **'Projekt-ID'** hingegen indentifiziert dein Projekt auf 'globaler' Ebene und muss daher eindeutig sein und kann nachträglich nicht geändert werden.<br>
+   Die **'Projekt-ID'** hingegen identifiziert dein Projekt auf 'globaler' Ebene und muss daher eindeutig sein und kann nachträglich nicht geändert werden.<br>
    <br>
    Beim Öffnen der Seite für die Projekterstellung enthält das Textfeld **'Projektname'** bereits einen Vorschlag für den Projektnamen.<br>
    Ebenfalls wird bereits eine eideutige **'Projekt-ID'** angezeigt, die mit einem Klick auf den Button **'BEARBEITEN'** geändert werden kann.<br>
