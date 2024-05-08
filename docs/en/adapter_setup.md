@@ -248,3 +248,32 @@ To obtain an **'OAuth-Client-ID'**, you first need to create a Google Cloud proj
 
     Once you have entered the **URI**, please click on the **'CREATE'** button to complete the creation of the **'OAuth client ID'**.<br>
     However, please pay close attention to the following information...
+
+> [!NOTE]
+> If you haven't changed the **HTTP-Server Port** in the adapter **Admin Panel**, it should still be set to the default port **'8881'**.<br>
+> In this case, the URI to be entered would be **'http://localhost:8881'**.
+
+> [!NOTE]
+> For later retrieval of an **'Authorization Code'**, a correctly configured **'Redirect URI'** is absolutely necessary.
+
+> [!IMPORTANT]
+> At this point, a reminder:<br>
+> Ensure that the selected **HTTP-Server Port** is not already in use by another application or process, and that it is not blocked by a firewall.
+
+> [!IMPORTANT]
+> Please also note that the **'Redirect URI'** **'*http://localhost:{HTTP-SERVER-PORT}*'** is accepted by Google, whereas the **'Redirect URI'** **'*http://127.0.0.1:{HTTP-SERVER-PORT}*'** is NOT accepted by Google.
+
+> [!IMPORTANT]
+> Using **'HTTPS'** instead of **'HTTP'** at this point will lead to issues. Ensure that you are using **'HTTP'**.
+
+> [!NOTE]
+> In case of a future change in the **'HTTP-Server Port'** in the adapter **'Admin Panel'**, it is imperative to adjust the **'Redirect URI'** accordingly.
+
+> [!NOTE]
+> It may take between 5 minutes and several hours for the settings to take effect.
+
+27. In the overview displayed now, you will find your **'OAuth-Client-ID'** & your **'Client Secret'**.
+    Enter these into the corresponding fields (2 & 4) in the adapter **'Admin Panel'**.
+    ![Google Cloud Console - Create credentials 07](img/screenshots/googleCloudConsole/screenshot_googleCloudConsole_createCredentials_07.png)
+
+## Acquiring **'Project-ID'**
