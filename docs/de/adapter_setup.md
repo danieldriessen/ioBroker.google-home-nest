@@ -32,7 +32,7 @@
 > [!IMPORTANT]
 > Um die folgenden Schritte erfolgreich abschließen zu können, ist es zwingend erforderlich, dass der Adapter und damit der HTTP-Server gestartet wurde und der HTTP-Server den angegebenen Port überwachen kann.
 
-5. Nun kann mit einem Klick auf den **'Authentifizieren'** Button im Bereich **'Authentifizierung'** des **'Admin Panel'** die Authentifizierung gestartet werden.
+5. Nun kann mit einem Klick auf den **'Authentifizieren'** Button im Bereich **'Authentifizierung'** des Adapter **'Admin Panel'** die Authentifizierung gestartet werden.
 
 > [!IMPORTANT]
 > Um die folgenden Schritte erfolgreich abschließen zu können, muss der Klick auf den Button **'Authentifizieren'** zwingend in einem Browser auf demselben Gerät ausgeführt werden, auf dem der ioBroker installiert ist.
