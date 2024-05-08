@@ -94,7 +94,7 @@
 
 ## **'OAuth-Client-ID'** & **'Clientschlüssel'** erwerben
 
-Um eine **'OAuth-Client-ID'** zu erhalten muss zunächst ein Google Cloud Projekt angelegt werden.
+Um eine **'OAuth-Client-ID'** zu erhalten, muss zunächst ein Google Cloud Projekt angelegt werden.
 
 1. Rufe in deinem Browser die [Google Cloud Console](https://console.cloud.google.com/) auf.<br>
 > [!TIP]
