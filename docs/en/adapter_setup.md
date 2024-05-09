@@ -311,3 +311,18 @@ To obtain a **'Project ID'**, one must first register for Google **'Device Acces
    For instructions on how to obtain **'Credentials'** and thereby obtain an **'OAuth-Client-ID'**, refer to the section **'Acquiring OAuth-Client-ID & Client Secret'**.<br>
    Enter your **'OAuth-Client-ID'** and then click on the **'Next'** button.
    ![Google Device Access Console - Create project 03](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_03.png)
+
+> [!IMPORTANT]
+> At this point, you'll have the option to skip this step.<br>
+> If you haven't acquired an **'OAuth-Client-ID'** yet, you can skip this step now.<br>
+> Please note, however, that entering the **'OAuth-Client-ID'** is mandatory.<br>
+> If you skip this step, you'll need to add the **'OAuth-Client-ID'** later on.
+
+7. The next screen will prompt you to decide on enabling **Events**.<br>
+   Enabling **Events** is part of the **Extended-Setup**. You can choose to enable **Events** now or later.<br>
+   Select your preference and then click on the **'Create project'** button.
+   ![Google Device Access Console - Create project 04](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_04.png)
+
+8. The new project has been created, and your **Project-ID** will be displayed on the next screen.
+   ![Google Device Access Console - Create project 05](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_05.png)
+   The **Project-ID** is required for the **Basic-Setup** and must be entered in the adapter **Admin Panel** under **Step 3**.
