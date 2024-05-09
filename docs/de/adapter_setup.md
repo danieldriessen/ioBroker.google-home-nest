@@ -326,7 +326,7 @@ Um eine **'Projekt-ID'** zu erhalten, muss man sich zunächst für Google **'Dev
 
 8. Das neue Projekt ist nun angelegt und deine **'Projekt-ID'** wird dir im nächsten Bildschirm angezeigt.
    ![Google Gerätezugriffskonsole - Projekt erstellen 05](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_05.png)
-   Die **'Projekt-ID'** wird für die **Basis-Einrichtung** benötigt und muss im **'Admin Panel'** unter **Punkt 3** eingetragen werden.
+   Die **'Projekt-ID'** wird für die **Basis-Einrichtung** benötigt und muss im Adapter **'Admin Panel'** unter **Punkt 3** eingetragen werden.
    
 > [!IMPORTANT]
 > Bei der **'Projekt-ID'** (im oberen Bild) handelt es sich um die **'Projekt-ID'** der Google **'Gerätezugriffskonsole'** und NICHT um die **'Google Cloud - Projekt-ID'**.<br>
