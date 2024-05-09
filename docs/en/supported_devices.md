@@ -5,3 +5,6 @@
 > [!NOTE]
 > This is the documentation in English.<br>
 > You can find the German version here: [🇩🇪 German documentation](../de/supported_devices.md)
+
+> [!NOTE]
+> This part of the adapter documentation still needs to be edited.
