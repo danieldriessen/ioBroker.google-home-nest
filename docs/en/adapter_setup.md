@@ -326,3 +326,22 @@ To obtain a **'Project ID'**, one must first register for Google **'Device Acces
 8. The new project has been created, and your **Project-ID** will be displayed on the next screen.
    ![Google Device Access Console - Create project 05](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_createProject_05.png)
    The **Project-ID** is required for the **Basic-Setup** and must be entered in the adapter **Admin Panel** under **Step 3**.
+
+> [!IMPORTANT]
+> The **Project ID** (shown in the upper image) is the **Project-ID** of the Google **Device Access Console** and NOT the **Google Cloud Project-ID**.<br>
+
+## Activating **'Pub/Sub-Topic'**
+
+> [!NOTE]
+> If you followed the instructions in the **'Acquiring Project-ID'** section and opted to activate events in **Step 8** of that section, the **'Pub/Sub Topic'** on the Google **'Device Access Console'** should already be enabled.<br>
+> The steps described in this section do not need to be completed in this case.
+
+1. Open your browser and visit the [Device Access Console](https://console.nest.google.com/device-access/).
+> [!TIP]
+> The **Device Access Console** can also be accessed via the address 'https://console.nest.google.com/device-access/'<br>or by clicking on one of the corresponding buttons in the adapter **Admin Panel**.
+
+2. Select your corresponding **project** in the **Device Access Console**.
+
+3. Click on the three-dot button in the **Pub/Sub Topic** row on your project page and select **'Enable'**.
+   ![Google Device Access Console - Activate Pub/Sub-Topic](img/screenshots/googleDeviceAccessConsole/screenshot_googleDeviceAccessConsole_enablePubSubTopic.png)
+   The **Pub/Sub Topic** should now appear as **'Enabled'** in the row after a short processing time.
