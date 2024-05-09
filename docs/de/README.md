@@ -4,7 +4,7 @@
 
 > [!NOTE]
 > This is the documentation in German.<br>
-> You can find the English version here: [🇬🇧 English documentation](../en/DOCUMENTATION.md)
+> You can find the English version here: [🇬🇧 English documentation](../en/README.md)
 
 ## Inhaltsverzeichnis
 - [Adapterfähigkeiten](adapter_capabilities.md)
