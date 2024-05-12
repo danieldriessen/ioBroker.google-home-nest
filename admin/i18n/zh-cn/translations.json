@@ -9,5 +9,6 @@
 	"Events": "事件",
 	"Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)": "启用事件以接收来自 Google 设备的事件通知<br>(为使此功能正常工作，必须在 'Google - 设备访问控制台' 中启用 'Pub/Sub-主题'。)",
 	"If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)": "如果选择了“PULL”，则事件消息将由适配器连续获取，并具有用户可定义的超时。<br>如果选择了“PUSH”，则一旦有新消息可用，事件消息将自动传递到系统。<br>（当前仅支持“PULL”方法！）",
-	"The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.": "在多少秒后，下一个“PULL”请求将被发送到Google的“Pub/Sub系统”以获取新的事件消息。"
+	"The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.": "在多少秒后，下一个“PULL”请求将被发送到Google的“Pub/Sub系统”以获取新的事件消息。",
+	"This option will delete all already created device objects in the ioBroker object structure upon the next adapter start.": "此选项将在下次适配器启动时删除ioBroker对象结构中已经创建的所有设备对"
 }

@@ -1,423 +1,482 @@
 {
 	"i18n": true,
-	"type": "panel",
+	"type": "tabs",
+	"iconPosition": "top",
 	"items": {
-		"_section_donate_verticalSpace_01": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_donate_verticalSpace_02": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_donate_text": {
-			"type": "staticText",
-			"sm": 12,
-			"md": 12,
-			"lg": 12,
+		"_generalSettings": {
+			"type": "panel",
 			"label": {
-				"de": "Wenn dir dieser Adapter hilfreich erscheint und du zur Entwicklung dieses und anderer Adapter beitragen möchtest,<br>kannst du mich über PayPal unterstützen oder auf GitHub sponsern.<br>Deine Großzügigkeit wird sehr geschätzt!",
-				"en": "If you find this adapter helpful and would like to contribute to the development of this and other adapters,<br>you can back me via PayPal or sponsor me on GitHub.<br>Your generosity is greatly appreciated!",
-				"es": "Si encuentras útil este adaptador y te gustaría contribuir al desarrollo de este y otros adaptadores,<br>puedes respaldarme a través de PayPal o patrocinarme en GitHub.<br>¡Tu generosidad es muy apreciada!",
-				"fr": "Si vous trouvez cet adaptateur utile et souhaitez contribuer au développement de celui-ci et d'autres adaptateurs,<br>vous pouvez me soutenir via PayPal ou me sponsoriser sur GitHub.<br>Votre générosité est grandement appréciée !",
-				"it": "Se trovi questo adattatore utile e vuoi contribuire allo sviluppo di questo e di altri adattatori,<br>puoi supportarmi tramite PayPal o sponsorizzarmi su GitHub.<br>La tua generosità è molto apprezzata!",
-				"nl": "Als je deze adapter nuttig vindt en wilt bijdragen aan de ontwikkeling van deze en andere adapters,<br>kun je me steunen via PayPal of me sponsoren op GitHub.<br>Je vrijgevigheid wordt zeer op prijs gesteld!",
-				"pl": "Jeśli uważasz ten adapter za pomocny i chcesz przyczynić się do rozwoju tego oraz innych adapterów,<br>możesz wesprzeć mnie za pośrednictwem PayPal lub sponsorować mnie na GitHubie.<br>Twoja hojność jest bardzo doceniana!",
-				"pt": "Se achares este adaptador útil e quiseres contribuir para o desenvolvimento deste e de outros adaptadores,<br>podes apoiar-me através do PayPal ou patrocinar-me no GitHub.<br>A tua generosidade é muito apreciada!",
-				"ru": "Если вы считаете этот адаптер полезным и хотите внести свой вклад в развитие этого и других адаптеров,<br>вы можете поддержать меня через PayPal или спонсировать меня на GitHub.<br>Ваша щедрость очень ценится!",
-				"uk": "Якщо ви вважаєте цей адаптер корисним і хочете сприяти розвитку цього та інших адаптерів,<br>ви можете підтримати мене через PayPal або спонсорувати мене на GitHub.<br>Ваша щедрість високо цінується!",
-				"zh-cn": "如果您觉得这个适配器有用，并且想要为这个和其他适配器的开发做出贡献，<br>您可以通过PayPal支持我，或者在GitHub上赞助我。<br>非常感谢您的慷慨支持！"
+				"de": "Allgemeine Einstellungen",
+				"en": "General settings",
+				"es": "Configuración general",
+				"fr": "Paramètres généraux",
+				"it": "Impostazioni generali",
+				"nl": "Algemene instellingen",
+				"pl": "Ustawienia ogólne",
+				"pt": "Configurações gerais",
+				"ru": "Общие настройки",
+				"uk": "Загальні налаштування",
+				"zh-cn": "通用设置"
 			},
-			"style": { "fontSize": 16, "fontWeight": "bold" },
-			"newLine": true
+			"items": {
+				"_section_donate_verticalSpace_01": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_donate_verticalSpace_02": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_donate_text": {
+					"type": "staticText",
+					"sm": 12,
+					"md": 12,
+					"lg": 12,
+					"label": {
+						"de": "Wenn dir dieser Adapter hilfreich erscheint und du zur Entwicklung dieses und anderer Adapter beitragen möchtest,<br>kannst du mich über PayPal unterstützen oder auf GitHub sponsern.<br>Deine Großzügigkeit wird sehr geschätzt!",
+						"en": "If you find this adapter helpful and would like to contribute to the development of this and other adapters,<br>you can back me via PayPal or sponsor me on GitHub.<br>Your generosity is greatly appreciated!",
+						"es": "Si encuentras útil este adaptador y te gustaría contribuir al desarrollo de este y otros adaptadores,<br>puedes respaldarme a través de PayPal o patrocinarme en GitHub.<br>¡Tu generosidad es muy apreciada!",
+						"fr": "Si vous trouvez cet adaptateur utile et souhaitez contribuer au développement de celui-ci et d'autres adaptateurs,<br>vous pouvez me soutenir via PayPal ou me sponsoriser sur GitHub.<br>Votre générosité est grandement appréciée !",
+						"it": "Se trovi questo adattatore utile e vuoi contribuire allo sviluppo di questo e di altri adattatori,<br>puoi supportarmi tramite PayPal o sponsorizzarmi su GitHub.<br>La tua generosità è molto apprezzata!",
+						"nl": "Als je deze adapter nuttig vindt en wilt bijdragen aan de ontwikkeling van deze en andere adapters,<br>kun je me steunen via PayPal of me sponsoren op GitHub.<br>Je vrijgevigheid wordt zeer op prijs gesteld!",
+						"pl": "Jeśli uważasz ten adapter za pomocny i chcesz przyczynić się do rozwoju tego oraz innych adapterów,<br>możesz wesprzeć mnie za pośrednictwem PayPal lub sponsorować mnie na GitHubie.<br>Twoja hojność jest bardzo doceniana!",
+						"pt": "Se achares este adaptador útil e quiseres contribuir para o desenvolvimento deste e de outros adaptadores,<br>podes apoiar-me através do PayPal ou patrocinar-me no GitHub.<br>A tua generosidade é muito apreciada!",
+						"ru": "Если вы считаете этот адаптер полезным и хотите внести свой вклад в развитие этого и других адаптеров,<br>вы можете поддержать меня через PayPal или спонсировать меня на GitHub.<br>Ваша щедрость очень ценится!",
+						"uk": "Якщо ви вважаєте цей адаптер корисним і хочете сприяти розвитку цього та інших адаптерів,<br>ви можете підтримати мене через PayPal або спонсорувати мене на GitHub.<br>Ваша щедрість високо цінується!",
+						"zh-cn": "如果您觉得这个适配器有用，并且想要为这个和其他适配器的开发做出贡献，<br>您可以通过PayPal支持我，或者在GitHub上赞助我。<br>非常感谢您的慷慨支持！"
+					},
+					"style": { "fontSize": 16, "fontWeight": "bold" },
+					"newLine": true
+				},
+				"_donate_PayPal": {
+					"type": "staticImage",
+					"sm": 6,
+					"md": 3,
+					"lg": 0.8,
+					"href": "https://www.paypal.com/donate/?hosted_button_id=487CQ7WFSAGKQ",
+					"src": "donate_paypal.png",
+					"newLine": true
+				},
+				"_sponsor_GitHub": {
+					"type": "staticImage",
+					"sm": 6,
+					"md": 3,
+					"lg": 0.8,
+					"href": "https://github.com/sponsors/danieldriessen",
+					"src": "sponsor_github.png"
+				},
+				"_section_donate_verticalSpace_03": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_donate_verticalSpace_04": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_donate_verticalSpace_05": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_httpServerHeader": {
+					"type": "header",
+					"text": "HTTP-Server",
+					"size": 1
+				},
+				"_httpServerInfoText": {
+					"type": "staticText",
+					"sm": 12,
+					"md": 10,
+					"lg": 3.6,
+					"label": {
+						"de": "Dieser Adapter erstellt einen HTTP-Server, der verwendet wird, um den Autorisierungscode von Google zu empfangen.<br>Um dieses Verfahren zu ermöglichen, musst du den Port angeben, den der HTTP-Server verwenden wird.<br>(Bitte stelle sicher, dass der ausgewählte Port nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.)",
+						"en": "An HTTP-Server will be created by this adapter and will be used to receive the authorization code from Google.<br>In order for this procedure to work, you will need to specify the port that the HTTP-Server is going to use.<br>(Please make sure that the selected port is not already in use by any other application or process, and also not blocked by a firewall.)",
+						"es": "Este adaptador crea un servidor HTTP que se utiliza para recibir el código de autorización de Google.<br>Para que este procedimiento funcione, deberás especificar el puerto que utilizará el servidor HTTP.<br>(Asegúrate de que el puerto seleccionado no esté siendo utilizado por ninguna otra aplicación o proceso, y tampoco esté bloqueado por un firewall.)",
+						"fr": "Cet adaptateur crée un serveur HTTP qui sera utilisé pour recevoir le code d'autorisation de Google.<br>Pour que cette procédure fonctionne, vous devrez spécifier le port que le serveur HTTP va utiliser.<br>(Assurez-vous que le port sélectionné n'est pas déjà utilisé par une autre application ou processus, et n'est pas bloqué par un pare-feu.)",
+						"it": "Questo adattatore crea un server HTTP che verrà utilizzato per ricevere il codice di autorizzazione da Google.<br>Perché questa procedura funzioni, dovrai specificare la porta che il server HTTP utilizzerà.<br>(Assicurati che la porta selezionata non sia già in uso da parte di un'altra applicazione o processo, e che non sia bloccata da un firewall.)",
+						"nl": "Deze adapter maakt een HTTP-server die wordt gebruikt om de autorisatiecode van Google te ontvangen.<br>Om dit proces te laten werken, moet je de poort specificeren die de HTTP-server gaat gebruiken.<br>(Zorg ervoor dat de geselecteerde poort niet al in gebruik is door een andere toepassing of proces, en ook niet geblokkeerd wordt door een firewall.)",
+						"pl": "Ten adapter tworzy serwer HTTP, który będzie używany do odbierania kodu autoryzacji od Google.<br>Aby ten proces działał, musisz określić port, który będzie używany przez serwer HTTP.<br>(Upewnij się, że wybrany port nie jest już używany przez inną aplikację ani proces, i nie jest zablokowany przez zaporę ogniową.)",
+						"pt": "Este adaptador cria um servidor HTTP que será usado para receber o código de autorização do Google.<br>Para que este procedimento funcione, você precisará especificar a porta que o servidor HTTP usará.<br>(Certifique-se de que a porta selecionada não esteja sendo usada por nenhum outro aplicativo ou processo, e também não esteja bloqueada por um firewall.)",
+						"ru": "Этот адаптер создает HTTP-сервер, который будет использоваться для получения кода авторизации от Google.<br>Чтобы этот процесс работал, вам нужно указать порт, который будет использоваться сервером HTTP.<br>(Убедитесь, что выбранный порт не используется другим приложением или процессом и не блокируется брандмауэром.)",
+						"uk": "Цей адаптер створює HTTP-сервер, який буде використовуватися для отримання коду авторизації від Google.<br>Для того, щоб ця процедура працювала, вам потрібно вказати порт, який HTTP-сервер буде використовувати.<br>(Переконайтеся, що вибраний порт не використовується іншим додатком або процесом, і також не блокується брандмауером.)",
+						"zh-cn": "此适配器创建了一个 HTTP 服务器，用于接收来自 Google 的授权代码。<br>为使此过程正常运行，您需要指定 HTTP 服务器将使用的端口。<br>(请确保所选端口未被任何其他应用程序或进程使用，并且也未被防火墙阻止。)"
+					},
+					"style": { "fontSize": 16 },
+					"newLine": true
+				},
+				"httpServerPort": {
+					"type": "number",
+					"min": 0,
+					"max": 65535,
+					"label": {
+						"de": "Port",
+						"en": "Port",
+						"es": "Puerto",
+						"fr": "Port",
+						"it": "Porta",
+						"nl": "Poort",
+						"pl": "Port",
+						"pt": "Porta",
+						"ru": "Порт",
+						"uk": "Порт",
+						"zh-cn": "端口"
+					},
+					"default": 8881
+				},
+				"_section_httpServer_verticalSpace_01": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_httpServer_verticalSpace_02": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_authenticationHeader": {
+					"type": "header",
+					"text": "Authentication",
+					"size": 1
+				},
+				"clientID": {
+					"type": "text",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"label": "OAuth-Client-ID",
+					"help": "'OAuth-Client-ID' from the 'Google - Device Access Console'",
+					"newLine": true
+				},
+				"_clientID_googleDeviceAccessConsoleLink": {
+					"type": "staticLink",
+					"label": {
+						"de": "Gerätezugriffskonsole",
+						"en": "Device Access Console",
+						"es": "Consola de Acceso a dispositivos",
+						"fr": "Console Device Access",
+						"it": "Console Accesso ai dispositivi",
+						"nl": "Apparaattoegangsconsole",
+						"pl": "Konsola dostępu do urządzenia",
+						"pt": "Console do Acesso a Dispositivos",
+						"ru": "Консоль доступа к устройствам",
+						"uk": "Консоль доступу до пристроїв",
+						"zh-cn": "设备访问控制台"
+					},
+					"href": "https://console.nest.google.com/device-access/project-list",
+					"button": true,
+					"icon": "google_icon.png",
+					"sm": 1.5,
+					"md": 1.5,
+					"lg": 1.5
+				},
+				"projectID": {
+					"type": "text",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"label": {
+						"de": "Projekt-ID",
+						"en": "Project-ID",
+						"es": "ID del proyecto",
+						"fr": "ID de projet",
+						"it": "ID progetto",
+						"nl": "Project-ID",
+						"pl": "ID projektu",
+						"pt": "ID do projeto",
+						"ru": "Идентификатор проекта",
+						"uk": "Ідентифікатор проекту",
+						"zh-cn": "项目ID"
+					},
+					"help": "'Project-ID' from the 'Google - Device Access Console'",
+					"newLine": true
+				},
+				"_projectID_googleDeviceAccessConsoleLink": {
+					"type": "staticLink",
+					"label": {
+						"de": "Gerätezugriffskonsole",
+						"en": "Device Access Console",
+						"es": "Consola de Acceso a dispositivos",
+						"fr": "Console Device Access",
+						"it": "Console Accesso ai dispositivi",
+						"nl": "Apparaattoegangsconsole",
+						"pl": "Konsola dostępu do urządzenia",
+						"pt": "Console do Acesso a Dispositivos",
+						"ru": "Консоль доступа к устройствам",
+						"uk": "Консоль доступу до пристроїв",
+						"zh-cn": "设备访问控制台"
+					},
+					"href": "https://console.nest.google.com/device-access/project-list",
+					"button": true,
+					"icon": "google_icon.png",
+					"sm": 1.5,
+					"md": 1.5,
+					"lg": 1.5
+				},
+				"clientSecret": {
+					"type": "text",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"label": {
+						"de": "Clientschlüssel",
+						"en": "Client secret",
+						"es": "Secreto del cliente",
+						"fr": "Code secret du client",
+						"it": "Client secret",
+						"nl": "Geheim van de klant",
+						"pl": "Tajny klucz klienta",
+						"pt": "Chave secreta do cliente",
+						"ru": "Секрет клиента",
+						"uk": "Секрет клієнта",
+						"zh-cn": "客户端密钥"
+					},
+					"help": "'Client secret' from the 'Google Cloud Console'",
+					"newLine": true
+				},
+				"_clientSecret_googleCloudConsoleLink": {
+					"type": "staticLink",
+					"label": {
+						"de": "Cloud Console",
+						"en": "Cloud Console",
+						"es": "Consola de Cloud",
+						"fr": "Console Cloud",
+						"it": "Console Cloud",
+						"nl": "Cloud Console",
+						"pl": "Konsola Cloud",
+						"pt": "Console do Cloud",
+						"ru": "Консоль Cloud",
+						"uk": "Консоль Cloud",
+						"zh-cn": "Cloud 控制台"
+					},
+					"href": "https://console.cloud.google.com/",
+					"button": true,
+					"icon": "google_icon.png",
+					"sm": 1.5,
+					"md": 1.5,
+					"lg": 1.5
+				},
+				"_section_authentication_verticalSpace_01": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_authentication_verticalSpace_02": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_authenticationURL": {
+					"type": "staticLink",
+					"label": {
+						"de": "Authentifizieren",
+						"en": "Authenticate",
+						"es": "Autenticar",
+						"fr": "Authentifier",
+						"it": "Autentica",
+						"nl": "Authenticeren",
+						"pl": "Uwierzytelnij",
+						"pt": "Autenticar",
+						"ru": "Аутентификация",
+						"uk": "Аутентифікація",
+						"zh-cn": "认证"
+					},
+					"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
+					"sm": 12,
+					"md": 6,
+					"lg": 2,
+					"button": true,
+					"disabled": "!data.clientID || !data.projectID || !data.clientSecret",
+					"style": { "fontSize": 20 },
+					"newLine": true
+				},
+				"_section_authentication_verticalSpace_03": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_authentication_verticalSpace_04": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_authentication_verticalSpace_05": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_eventsHeader": {
+					"type": "header",
+					"text": "Events",
+					"size": 1
+				},
+				"googleCloudProjectID": {
+					"type": "text",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"label": {
+						"de": "Google Cloud - Projekt-ID",
+						"en": "Google Cloud - Project-ID",
+						"es": "Google Cloud - ID del proyecto",
+						"fr": "Google Cloud - ID de projet",
+						"it": "Google Cloud - ID progetto",
+						"nl": "Google Cloud - Project-ID",
+						"pl": "Google Cloud - ID projektu",
+						"pt": "Google Cloud - ID do projeto",
+						"ru": "Google Cloud - Идентификатор проекта",
+						"uk": "Google Cloud - Ідентифікатор проекту",
+						"zh-cn": "Google Cloud - 项目ID"
+					},
+					"help": "'Google Cloud - Project-ID' from the 'Google Cloud Console'",
+					"newLine": true
+				},
+				"_googleCloudProjectID_googleCloudConsoleLink": {
+					"type": "staticLink",
+					"label": {
+						"de": "Cloud Console",
+						"en": "Cloud Console",
+						"es": "Consola de Cloud",
+						"fr": "Console Cloud",
+						"it": "Console Cloud",
+						"nl": "Cloud Console",
+						"pl": "Konsola Cloud",
+						"pt": "Console do Cloud",
+						"ru": "Консоль Cloud",
+						"uk": "Консоль Cloud",
+						"zh-cn": "Cloud 控制台"
+					},
+					"href": "https://console.cloud.google.com/",
+					"button": true,
+					"icon": "google_icon.png",
+					"sm": 1.5,
+					"md": 1.5,
+					"lg": 1.5
+				},
+				"eventsEnabled": {
+					"type": "checkbox",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"label": {
+						"de": "Ereignisse aktivieren",
+						"en": "Enable Events",
+						"es": "Activar eventos",
+						"fr": "Activer les événements",
+						"it": "Abilita eventi",
+						"nl": "Gebeurtenissen inschakelen",
+						"pl": "Włącz zdarzenia",
+						"pt": "Ativar eventos",
+						"ru": "Включить события",
+						"uk": "Увімкнути події",
+						"zh-cn": "启用事件"
+					},
+					"help": "Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)",
+					"newLine": true,
+					"disabled": "!data.googleCloudProjectID"
+				},
+				"_section_events_verticalSpace_01": {
+					"type": "custom",
+					"newLine": true
+				},
+				"eventsAcquisitionMethod": {
+					"type": "select",
+					"label": {
+						"de": "Ereigniserfassungsmethode",
+						"en": "Events acquisition method",
+						"es": "Método de adquisición de eventos",
+						"fr": "Méthode d'acquisition d'événements",
+						"it": "Metodo di acquisizione eventi",
+						"nl": "Methode voor het verkrijgen van gebeurtenissen",
+						"pl": "Metoda pozyskiwania zdarzeń",
+						"pt": "Método de aquisição de eventos",
+						"ru": "Метод получения событий",
+						"uk": "Метод отримання подій",
+						"zh-cn": "事件获取方法"
+					},
+					"help": "If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)",
+					"options": [
+						{ "label": { "en": "PULL" }, "value": "PULL" },
+						{ "label": { "en": "PUSH" }, "value": "PUSH" }
+					],
+					"default": "PULL",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"newLine": true,
+					"disabled": "!data.googleCloudProjectID || !data.eventsEnabled"
+				},
+				"_section_events_verticalSpace_02": {
+					"type": "custom",
+					"newLine": true
+				},
+				"eventsPullTimeout": {
+					"type": "number",
+					"label": {
+						"de": "Ereignis-Pull-Timeout (in Sekunden)",
+						"en": "Events Pull timeout (in seconds)",
+						"es": "Tiempo de espera de eventos (en segundos)",
+						"fr": "Délai d'attente des événements (en secondes)",
+						"it": "Timeout Pull eventi (in secondi)",
+						"nl": "Time-out voor gebeurtenissen ophalen (in seconden)",
+						"pl": "Limit czasu wyciągania zdarzeń (w sekundach)",
+						"pt": "Tempo limite de extração de eventos (em segundos)",
+						"ru": "Время ожидания событий (в секундах)",
+						"uk": "Таймаут витягування подій (в секундах)",
+						"zh-cn": "事件拉取超时（秒）"
+					},
+					"help": "The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"min": 1,
+					"max": 300,
+					"step": 1,
+					"default": 1,
+					"newLine": true,
+					"disabled": "!data.googleCloudProjectID || !data.eventsEnabled || data.eventsAcquisitionMethod != \"PULL\"",
+					"hidden": "data.eventsAcquisitionMethod != \"PULL\""
+				},
+				"_section_events_verticalSpace_03": {
+					"type": "custom",
+					"newLine": true
+				},
+				"_section_events_verticalSpace_04": {
+					"type": "custom",
+					"newLine": true
+				}
+			}
 		},
-		"_donate_PayPal": {
-			"type": "staticImage",
-			"sm": 6,
-			"md": 3,
-			"lg": 0.8,
-			"href": "https://www.paypal.com/donate/?hosted_button_id=487CQ7WFSAGKQ",
-			"src": "donate_paypal.png",
-			"newLine": true
-		},
-		"_sponsor_GitHub": {
-			"type": "staticImage",
-			"sm": 6,
-			"md": 3,
-			"lg": 0.8,
-			"href": "https://github.com/sponsors/danieldriessen",
-			"src": "sponsor_github.png"
-		},
-		"_section_donate_verticalSpace_03": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_donate_verticalSpace_04": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_donate_verticalSpace_05": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_httpServerHeader": {
-			"type": "header",
-			"text": "HTTP-Server",
-			"size": 1
-		},
-		"_httpServerInfoText": {
-			"type": "staticText",
-			"sm": 12,
-			"md": 10,
-			"lg": 3.6,
+		"_advancedSettings": {
+			"type": "panel",
 			"label": {
-				"de": "Dieser Adapter erstellt einen HTTP-Server, der verwendet wird, um den Autorisierungscode von Google zu empfangen.<br>Um dieses Verfahren zu ermöglichen, musst du den Port angeben, den der HTTP-Server verwenden wird.<br>(Bitte stelle sicher, dass der ausgewählte Port nicht bereits von einer anderen Anwendung oder einem anderen Prozess verwendet wird und auch nicht durch eine Firewall blockiert ist.)",
-				"en": "An HTTP-Server will be created by this adapter and will be used to receive the authorization code from Google.<br>In order for this procedure to work, you will need to specify the port that the HTTP-Server is going to use.<br>(Please make sure that the selected port is not already in use by any other application or process, and also not blocked by a firewall.)",
-				"es": "Este adaptador crea un servidor HTTP que se utiliza para recibir el código de autorización de Google.<br>Para que este procedimiento funcione, deberás especificar el puerto que utilizará el servidor HTTP.<br>(Asegúrate de que el puerto seleccionado no esté siendo utilizado por ninguna otra aplicación o proceso, y tampoco esté bloqueado por un firewall.)",
-				"fr": "Cet adaptateur crée un serveur HTTP qui sera utilisé pour recevoir le code d'autorisation de Google.<br>Pour que cette procédure fonctionne, vous devrez spécifier le port que le serveur HTTP va utiliser.<br>(Assurez-vous que le port sélectionné n'est pas déjà utilisé par une autre application ou processus, et n'est pas bloqué par un pare-feu.)",
-				"it": "Questo adattatore crea un server HTTP che verrà utilizzato per ricevere il codice di autorizzazione da Google.<br>Perché questa procedura funzioni, dovrai specificare la porta che il server HTTP utilizzerà.<br>(Assicurati che la porta selezionata non sia già in uso da parte di un'altra applicazione o processo, e che non sia bloccata da un firewall.)",
-				"nl": "Deze adapter maakt een HTTP-server die wordt gebruikt om de autorisatiecode van Google te ontvangen.<br>Om dit proces te laten werken, moet je de poort specificeren die de HTTP-server gaat gebruiken.<br>(Zorg ervoor dat de geselecteerde poort niet al in gebruik is door een andere toepassing of proces, en ook niet geblokkeerd wordt door een firewall.)",
-				"pl": "Ten adapter tworzy serwer HTTP, który będzie używany do odbierania kodu autoryzacji od Google.<br>Aby ten proces działał, musisz określić port, który będzie używany przez serwer HTTP.<br>(Upewnij się, że wybrany port nie jest już używany przez inną aplikację ani proces, i nie jest zablokowany przez zaporę ogniową.)",
-				"pt": "Este adaptador cria um servidor HTTP que será usado para receber o código de autorização do Google.<br>Para que este procedimento funcione, você precisará especificar a porta que o servidor HTTP usará.<br>(Certifique-se de que a porta selecionada não esteja sendo usada por nenhum outro aplicativo ou processo, e também não esteja bloqueada por um firewall.)",
-				"ru": "Этот адаптер создает HTTP-сервер, который будет использоваться для получения кода авторизации от Google.<br>Чтобы этот процесс работал, вам нужно указать порт, который будет использоваться сервером HTTP.<br>(Убедитесь, что выбранный порт не используется другим приложением или процессом и не блокируется брандмауэром.)",
-				"uk": "Цей адаптер створює HTTP-сервер, який буде використовуватися для отримання коду авторизації від Google.<br>Для того, щоб ця процедура працювала, вам потрібно вказати порт, який HTTP-сервер буде використовувати.<br>(Переконайтеся, що вибраний порт не використовується іншим додатком або процесом, і також не блокується брандмауером.)",
-				"zh-cn": "此适配器创建了一个 HTTP 服务器，用于接收来自 Google 的授权代码。<br>为使此过程正常运行，您需要指定 HTTP 服务器将使用的端口。<br>(请确保所选端口未被任何其他应用程序或进程使用，并且也未被防火墙阻止。)"
+				"de": "Experteneinstellungen",
+				"en": "Expert Settings",
+				"es": "Configuración de experto",
+				"fr": "Paramètres experts",
+				"it": "Impostazioni avanzate",
+				"nl": "Expertinstellingen",
+				"pl": "Ustawienia ekspertów",
+				"pt": "Configurações avançadas",
+				"ru": "Экспертные настройки",
+				"uk": "Експертні налаштування",
+				"zh-cn": "高级设置"
 			},
-			"style": { "fontSize": 16 },
-			"newLine": true
-		},
-		"httpServerPort": {
-			"type": "number",
-			"min": 0,
-			"max": 65535,
-			"label": {
-				"de": "Port",
-				"en": "Port",
-				"es": "Puerto",
-				"fr": "Port",
-				"it": "Porta",
-				"nl": "Poort",
-				"pl": "Port",
-				"pt": "Porta",
-				"ru": "Порт",
-				"uk": "Порт",
-				"zh-cn": "端口"
-			},
-			"default": 8881
-		},
-		"_section_httpServer_verticalSpace_01": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_httpServer_verticalSpace_02": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_authenticationHeader": {
-			"type": "header",
-			"text": "Authentication",
-			"size": 1
-		},
-		"clientID": {
-			"type": "text",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"label": "OAuth-Client-ID",
-			"help": "'OAuth-Client-ID' from the 'Google - Device Access Console'",
-			"newLine": true
-		},
-		"_clientID_googleDeviceAccessConsoleLink": {
-			"type": "staticLink",
-			"label": {
-				"de": "Gerätezugriffskonsole",
-				"en": "Device Access Console",
-				"es": "Consola de Acceso a dispositivos",
-				"fr": "Console Device Access",
-				"it": "Console Accesso ai dispositivi",
-				"nl": "Apparaattoegangsconsole",
-				"pl": "Konsola dostępu do urządzenia",
-				"pt": "Console do Acesso a Dispositivos",
-				"ru": "Консоль доступа к устройствам",
-				"uk": "Консоль доступу до пристроїв",
-				"zh-cn": "设备访问控制台"
-			},
-			"href": "https://console.nest.google.com/device-access/project-list",
-			"button": true,
-			"icon": "google_icon.png",
-			"sm": 1.5,
-			"md": 1.5,
-			"lg": 1.5
-		},
-		"projectID": {
-			"type": "text",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"label": {
-				"de": "Projekt-ID",
-				"en": "Project-ID",
-				"es": "ID del proyecto",
-				"fr": "ID de projet",
-				"it": "ID progetto",
-				"nl": "Project-ID",
-				"pl": "ID projektu",
-				"pt": "ID do projeto",
-				"ru": "Идентификатор проекта",
-				"uk": "Ідентифікатор проекту",
-				"zh-cn": "项目ID"
-			},
-			"help": "'Project-ID' from the 'Google - Device Access Console'",
-			"newLine": true
-		},
-		"_projectID_googleDeviceAccessConsoleLink": {
-			"type": "staticLink",
-			"label": {
-				"de": "Gerätezugriffskonsole",
-				"en": "Device Access Console",
-				"es": "Consola de Acceso a dispositivos",
-				"fr": "Console Device Access",
-				"it": "Console Accesso ai dispositivi",
-				"nl": "Apparaattoegangsconsole",
-				"pl": "Konsola dostępu do urządzenia",
-				"pt": "Console do Acesso a Dispositivos",
-				"ru": "Консоль доступа к устройствам",
-				"uk": "Консоль доступу до пристроїв",
-				"zh-cn": "设备访问控制台"
-			},
-			"href": "https://console.nest.google.com/device-access/project-list",
-			"button": true,
-			"icon": "google_icon.png",
-			"sm": 1.5,
-			"md": 1.5,
-			"lg": 1.5
-		},
-		"clientSecret": {
-			"type": "text",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"label": {
-				"de": "Clientschlüssel",
-				"en": "Client secret",
-				"es": "Secreto del cliente",
-				"fr": "Code secret du client",
-				"it": "Client secret",
-				"nl": "Geheim van de klant",
-				"pl": "Tajny klucz klienta",
-				"pt": "Chave secreta do cliente",
-				"ru": "Секрет клиента",
-				"uk": "Секрет клієнта",
-				"zh-cn": "客户端密钥"
-			},
-			"help": "'Client secret' from the 'Google Cloud Console'",
-			"newLine": true
-		},
-		"_clientSecret_googleCloudConsoleLink": {
-			"type": "staticLink",
-			"label": {
-				"de": "Cloud Console",
-				"en": "Cloud Console",
-				"es": "Consola de Cloud",
-				"fr": "Console Cloud",
-				"it": "Console Cloud",
-				"nl": "Cloud Console",
-				"pl": "Konsola Cloud",
-				"pt": "Console do Cloud",
-				"ru": "Консоль Cloud",
-				"uk": "Консоль Cloud",
-				"zh-cn": "Cloud 控制台"
-			},
-			"href": "https://console.cloud.google.com/",
-			"button": true,
-			"icon": "google_icon.png",
-			"sm": 1.5,
-			"md": 1.5,
-			"lg": 1.5
-		},
-		"_section_authentication_verticalSpace_01": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_authentication_verticalSpace_02": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_authenticationURL": {
-			"type": "staticLink",
-			"label": {
-				"de": "Authentifizieren",
-				"en": "Authenticate",
-				"es": "Autenticar",
-				"fr": "Authentifier",
-				"it": "Autentica",
-				"nl": "Authenticeren",
-				"pl": "Uwierzytelnij",
-				"pt": "Autenticar",
-				"ru": "Аутентификация",
-				"uk": "Аутентифікація",
-				"zh-cn": "认证"
-			},
-			"href": "https://nestservices.google.com/partnerconnections/${data.projectID}/auth?redirect_uri=http://localhost:${data.httpServerPort}&access_type=offline&prompt=consent&client_id=${data.clientID}&response_type=code&scope=https://www.googleapis.com/auth/sdm.service%20https://www.googleapis.com/auth/pubsub",
-			"sm": 12,
-			"md": 6,
-			"lg": 2,
-			"button": true,
-			"disabled": "!data.clientID || !data.projectID || !data.clientSecret",
-			"style": { "fontSize": 20 },
-			"newLine": true
-		},
-		"_section_authentication_verticalSpace_03": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_authentication_verticalSpace_04": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_authentication_verticalSpace_05": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_eventsHeader": {
-			"type": "header",
-			"text": "Events",
-			"size": 1
-		},
-		"googleCloudProjectID": {
-			"type": "text",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"label": {
-				"de": "Google Cloud - Projekt-ID",
-				"en": "Google Cloud - Project-ID",
-				"es": "Google Cloud - ID del proyecto",
-				"fr": "Google Cloud - ID de projet",
-				"it": "Google Cloud - ID progetto",
-				"nl": "Google Cloud - Project-ID",
-				"pl": "Google Cloud - ID projektu",
-				"pt": "Google Cloud - ID do projeto",
-				"ru": "Google Cloud - Идентификатор проекта",
-				"uk": "Google Cloud - Ідентифікатор проекту",
-				"zh-cn": "Google Cloud - 项目ID"
-			},
-			"help": "'Google Cloud - Project-ID' from the 'Google Cloud Console'",
-			"newLine": true
-		},
-		"_googleCloudProjectID_googleCloudConsoleLink": {
-			"type": "staticLink",
-			"label": {
-				"de": "Cloud Console",
-				"en": "Cloud Console",
-				"es": "Consola de Cloud",
-				"fr": "Console Cloud",
-				"it": "Console Cloud",
-				"nl": "Cloud Console",
-				"pl": "Konsola Cloud",
-				"pt": "Console do Cloud",
-				"ru": "Консоль Cloud",
-				"uk": "Консоль Cloud",
-				"zh-cn": "Cloud 控制台"
-			},
-			"href": "https://console.cloud.google.com/",
-			"button": true,
-			"icon": "google_icon.png",
-			"sm": 1.5,
-			"md": 1.5,
-			"lg": 1.5
-		},
-		"eventsEnabled": {
-			"type": "checkbox",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"label": {
-				"de": "Ereignisse aktivieren",
-				"en": "Enable Events",
-				"es": "Activar eventos",
-				"fr": "Activer les événements",
-				"it": "Abilita eventi",
-				"nl": "Gebeurtenissen inschakelen",
-				"pl": "Włącz zdarzenia",
-				"pt": "Ativar eventos",
-				"ru": "Включить события",
-				"uk": "Увімкнути події",
-				"zh-cn": "启用事件"
-			},
-			"help": "Enable events to receive event notifications for the devices from Google.<br>(In order for this to work, the 'Pub/Sub-Topic' has to be enabled in the 'Google - Device Access Console'.)",
-			"newLine": true,
-			"disabled": "!data.googleCloudProjectID"
-		},
-		"_section_events_verticalSpace_01": {
-			"type": "custom",
-			"newLine": true
-		},
-		"eventsAcquisitionMethod": {
-			"type": "select",
-			"label": {
-				"de": "Ereigniserfassungsmethode",
-				"en": "Events acquisition method",
-				"es": "Método de adquisición de eventos",
-				"fr": "Méthode d'acquisition d'événements",
-				"it": "Metodo di acquisizione eventi",
-				"nl": "Methode voor het verkrijgen van gebeurtenissen",
-				"pl": "Metoda pozyskiwania zdarzeń",
-				"pt": "Método de aquisição de eventos",
-				"ru": "Метод получения событий",
-				"uk": "Метод отримання подій",
-				"zh-cn": "事件获取方法"
-			},
-			"help": "If 'PULL' is selected, event messages will be fetched by the adapter continuously with a user defineable timeout.<br>If 'PUSH' is selected event messages will be delivered to the system automatically once a new message is available.<br>(Currently only the 'PULL' method is available!)",
-			"options": [
-				{ "label": { "en": "PULL" }, "value": "PULL" },
-				{ "label": { "en": "PUSH" }, "value": "PUSH" }
-			],
-			"default": "PULL",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"newLine": true,
-			"disabled": "!data.googleCloudProjectID || !data.eventsEnabled"
-		},
-		"_section_events_verticalSpace_02": {
-			"type": "custom",
-			"newLine": true
-		},
-		"eventsPullTimeout": {
-			"type": "number",
-			"label": {
-				"de": "Ereignis-Pull-Timeout (in Sekunden)",
-				"en": "Events Pull timeout (in seconds)",
-				"es": "Tiempo de espera de eventos (en segundos)",
-				"fr": "Délai d'attente des événements (en secondes)",
-				"it": "Timeout Pull eventi (in secondi)",
-				"nl": "Time-out voor gebeurtenissen ophalen (in seconden)",
-				"pl": "Limit czasu wyciągania zdarzeń (w sekundach)",
-				"pt": "Tempo limite de extração de eventos (em segundos)",
-				"ru": "Время ожидания событий (в секундах)",
-				"uk": "Таймаут витягування подій (в секундах)",
-				"zh-cn": "事件拉取超时（秒）"
-			},
-			"help": "The timeout (in seconds) after which the next 'PULL' request is sent to Google's 'Pub/Sub System' in order to fetch new event messages.",
-			"sm": 12,
-			"md": 12,
-			"lg": 4,
-			"min": 1,
-			"max": 300,
-			"step": 1,
-			"default": 1,
-			"newLine": true,
-			"disabled": "!data.googleCloudProjectID || !data.eventsEnabled || data.eventsAcquisitionMethod != \"PULL\"",
-			"hidden": "data.eventsAcquisitionMethod != \"PULL\""
-		},
-		"_section_events_verticalSpace_03": {
-			"type": "custom",
-			"newLine": true
-		},
-		"_section_events_verticalSpace_04": {
-			"type": "custom",
-			"newLine": true
+			"items": {
+				"recreateDeviceObjectStructure": {
+					"type": "checkbox",
+					"sm": 12,
+					"md": 12,
+					"lg": 4,
+					"label": {
+						"de": "Geräteobjektstruktur beim nächsten Start des Adapters neu erstellen",
+						"en": "Recreate device object structure on next adapter start",
+						"es": "Recrear estructura del objeto del dispositivo en el próximo inicio del adaptador",
+						"fr": "Recréer la structure de l'objet de l'appareil au prochain démarrage de l'adaptateur",
+						"it": "Ricrea la struttura dell'oggetto del dispositivo al prossimo avvio dell'adattatore",
+						"nl": "Herstel apparaatobjectstructuur bij de volgende adapterstart",
+						"pl": "Przebuduj strukturę obiektu urządzenia przy następnym uruchomieniu adaptera",
+						"pt": "Recriar estrutura do objeto do dispositivo na próxima inicialização do adaptador",
+						"ru": "Воссоздать структуру объекта устройства при следующем запуске адаптера",
+						"uk": "Переробити структуру об'єкта пристрою при наступному запуску адаптера",
+						"zh-cn": "在下次适配器启动时重新创建设备对象结构"
+					},
+					"help": "This option will delete all already created device objects in the ioBroker object structure upon the next adapter start.",
+					"newLine": true,
+					"disabled": "!data.clientID || !data.projectID || !data.clientSecret"
+				}
+			}
 		}
 	}
 }

@@ -216,13 +216,34 @@ class GoogleHomeNest extends utils.Adapter {
 					return;
 				}
 
-				// Delete all stored devices.
-				try {
-					await this.deleteAllStoredDevices();
-				} catch (error) {
-					//this.log.warn(`WARNING: Adapter stopped due to error!`);
-					//this.terminate(`WARNING: Adapter stopped due to error!`);
-					return;
+				// If the user selected the option to recreate the device object structure upon the next adapter start delete all previously stored devices.
+				// Otherwise only delete the previously stored devices that can't be found online anymore.
+				if (this.config.recreateDeviceObjectStructure) {
+					// Reset user defined value to recreate device object structure to false.
+					this.config.recreateDeviceObjectStructure = false;
+					this.extendForeignObject(`system.adapter.${this.namespace}`, {
+						native: {
+							recreateDeviceObjectStructure: false,
+						},
+					});
+
+					// Delete all stored devices
+					try {
+						await this.deleteAllStoredDevices();
+					} catch (error) {
+						//this.log.warn(`WARNING: Adapter stopped due to error!`);
+						//this.terminate(`WARNING: Adapter stopped due to error!`);
+						return;
+					}
+				} else {
+					// Delete all locally stored devices no longer found online.
+					try {
+						await this.deleteAllLocallyStoredDevicesNotFoundOnline(deviceListJSONstring);
+					} catch (error) {
+						//this.log.warn(`WARNING: Adapter stopped due to error!`);
+						//this.terminate(`WARNING: Adapter stopped due to error!`);
+						return;
+					}
 				}
 
 				// Create device objects and states from the acquired/fetched JSON device list.
@@ -1334,6 +1355,105 @@ class GoogleHomeNest extends utils.Adapter {
 		} else {
 			this.log.debug(`No devices have been stored yet.`);
 			return true;
+		}
+	}
+
+	/**************************************************************************************************************************************
+	 * Deletes all locally stored devices that could no longer be found online.
+	 *
+	 * This function retrieves the list of online devices from the provided JSON string.
+	 * It compares the IDs of online devices with locally stored devices and deletes any devices that are no longer found online.
+	 * It logs debug messages for successful deletions and error messages for encountered errors.
+	 *
+	 * @param {string} jsonDeviceList - A JSON string containing information about online devices.
+	 * @returns {Promise<void>} A promise indicating the completion of the deletion process.
+	 * @throws {Error} If the 'jsonDeviceList' parameter is missing or if errors occur during the deletion process.
+	 **************************************************************************************************************************************/
+	async deleteAllLocallyStoredDevicesNotFoundOnline(jsonDeviceList) {
+		if (jsonDeviceList) {
+			this.log.debug(`Deleting all locally stored devices that could no longer be found online...`);
+
+			const locallyStoredDevices = await this.getDevicesAsync();
+
+			if (locallyStoredDevices.length > 0) {
+				const jsonObject = JSON.parse(jsonDeviceList);
+				const onlineFounDevices = jsonObject.devices;
+
+				if (onlineFounDevices.length > 0) {
+					this.log.info(`Found ${onlineFounDevices.length} devices online.`);
+
+					try {
+						const onlineFoundDeviceIDs = [];
+
+						for (const onlineFounDevice of onlineFounDevices) {
+							const deviceID = this.getDeviceIDfromDeviceName(onlineFounDevice.name);
+
+							if (deviceID && deviceID.length > 0) {
+								onlineFoundDeviceIDs.push(deviceID);
+							} else {
+								const errorMessage = `ERROR: Error while trying to delete no longer existing devices! => Unable to retrieve online device's ID!`;
+								this.log.error(errorMessage);
+								throw new Error(errorMessage);
+							}
+						}
+
+						if (onlineFoundDeviceIDs.length == onlineFounDevices.length) {
+							for (const locallyFoundDevice of locallyStoredDevices) {
+								const locallyFoundDeviceID_state = await this.getStateAsync(locallyFoundDevice._id + ".deviceID");
+								const locallyFoundDeviceID = locallyFoundDeviceID_state?.val?.toString();
+
+								if (locallyFoundDeviceID) {
+									this.log.debug(`Checking if locally stored device with ID: '${locallyFoundDeviceID}' still exists online...`);
+
+									let deviceStillExistsOnline = false;
+									for (const onlineFoundDeviceID of onlineFoundDeviceIDs) {
+										if (onlineFoundDeviceID == locallyFoundDeviceID) {
+											deviceStillExistsOnline = true;
+										}
+									}
+
+									if (deviceStillExistsOnline) {
+										this.log.debug(`Locally stored device with ID: '${locallyFoundDeviceID}' does still exist online.`);
+									} else {
+										this.log.debug(`Locally stored device with ID: '${locallyFoundDeviceID}' does not exist online anymore!`);
+										try {
+											await this.deleteStoredDevice(locallyFoundDeviceID, locallyFoundDevice.common.name.toString());
+										} catch (error) {
+											const errorMessage = `ERROR: Error while trying to delete device with ID: '${locallyFoundDeviceID}' => ${error}`;
+											this.log.error(errorMessage);
+											throw new Error(errorMessage);
+										}
+									}
+								} else {
+									const errorMessage = `ERROR: Error while trying to delete no longer existing devices! => Unable to retrieve locally stored device's ID!`;
+									this.log.error(errorMessage);
+									throw new Error(errorMessage);
+								}
+							}
+
+							this.log.debug(`Finished deleting all locally stored devices that could no longer be found online.`);
+						} else {
+							const errorMessage = `ERROR: Error while trying to delete no longer existing devices! => Unable to retrieve all devices IDs from online found devices!`;
+							this.log.error(errorMessage);
+							throw new Error(errorMessage);
+						}
+					} catch (error) {
+						const errorMessage = `ERROR: Error while trying to delete no longer existing devices! => ${error}`;
+						this.log.error(errorMessage);
+						throw new Error(errorMessage);
+					}
+				} else {
+					// No devices found online.
+					this.log.debug(`No devices found online!`);
+				}
+			} else {
+				// No locally stored devices found.
+				this.log.debug(`No locally stored devices found!`);
+			}
+		} else {
+			const errorMessage = `ERROR: Missing parameter 'jsonDeviceList' for function 'deleteAllLocallyStoredDevicesNotFoundOnline'`;
+			this.log.error(errorMessage);
+			throw new Error(errorMessage);
 		}
 	}
 

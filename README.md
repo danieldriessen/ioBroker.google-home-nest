@@ -29,6 +29,18 @@
 Integrates your Google Home (Nest) devices like Cameras, Doorbells, Displays, Thermostats etc., into the ioBroker system.
 Please be aware that this adapter is currently in development and in beta status. See section "Current development status, limitations & future goals" for more information.
 
+> [!IMPORTANT]
+> In order to use this adapter, you must be registered for Google **'Device Access'**.<br>
+> Registration for Google **'Device Access'** requires acceptance of the terms of use for the 'Google API' and the 'Device Access Sandbox', as well as a **one-time fee** of **$5 (US dollars)** (as of May 2024).
+
+> [!IMPORTANT]
+> To receive events from your devices, this adapter creates a **'Pub/Sub subscription'** on the Google platform.<br>
+> **'Pub/Sub subscriptions'** on the Google platform can specify a message retention duration. This adapter sets this duration to 600 seconds (10 minutes).<br>
+> After this time, unacknowledged messages are automatically deleted by the Google platform.<br>
+> Please keep in mind that Google may charge you for message retention beyond this duration.<br>
+> The predefined duration of 600 seconds should prevent you from incurring any charges from Google. However, this cannot be guaranteed!<br>
+> Please also note that Google may change this policy in the future.<br>
+> The developer(s) of this adapter are in no way responsible for any costs that may arise from the use of this adapter!
 
 
 ## Current development status, limitations & future goals
@@ -101,18 +113,19 @@ If there are any concerns regarding the use of copyrighted materials in this ada
 
 ## LIMITATION OF LIABILITY
 
-The developers of this adapter shall not be liable for any damages or issues that arise from the use of the adapter.
-By using this adapter, you agree that the developers are not responsible for any loss of data, malfunction, or any other damages or issues resulting from its use.
+The developers of this adapter shall not be liable for any damages or issues that arise from the use of the adapter, including but not limited to loss of data, malfunction, or any other damages or issues.
+By using this adapter, you agree that the developers are not responsible for any costs, damages, or issues that may arise from its use.
 
 ## USAGE AGREEMENT
 
 By using this adapter, you agree to the following terms:
 
--   You may use this adapter for personal or commercial purposes.
--   You may modify the adapter for your own use, but you may not redistribute it without permission from the developers.
--   The adapter is provided "as is" without any warranty, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
--   The developers of this adapter reserve the right to update, modify, or discontinue the adapter at any time without prior notice.
--   Any feedback or contributions provided by users are greatly appreciated but are not mandatory.
+-	You may use this adapter for personal or commercial purposes.
+-	You may modify the adapter for your own use, but you may not redistribute it without permission from the developers.
+-	The adapter is provided "as is" without any warranty, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+-	The developers of this adapter reserve the right to update, modify, or discontinue the adapter at any time without prior notice.
+-	Any feedback or contributions provided by users are greatly appreciated but are not mandatory.
+-	The developers of this adapter shall not be liable for any costs, damages, or issues that may arise from its use.
 
 
 
@@ -122,6 +135,13 @@ By using this adapter, you agree to the following terms:
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+-   (Daniel Drießen) Added important information to the README file.
+-   (Daniel Drießen) Added basic setup documentation in german and english.
+-   (Daniel Drießen) Removed automatic deletion of all stored device objects upon adapter start.
+-   (Daniel Drießen) Added automatic deletion of all stored device objects that can't be found online.
+-   (Daniel Drießen) Added option to recreate device object structure upon next adapter start.
+
 ### 0.2.0 (2024-05-02)
 -   (Daniel Drießen) Improved admin panel and corrected some text.
 -	(Daniel Drießen) Added missing translations on the admin panel.
