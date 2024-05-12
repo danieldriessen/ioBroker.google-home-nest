@@ -1,6 +1,6 @@
 {
   "name": "iobroker.google-home-nest",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Integrate your Google Home (Nest) devices like Thermostats, Cameras, Doorbells, etc.",
   "author": "Daniel Drießen <daniel.driessen@ddproductions.de>",
   "homepage": "https://github.com/danieldriessen/ioBroker.google-home-nest",

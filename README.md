@@ -135,7 +135,7 @@ By using this adapter, you agree to the following terms:
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.3.0 (2024-05-12)
 -   (Daniel Drießen) Added important information to the README file.
 -   (Daniel Drießen) Added basic setup documentation in german and english.
 -   (Daniel Drießen) Removed automatic deletion of all stored device objects upon adapter start.
