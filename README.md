@@ -28,7 +28,7 @@
 
 Integrates your Google Home (Nest) devices like Cameras, Doorbells, Displays, Thermostats etc., into the ioBroker system.<br>
 
-You can find more information about the Google Home (Nest) devices here: ![Google Home (Nest)](https://store.google.com/de/category/connected_home?hl=de) and here: ![Google Device Access](https://developers.google.com/nest/device-access).<br>
+You can find more information about the Google Home (Nest) devices here: [Google Home (Nest)](https://store.google.com/de/category/connected_home) and here: [Google Device Access](https://developers.google.com/nest/device-access).<br>
 
 Please be aware that this adapter is currently in development and in beta status. See section "Current development status, limitations & future goals" for more information.
 
