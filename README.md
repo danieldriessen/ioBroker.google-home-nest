@@ -30,7 +30,10 @@ Integrates your Google Home (Nest) devices like Cameras, Doorbells, Displays, Th
 
 You can find more information about the Google Home (Nest) devices here: [Google Home (Nest)](https://store.google.com/de/category/connected_home) and here: [Google Device Access](https://developers.google.com/nest/device-access).<br>
 
-Please be aware that this adapter is currently in development and in beta status. See section "Current development status, limitations & future goals" for more information.
+Please be aware that this adapter is currently in development and in beta status. See section "Current development status, limitations & future goals" for more information.<br>
+You can also join the discussions about this adapter in the ioBroker forum here:<br>
+[🇬🇧 English discussion](https://forum.iobroker.net/topic/74450/new-adapter-google-home-nest?_=1715579743163)<br>
+[🇩🇪 German discussion](https://forum.iobroker.net/topic/74453/neuer-adapter-google-home-nest?_=1715579743160)
 
 > [!IMPORTANT]
 > In order to use this adapter, you must be registered for Google **'Device Access'**.<br>
@@ -71,8 +74,8 @@ However, the feasibility of each of these goals is subject to change.
 
 ## Documentation
 
-Coming very soon!
-
+[🇬🇧 English documentation](https://github.com/danieldriessen/ioBroker.google-home-nest/blob/main/docs/en/README.md)<br>
+[🇩🇪 German documentation](https://github.com/danieldriessen/ioBroker.google-home-nest/blob/main/docs/de/README.md)
 
 
 ## Supported devices
