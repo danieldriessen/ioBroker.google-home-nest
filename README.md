@@ -64,7 +64,7 @@ You can also join the discussions about this adapter in the ioBroker forum here:
 -   retrieving status updates like 'current ambient temperature', 'current ambient humidity', etc., for devices.
 -   sending commands like 'set heat', 'set cool', 'set timer', etc. to the devices.
 
-### Future Goals:
+### Future goals:
 
 It is intended to implement all of the above-mentioned missing capabilities.
 In addition to that, it is also intended to add the possibility to acquire events with a 'PUSH' system.
